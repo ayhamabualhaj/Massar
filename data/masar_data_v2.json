@@ -1,0 +1,5744 @@
+{
+  "schema_version": "2.0",
+  "semester": {
+    "term": "first",
+    "academic_year": null
+  },
+  "teachers_enabled": false,
+  "units": {
+    "time": "minutes after midnight",
+    "weekdays": {
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday",
+      "7": "Sunday"
+    }
+  },
+  "rooms": [
+    {
+      "id": "T101",
+      "name_ar": "101تكنولوجيا",
+      "type": "classroom",
+      "capacity": 40,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "T102",
+      "name_ar": "102تكنولوجيا",
+      "type": "classroom",
+      "capacity": 40,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "T103",
+      "name_ar": "103تكنولوجيا",
+      "type": "classroom",
+      "capacity": 50,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "T104",
+      "name_ar": "104تكنولوجيا",
+      "type": "classroom",
+      "capacity": 40,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "T105",
+      "name_ar": "105تكنولوجيا",
+      "type": "classroom",
+      "capacity": 40,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB_DUAL",
+      "name_ar": "م.ح دراسات الثنائية",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB1",
+      "name_ar": "م.ح.ت.م1",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB2",
+      "name_ar": "م.ح.ت.م2",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB3",
+      "name_ar": "م.ح.ت.م3",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB4",
+      "name_ar": "م.ح.ت.م4",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB5",
+      "name_ar": "م.ح.ت.م5",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB6",
+      "name_ar": "م.ح.ت.م6",
+      "type": "computer_lab",
+      "capacity": 30,
+      "capacity_status": "assumed",
+      "blackouts": []
+    },
+    {
+      "id": "LAB7",
+      "name_ar": "م.ح.ت.م7",
+      "type": "computer_lab",
+      "capacity": 25,
+      "capacity_status": "assumed",
+      "blackouts": []
+    }
+  ],
+  "patterns": {
+    "UTT60": {
+      "days": [
+        7,
+        2,
+        4
+      ],
+      "duration": 60,
+      "starts": [
+        510,
+        570,
+        630,
+        690,
+        750,
+        810,
+        870
+      ]
+    },
+    "MW90": {
+      "days": [
+        1,
+        3
+      ],
+      "duration": 90,
+      "starts": [
+        510,
+        600,
+        690,
+        780,
+        870
+      ]
+    },
+    "UT60": {
+      "days": [
+        7,
+        2
+      ],
+      "duration": 60,
+      "starts": [
+        510,
+        570,
+        630,
+        690,
+        750,
+        810,
+        870
+      ]
+    },
+    "TH60": {
+      "days": [
+        4
+      ],
+      "duration": 60,
+      "starts": [
+        510,
+        570,
+        630,
+        690,
+        750,
+        810,
+        870
+      ]
+    },
+    "UTT60_EVENING_1080": {
+      "days": [
+        7,
+        2,
+        4
+      ],
+      "duration": 60,
+      "starts": [
+        1080
+      ]
+    },
+    "UTT60_EVENING_1170": {
+      "days": [
+        7,
+        2,
+        4
+      ],
+      "duration": 60,
+      "starts": [
+        1170
+      ]
+    },
+    "MW90_EVENING_1050": {
+      "days": [
+        1,
+        3
+      ],
+      "duration": 90,
+      "starts": [
+        1050
+      ]
+    }
+  },
+  "compatibility": {
+    "lecture": [
+      "classroom",
+      "computer_lab"
+    ],
+    "computers": [
+      "computer_lab"
+    ],
+    "online": []
+  },
+  "sections": [
+    {
+      "id": "0612098_1",
+      "course_code": "0612098",
+      "name_ar": "امتحان مستوى الحاسوب",
+      "section_number": 1,
+      "teacher_source": "هـ . ت",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 1
+        }
+      ],
+      "source": {
+        "start_text": "6",
+        "end_text": "7",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60_EVENING_1080",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1080,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612099_1",
+      "course_code": "0612099",
+      "name_ar": "حاسوب استدراكي",
+      "section_number": 1,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 3
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60_EVENING_1170",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1170,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612099_3",
+      "course_code": "0612099",
+      "name_ar": "حاسوب استدراكي",
+      "section_number": 3,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 4
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60_EVENING_1170",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1170,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612099_2",
+      "course_code": "0612099",
+      "name_ar": "حاسوب استدراكي",
+      "section_number": 2,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 5
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60_EVENING_1170",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1170,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612102_1",
+      "course_code": "0612102",
+      "name_ar": "الرياضيات المتقطعة",
+      "section_number": 1,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 7
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 1
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 570,
+      "source_room": "T101",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612102_2",
+      "course_code": "0612102",
+      "name_ar": "الرياضيات المتقطعة",
+      "section_number": 2,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 9
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 3
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 780,
+      "source_room": "T101",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612112_4",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 4,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 10
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 4
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612112_6",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 6,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 11
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 5
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612112_1",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 12
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 6
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612112_5",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 5,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 13
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 7
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612112_2",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 2,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 14
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 8
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612112_3",
+      "course_code": "0612112",
+      "name_ar": "لغة برمجة (1)",
+      "section_number": 3,
+      "teacher_source": "علاء البطوش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 15
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 9
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612114_2",
+      "course_code": "0612114",
+      "name_ar": "لغة البرمجة ++C",
+      "section_number": 2,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 16
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 10
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T101",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612114_3",
+      "course_code": "0612114",
+      "name_ar": "لغة البرمجة ++C",
+      "section_number": 3,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 17
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 11
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 600,
+      "source_room": "T101",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612114_4",
+      "course_code": "0612114",
+      "name_ar": "لغة البرمجة ++C",
+      "section_number": 4,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 18
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 12
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612114_1",
+      "course_code": "0612114",
+      "name_ar": "لغة البرمجة ++C",
+      "section_number": 1,
+      "teacher_source": "محمد ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 19
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 13
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T101",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612116_1",
+      "course_code": "0612116",
+      "name_ar": "لغة برمجة (2)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 20
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 14
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح دراسات الثنائية",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB_DUAL",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612117_2",
+      "course_code": "0612117",
+      "name_ar": "لغة برمجة (2)",
+      "section_number": 2,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 21
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 15
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "أحد،ثلاثاء",
+        "room_text": "م.ح دراسات الثنائية",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB_DUAL",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612117_1",
+      "course_code": "0612117",
+      "name_ar": "لغة برمجة (2)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 22
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 16
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "أحد،ثلاثاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612118_2",
+      "course_code": "0612118",
+      "name_ar": "مختبر لغة برمجة (2)",
+      "section_number": 2,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 23
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 17
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "خميس",
+        "room_text": "م.ح دراسات الثنائية",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB_DUAL",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612118_1",
+      "course_code": "0612118",
+      "name_ar": "مختبر لغة برمجة (2)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 24
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 18
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "خميس",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612201_1",
+      "course_code": "0612201",
+      "name_ar": "النظرية الاحتسابية",
+      "section_number": 1,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 25
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 19
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م7",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB7",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612213_1",
+      "course_code": "0612213",
+      "name_ar": "البرمجة الشيئية (1)",
+      "section_number": 1,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 26
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 20
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م3",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB3",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612214_2",
+      "course_code": "0612214",
+      "name_ar": "البرمجة الشيئية (1)",
+      "section_number": 2,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 27
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 21
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "أحد،ثلاثاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612214_1",
+      "course_code": "0612214",
+      "name_ar": "البرمجة الشيئية (1)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 28
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 22
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "أحد،ثلاثاء",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612215_2",
+      "course_code": "0612215",
+      "name_ar": "مختبر البرمجة الشيئية (1)",
+      "section_number": 2,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 29
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 23
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "خميس",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612215_1",
+      "course_code": "0612215",
+      "name_ar": "مختبر البرمجة الشيئية (1)",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 30
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 24
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612222_1",
+      "course_code": "0612222",
+      "name_ar": "تراكيب البيانات",
+      "section_number": 1,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 31
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 25
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 750,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612222_2",
+      "course_code": "0612222",
+      "name_ar": "تراكيب البيانات",
+      "section_number": 2,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 32
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 26
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 780,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612222_3",
+      "course_code": "0612222",
+      "name_ar": "تراكيب البيانات",
+      "section_number": 3,
+      "teacher_source": "علاء البطوش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 33
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 27
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612222_4",
+      "course_code": "0612222",
+      "name_ar": "تراكيب البيانات",
+      "section_number": 4,
+      "teacher_source": "علاء البطوش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 34
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 28
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612223_1",
+      "course_code": "0612223",
+      "name_ar": "مختبر تراكيب البيانات",
+      "section_number": 1,
+      "teacher_source": "فاطمة الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 35
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 29
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 750,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612313_1",
+      "course_code": "0612313",
+      "name_ar": "البرمجة بلغة مرئية (1)",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 36
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 30
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 750,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612313_2",
+      "course_code": "0612313",
+      "name_ar": "البرمجة بلغة مرئية (1)",
+      "section_number": 2,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 37
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 31
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 780,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612315_1",
+      "course_code": "0612315",
+      "name_ar": "البرمجة الشيئية (2)",
+      "section_number": 1,
+      "teacher_source": "د . حربي المحافظه",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 38
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 32
+        }
+      ],
+      "source": {
+        "start_text": "1.3",
+        "end_text": "2.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 810,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612321_4",
+      "course_code": "0612321",
+      "name_ar": "خوارزميات الحاسوب",
+      "section_number": 4,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 39
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 33
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612321_2",
+      "course_code": "0612321",
+      "name_ar": "خوارزميات الحاسوب",
+      "section_number": 2,
+      "teacher_source": "علاء البطوش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 40
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 34
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612321_1",
+      "course_code": "0612321",
+      "name_ar": "خوارزميات الحاسوب",
+      "section_number": 1,
+      "teacher_source": "د . حربي المحافظه",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 41
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 35
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 750,
+      "source_room": "T105",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612321_3",
+      "course_code": "0612321",
+      "name_ar": "خوارزميات الحاسوب",
+      "section_number": 3,
+      "teacher_source": "علاء البطوش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 42
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 36
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612331_2",
+      "course_code": "0612331",
+      "name_ar": "نظم تشغيل الحاسوب",
+      "section_number": 2,
+      "teacher_source": "د . حربي المحافظه",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 43
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 37
+        }
+      ],
+      "source": {
+        "start_text": "2.3",
+        "end_text": "3.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 870,
+      "source_room": "T101",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612331_1",
+      "course_code": "0612331",
+      "name_ar": "نظم تشغيل الحاسوب",
+      "section_number": 1,
+      "teacher_source": "فاطمة الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 44
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 38
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612332_2",
+      "course_code": "0612332",
+      "name_ar": "مقدمة في شبكات الحاسوب",
+      "section_number": 2,
+      "teacher_source": "عمر السميحيين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 45
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 39
+        }
+      ],
+      "source": {
+        "start_text": "2.3",
+        "end_text": "3.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 870,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612332_1",
+      "course_code": "0612332",
+      "name_ar": "مقدمة في شبكات الحاسوب",
+      "section_number": 1,
+      "teacher_source": "د . حربي المحافظه",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 46
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 40
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 510,
+      "source_room": "T105",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612342_2",
+      "course_code": "0612342",
+      "name_ar": "الذكاء الاصطناعي",
+      "section_number": 2,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 47
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 41
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T102",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0612342_1",
+      "course_code": "0612342",
+      "name_ar": "الذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 48
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 42
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 600,
+      "source_room": "T102",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612390_1",
+      "course_code": "0612390",
+      "name_ar": "التدريب الميداني",
+      "section_number": 1,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 49
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 43
+        }
+      ],
+      "source": {
+        "start_text": "6.3",
+        "end_text": "7.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612410_1",
+      "course_code": "0612410",
+      "name_ar": "البرمجة بلغة مرئية (2)",
+      "section_number": 1,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 50
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 44
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م7",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB7",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0612410_2",
+      "course_code": "0612410",
+      "name_ar": "البرمجة بلغة مرئية (2)",
+      "section_number": 2,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 51
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 45
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م7",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB7",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0612412_1",
+      "course_code": "0612412",
+      "name_ar": "تصميم المترجمات",
+      "section_number": 1,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 52
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 46
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "104تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 510,
+      "source_room": "T104",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0612490_7",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 7,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 53
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 47
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_11",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 11,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 54
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 48
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_5",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 5,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 55
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 49
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_6",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 6,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 56
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 50
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_4",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 4,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 57
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 51
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_3",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 3,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 58
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 52
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_9",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 9,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 59
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 53
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_12",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 12,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 60
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 54
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_10",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 10,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 61
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 55
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_1",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 62
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 56
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612490_8",
+      "course_code": "0612490",
+      "name_ar": "مشروع تخرج - علم الحاسوب",
+      "section_number": 8,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 63
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 57
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0612491_1",
+      "course_code": "0612491",
+      "name_ar": "موضوعات خاصة في علم الحاسوب",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 64
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 58
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 750,
+      "source_room": null,
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0613101_3",
+      "course_code": "0613101",
+      "name_ar": "أساسيات في تكنولوجيا المعلومات",
+      "section_number": 3,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 65
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 59
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "104تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T104",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613101_1",
+      "course_code": "0613101",
+      "name_ar": "أساسيات في تكنولوجيا المعلومات",
+      "section_number": 1,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 66
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 60
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 630,
+      "source_room": "T101",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0613101_2",
+      "course_code": "0613101",
+      "name_ar": "أساسيات في تكنولوجيا المعلومات",
+      "section_number": 2,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 67
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 61
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T102",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0613102_1",
+      "course_code": "0613102",
+      "name_ar": "مقدمة في نظم المعلومات",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 68
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 62
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 570,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613201_1",
+      "course_code": "0613201",
+      "name_ar": "مقدمة في نظم المعلومات",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 69
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 63
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 570,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613212_2",
+      "course_code": "0613212",
+      "name_ar": "تحليل النظم",
+      "section_number": 2,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 70
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 64
+        }
+      ],
+      "source": {
+        "start_text": "1.3",
+        "end_text": "2.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 810,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613212_3",
+      "course_code": "0613212",
+      "name_ar": "تحليل النظم",
+      "section_number": 3,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 71
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 65
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م1",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB1",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613212_1",
+      "course_code": "0613212",
+      "name_ar": "تحليل النظم",
+      "section_number": 1,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 72
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 66
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 630,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613313_2",
+      "course_code": "0613313",
+      "name_ar": "نظم قواعد البيانات",
+      "section_number": 2,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 73
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 67
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 780,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613313_1",
+      "course_code": "0613313",
+      "name_ar": "نظم قواعد البيانات",
+      "section_number": 1,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 74
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 68
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613313_3",
+      "course_code": "0613313",
+      "name_ar": "نظم قواعد البيانات",
+      "section_number": 3,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 75
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 69
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 600,
+      "source_room": "T105",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613316_2",
+      "course_code": "0613316",
+      "name_ar": "مقدمة في برمجة الذكاء الاصطناعي",
+      "section_number": 2,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 76
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 70
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613322_2",
+      "course_code": "0613322",
+      "name_ar": "إحدى لغات الجيل الرابع",
+      "section_number": 2,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 77
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 71
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613341_1",
+      "course_code": "0613341",
+      "name_ar": "برمجة الإنترنت",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 78
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 72
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613341_2",
+      "course_code": "0613341",
+      "name_ar": "برمجة الإنترنت",
+      "section_number": 2,
+      "teacher_source": "علي السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 79
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 73
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613390_1",
+      "course_code": "0613390",
+      "name_ar": "التدريب الميداني",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 80
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 74
+        }
+      ],
+      "source": {
+        "start_text": "6.3",
+        "end_text": "7.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613434_2",
+      "course_code": "0613434",
+      "name_ar": "نظم الوسائط المتعددة",
+      "section_number": 2,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 81
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 75
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 630,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613434_1",
+      "course_code": "0613434",
+      "name_ar": "نظم الوسائط المتعددة",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown.md",
+          "line": 82
+        },
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 76
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 510,
+      "source_room": null,
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0613435_1",
+      "course_code": "0613435",
+      "name_ar": "أمن نظم المعلومات",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 78
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "105تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T105",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0613435_2",
+      "course_code": "0613435",
+      "name_ar": "أمن نظم المعلومات",
+      "section_number": 2,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 80
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 510,
+      "source_room": "T101",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613442_2",
+      "course_code": "0613442",
+      "name_ar": "التجارة الإلكترونية",
+      "section_number": 2,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 81
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "0613442_2 has meeting days but no room. Temporarily treated as an in-person lecture needing a classroom-compatible room."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0613442_1",
+      "course_code": "0613442",
+      "name_ar": "التجارة الإلكترونية",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 82
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0613453_2",
+      "course_code": "0613453",
+      "name_ar": "استرجاع المعلومات",
+      "section_number": 2,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 83
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613453_1",
+      "course_code": "0613453",
+      "name_ar": "استرجاع المعلومات",
+      "section_number": 1,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 84
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 750,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0613453_3",
+      "course_code": "0613453",
+      "name_ar": "استرجاع المعلومات",
+      "section_number": 3,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 85
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613454_2",
+      "course_code": "0613454",
+      "name_ar": "إدارة نظم قواعد البيانات",
+      "section_number": 2,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 86
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م3",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB3",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613454_1",
+      "course_code": "0613454",
+      "name_ar": "إدارة نظم قواعد البيانات",
+      "section_number": 1,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 87
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م3",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB3",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0613455_2",
+      "course_code": "0613455",
+      "name_ar": "النظم الخبيرة ودعم القرار",
+      "section_number": 2,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 88
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613455_1",
+      "course_code": "0613455",
+      "name_ar": "النظم الخبيرة ودعم القرار",
+      "section_number": 1,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 89
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0613458_2",
+      "course_code": "0613458",
+      "name_ar": "نظم دعم القرار وذكاء الأعمال",
+      "section_number": 2,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 90
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م4",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 630,
+      "source_room": "LAB4",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0613490_11",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 11,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 91
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_3",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 3,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 92
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_4",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 4,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 93
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_6",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 6,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 94
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_7",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 7,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 95
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_9",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 9,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 96
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_12",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 12,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 97
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_1",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 98
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_8",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 8,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 99
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613490_5",
+      "course_code": "0613490",
+      "name_ar": "مشروع تخرج - نظم المعلومات الحاسوبية",
+      "section_number": 5,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 100
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0613491_1",
+      "course_code": "0613491",
+      "name_ar": "موضوعات خاصة في نظم المعلومات الحاسوبية",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 101
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 750,
+      "source_room": null,
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614100_1",
+      "course_code": "0614100",
+      "name_ar": "المهارات الرقمية",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 102
+        }
+      ],
+      "source": {
+        "start_text": "5.3",
+        "end_text": "7",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90_EVENING_1050",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1050,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614100_2",
+      "course_code": "0614100",
+      "name_ar": "المهارات الرقمية",
+      "section_number": 2,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 103
+        }
+      ],
+      "source": {
+        "start_text": "5.3",
+        "end_text": "7",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "AM/PM unconfirmed: treated as an evening online meeting and held at this interpreted source time."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90_EVENING_1050",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 1050,
+      "source_room": null,
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614204_1",
+      "course_code": "0614204",
+      "name_ar": "مقدمة في هندسة البرمجيات",
+      "section_number": 1,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 104
+        }
+      ],
+      "source": {
+        "start_text": "1.3",
+        "end_text": "2.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 810,
+      "source_room": "T103",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614204_2",
+      "course_code": "0614204",
+      "name_ar": "مقدمة في هندسة البرمجيات",
+      "section_number": 2,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 105
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م3",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB3",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0614211_1",
+      "course_code": "0614211",
+      "name_ar": "قضايا مهنية وأخلاقية في الحوسبة",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 106
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 570,
+      "source_room": "T103",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614211_2",
+      "course_code": "0614211",
+      "name_ar": "قضايا مهنية وأخلاقية في الحوسبة",
+      "section_number": 2,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 107
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 690,
+      "source_room": "T103",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614322_1",
+      "course_code": "0614322",
+      "name_ar": "مواصفات البرمجيات وتصميمها",
+      "section_number": 1,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 108
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "104تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 780,
+      "source_room": "T104",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614323_1",
+      "course_code": "0614323",
+      "name_ar": "مواصفات وتصميم البرمجيات والتطبيقات الذكية",
+      "section_number": 1,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 109
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م3",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 780,
+      "source_room": "LAB3",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0614351_2",
+      "course_code": "0614351",
+      "name_ar": "إدارة المشاريع البرمجية وجودتها",
+      "section_number": 2,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 110
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م7",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB7",
+      "unmodeled_student_count": 24
+    },
+    {
+      "id": "0614351_1",
+      "course_code": "0614351",
+      "name_ar": "إدارة المشاريع البرمجية وجودتها",
+      "section_number": 1,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 111
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 630,
+      "source_room": "T102",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614390_1",
+      "course_code": "0614390",
+      "name_ar": "التدريب الميداني",
+      "section_number": 1,
+      "teacher_source": "عاهد السبوع",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 112
+        }
+      ],
+      "source": {
+        "start_text": "6.3",
+        "end_text": "7.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614421_1",
+      "course_code": "0614421",
+      "name_ar": "تفاعل الإنسان مع الحاسوب",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 113
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 630,
+      "source_room": "T103",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614421_2",
+      "course_code": "0614421",
+      "name_ar": "تفاعل الإنسان مع الحاسوب",
+      "section_number": 2,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 114
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 750,
+      "source_room": "T103",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614422_2",
+      "course_code": "0614422",
+      "name_ar": "تفاعل الانسان مع الحاسوب والواجهات الذكية",
+      "section_number": 2,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 115
+        }
+      ],
+      "source": {
+        "start_text": "10.3",
+        "end_text": "11.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 630,
+      "source_room": "T103",
+      "unmodeled_student_count": 30
+    },
+    {
+      "id": "0614422_1",
+      "course_code": "0614422",
+      "name_ar": "تفاعل الانسان مع الحاسوب والواجهات الذكية",
+      "section_number": 1,
+      "teacher_source": "شروق الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 116
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "104تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 750,
+      "source_room": "T104",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614443_1",
+      "course_code": "0614443",
+      "name_ar": "فحص البرمجيات",
+      "section_number": 1,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 117
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 780,
+      "source_room": "T102",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614445_1",
+      "course_code": "0614445",
+      "name_ar": "تطوير البرمجيات وتوثيقها",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 118
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "103تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 600,
+      "source_room": "T103",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614448_1",
+      "course_code": "0614448",
+      "name_ar": "فحص البرمجيات والأنظمة الذكية",
+      "section_number": 1,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 119
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "102تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "students": 30,
+      "source_start": 780,
+      "source_room": "T102",
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0614490_6",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 6,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 120
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_4",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 4,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 121
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_3",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 3,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 122
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_12",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 12,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 123
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_5",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 5,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 124
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_11",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 11,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 125
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_7",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 7,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 126
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_9",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 9,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 127
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_8",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 8,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 128
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614490_10",
+      "course_code": "0614490",
+      "name_ar": "مشروع تخرج - هندسة البرمجيات",
+      "section_number": 10,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 129
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0614491_1",
+      "course_code": "0614491",
+      "name_ar": "موضوعات خاصة في هندسة البرمجيات",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 130
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 750,
+      "source_room": null,
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0615201_1",
+      "course_code": "0615201",
+      "name_ar": "برمجة علوم البيانات والذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 131
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "أحد،ثلاثاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615204_1",
+      "course_code": "0615204",
+      "name_ar": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "فاطمة الشراري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 132
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "خميس",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise.",
+        "May move among the listed one-hour daytime windows, preserving the source day pattern and duration."
+      ],
+      "status": "scheduled",
+      "pattern_id": "TH60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615330_1",
+      "course_code": "0615330",
+      "name_ar": "أساسيات علم البيانات",
+      "section_number": 1,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 133
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615331_1",
+      "course_code": "0615331",
+      "name_ar": "هندسة البيانات",
+      "section_number": 1,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 134
+        }
+      ],
+      "source": {
+        "start_text": "9.3",
+        "end_text": "10.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 570,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615334_1",
+      "course_code": "0615334",
+      "name_ar": "الحوسبة عالية الأداء والبيانات الضخمة",
+      "section_number": 1,
+      "teacher_source": "طاهرالعطيوي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 135
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "9.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "101تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Computer equipment assumption informed by the supplied AI plan. Classroom equipment is unknown; use a lab.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "T101",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615343_1",
+      "course_code": "0615343",
+      "name_ar": "التعلم الآلي",
+      "section_number": 1,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 136
+        }
+      ],
+      "source": {
+        "start_text": "2.3",
+        "end_text": "4",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 870,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615344_1",
+      "course_code": "0615344",
+      "name_ar": "معالجة اللغات الطبيعية",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 137
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "12.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "104تكنولوجيا",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Computer equipment assumption informed by the supplied AI plan. Classroom equipment is unknown; use a lab.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "T104",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615345_1",
+      "course_code": "0615345",
+      "name_ar": "الشبكات العصبية والتعلم العميق",
+      "section_number": 1,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 138
+        }
+      ],
+      "source": {
+        "start_text": "8.3",
+        "end_text": "10",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Computer equipment assumption informed by the supplied AI plan. Classroom equipment is unknown; use a lab.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 510,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615390_1",
+      "course_code": "0615390",
+      "name_ar": "التدريب الميداني",
+      "section_number": 1,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 139
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615431_1",
+      "course_code": "0615431",
+      "name_ar": "الحوسبة السحابية",
+      "section_number": 1,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 140
+        }
+      ],
+      "source": {
+        "start_text": "10",
+        "end_text": "11.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م6",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Computer equipment assumption informed by the supplied AI plan. Classroom equipment is unknown; use a lab.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 600,
+      "source_room": "LAB6",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615432_1",
+      "course_code": "0615432",
+      "name_ar": "تنقيب البيانات",
+      "section_number": 1,
+      "teacher_source": "د . ابراهيم عوجان",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 141
+        }
+      ],
+      "source": {
+        "start_text": "1.3",
+        "end_text": "2.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "م.ح.ت.م2",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Computer equipment assumption informed by the supplied AI plan. Classroom equipment is unknown; use a lab.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 810,
+      "source_room": "LAB2",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0615490_5",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 5,
+      "teacher_source": "أ.د ايمن الضمور",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 142
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_3",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 3,
+      "teacher_source": "أ.د مالك الكساسبة",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 143
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_8",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 8,
+      "teacher_source": "د . محمد الجعافره",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 144
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_1",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "د.رياض السلامين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 145
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_10",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 10,
+      "teacher_source": "د . سمية ابو صالح",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 146
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_12",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 12,
+      "teacher_source": "د . تامر ابو خليل",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 147
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_9",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 9,
+      "teacher_source": "حامد التلهوني",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 148
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_4",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 4,
+      "teacher_source": "د . خلدون المغربي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 149
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_6",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 6,
+      "teacher_source": "د . علي الغنميين",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 150
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_7",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 7,
+      "teacher_source": "د . ابراهيم الخوري",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 151
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615490_11",
+      "course_code": "0615490",
+      "name_ar": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "section_number": 11,
+      "teacher_source": "د . عمر الشاويش",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 152
+        }
+      ],
+      "source": {
+        "start_text": "7.3",
+        "end_text": "8.3",
+        "days_text": "-",
+        "room_text": "0",
+        "note": "-"
+      },
+      "assumptions": [],
+      "status": "no_meeting_days",
+      "pattern_id": null,
+      "delivery": null,
+      "room_requirement": null,
+      "students": null,
+      "source_start": null,
+      "source_room": null
+    },
+    {
+      "id": "0615491_1",
+      "course_code": "0615491",
+      "name_ar": "موضوعات خاصة في علم البيانات والذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "عاتكه الدغمي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "Pasted markdown (2).md",
+          "line": 153
+        }
+      ],
+      "source": {
+        "start_text": "12.3",
+        "end_text": "1.3",
+        "days_text": "احد،ثلاثاء،خميس",
+        "room_text": "Online",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "UTT60",
+      "delivery": "online",
+      "room_requirement": "online",
+      "students": 30,
+      "source_start": 750,
+      "source_room": null,
+      "unmodeled_student_count": 18
+    },
+    {
+      "id": "0616151_1",
+      "course_code": "0616151",
+      "name_ar": "أساسيات الأمن السيبراني",
+      "section_number": 1,
+      "teacher_source": "آيه سليم مرعي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "earlier_user_message",
+          "line": null
+        }
+      ],
+      "source": {
+        "start_text": "1",
+        "end_text": "2.3",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح.ت.م5",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 780,
+      "source_room": "LAB5",
+      "unmodeled_student_count": 12
+    },
+    {
+      "id": "0616212_1",
+      "course_code": "0616212",
+      "name_ar": "برمجة الأمن السيبراني والذكاء الاصطناعي",
+      "section_number": 1,
+      "teacher_source": "آيه سليم مرعي",
+      "audience": "لجميع الطلبة",
+      "sources": [
+        {
+          "file": "earlier_user_message",
+          "line": null
+        }
+      ],
+      "source": {
+        "start_text": "11.3",
+        "end_text": "1",
+        "days_text": "إثنين،أربعاء",
+        "room_text": "م.ح دراسات الثنائية",
+        "note": "-"
+      },
+      "assumptions": [
+        "Room requirement inferred from source placement; not a verified equipment inventory.",
+        "Enrollment is synthetic: 24 for computer-room sections, 30 otherwise."
+      ],
+      "status": "scheduled",
+      "pattern_id": "MW90",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "students": 24,
+      "source_start": 690,
+      "source_room": "LAB_DUAL",
+      "unmodeled_student_count": 12
+    }
+  ],
+  "groups": [
+    {
+      "id": "FOUNDATION_A",
+      "students": 12,
+      "section_ids": [
+        "0612112_1",
+        "0612102_1",
+        "0613101_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "FOUNDATION_B",
+      "students": 12,
+      "section_ids": [
+        "0612112_2",
+        "0612102_2",
+        "0613101_2"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "PROG2_A",
+      "students": 12,
+      "section_ids": [
+        "0612117_1",
+        "0612118_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "PROG2_B",
+      "students": 12,
+      "section_ids": [
+        "0612117_2",
+        "0612118_2"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "OOP_A",
+      "students": 12,
+      "section_ids": [
+        "0612214_1",
+        "0612215_1",
+        "0615201_1",
+        "0615204_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "OOP_B",
+      "students": 12,
+      "section_ids": [
+        "0612214_2",
+        "0612215_2"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "DATA_STRUCTURES",
+      "students": 12,
+      "section_ids": [
+        "0612222_1",
+        "0612223_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "AI_DATA",
+      "students": 12,
+      "section_ids": [
+        "0615330_1",
+        "0615331_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "AI_ML",
+      "students": 12,
+      "section_ids": [
+        "0615343_1",
+        "0615431_1",
+        "0615432_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "AI_ADVANCED",
+      "students": 12,
+      "section_ids": [
+        "0615344_1",
+        "0615345_1",
+        "0615334_1",
+        "0615491_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "CS_SYSTEMS",
+      "students": 12,
+      "section_ids": [
+        "0612321_1",
+        "0612331_1",
+        "0612332_1",
+        "0612342_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "CS_ELECTIVE",
+      "students": 12,
+      "section_ids": [
+        "0612412_1",
+        "0612410_1",
+        "0612491_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "IS_DATABASE",
+      "students": 12,
+      "section_ids": [
+        "0613453_1",
+        "0613454_1",
+        "0613435_1",
+        "0613491_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "IS_ELECTIVE",
+      "students": 12,
+      "section_ids": [
+        "0613455_1",
+        "0613442_1",
+        "0613434_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "SE_OLD",
+      "students": 12,
+      "section_ids": [
+        "0614421_1",
+        "0614443_1",
+        "0614445_1",
+        "0614491_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "SE_NEW",
+      "students": 12,
+      "section_ids": [
+        "0614422_1",
+        "0614448_1",
+        "0614323_1",
+        "0614351_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    },
+    {
+      "id": "CYBER",
+      "students": 12,
+      "section_ids": [
+        "0616151_1",
+        "0616212_1"
+      ],
+      "status": "synthetic_disjoint_enrollment_basket"
+    }
+  ],
+  "shared_classes": [],
+  "objective_weights": {
+    "group_idle_minutes": 100,
+    "late_meeting_minutes": 2,
+    "source_shift_minutes": 1,
+    "parallel_same_start": 30
+  },
+  "late_after": 870,
+  "issues": [
+    {
+      "id": "AM_PM",
+      "sections": [
+        "0612098_1",
+        "0612099_1",
+        "0612099_2",
+        "0612099_3",
+        "0614100_1",
+        "0614100_2"
+      ],
+      "decision": "Explicit evening interpretation; singleton time windows; confirm before real use."
+    },
+    {
+      "id": "ROOM_ZERO",
+      "sections": [
+        "0613442_2"
+      ],
+      "decision": "Treat as classroom-compatible lecture; no physical room 0 exists."
+    },
+    {
+      "id": "PLAN_VERSIONS",
+      "sections": [
+        "0615330_1",
+        "0615331_1",
+        "0615334_1"
+      ],
+      "decision": "Preserve timetable codes; do not auto-map them to different 2026 course codes."
+    },
+    {
+      "id": "UNCONFIRMED_SHARED_CLASSES",
+      "sections": [],
+      "decision": "No automatic merges. Different course-section IDs remain independent unless explicitly configured in shared_classes."
+    }
+  ],
+  "provenance": {
+    "markdown_rows": 229,
+    "exact_duplicates_removed": 75,
+    "unique_markdown_offerings": 154,
+    "earlier_chat_additions": 2,
+    "plans": "9 uploaded photos containing 2026 plans for AI, CS, CIS, SE and Cybersecurity/Cloud. Plans are reference context, not registration records. No complete prerequisite graph has been transcribed.",
+    "group_basis": "17 explicit synthetic course baskets. Not inferred automatically from prerequisite relationships; not official semester cohorts. Eligibility is outside this college timetable prototype."
+  }
+}
