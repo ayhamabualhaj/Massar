@@ -1,0 +1,10 @@
+﻿رقم المادة,اسم المادة,القسم الخارجي التقديري,عدد الطلبة,الحد الأدنى للشعب,القاعات الخارجية المتاحة في النموذج,حالة الحل
+0202100,مهارات اللغة الإنجليزية في تكنولوجيا,languages,233,3,EXT_LANG_1,FEASIBLE
+0302106,تفاضل وتكامل لطلبة الحاسوب,science,200,2,EXT_SCIENCE_1,FEASIBLE
+0302131,مبادئ في الإحصاء والاحتمالات,science,175,2,EXT_SCIENCE_1,FEASIBLE
+0302241,جبر خطي (1),science,178,2,EXT_SCIENCE_1,FEASIBLE
+0303106,الفيزياء العامة لطلبة الحاسوب,science,204,3,EXT_SCIENCE_1,FEASIBLE
+0511231,تصميم الدارات المنطقية,engineering,94,1,EXT_ENG_1,FEASIBLE
+0511234,مختبر تصميم الدارات المنطقية,engineering,34,1,EXT_ENG_LAB_1,FEASIBLE
+0511336,مختبر شبكات الحاسوب,engineering,38,1,EXT_ENG_LAB_1,FEASIBLE
+0512443,مختبر أمن الشبكات,engineering,38,1,EXT_ENG_LAB_1,FEASIBLE

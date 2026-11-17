@@ -1,4 +1,5 @@
 import copy,json,unittest
+from functools import partial
 from pathlib import Path
 
 from masar.solver import solve
@@ -6,7 +7,10 @@ from masar.validation import InputError, prepare
 from masar.checker import inspect_solution
 from masar.reporting import table_rows
 
-data = json.loads((Path(__file__).resolve().parents[1] / "data" / "masar_data_v2.json").read_text(encoding="utf-8"))
+# These tests exercise scheduling an explicitly fixed section list.
+solve = partial(solve, plan_sections=False)
+
+data = json.loads((Path(__file__).resolve().parents[1] / "data" / "masar_section_templates.json").read_text(encoding="utf-8"))
 
 
 
@@ -102,12 +106,12 @@ class EngineTests(unittest.TestCase):
         self.assertFalse(inspect_solution(ctx,a)['valid'])
         self.assertFalse(inspect_solution(ctx,r['assignments'][:1])['valid'])
 
-    def test_full_dataset_no_mutation_and_156_rows(self):
+    def test_full_dataset_no_mutation_and_all_rows(self):
         d=copy.deepcopy(data);before=copy.deepcopy(d)
         r=solve(d,optimize=False,seconds=5)
-        self.assertTrue(r['has_solution']);self.assertEqual(len(r['assignments']),110)
+        self.assertTrue(r['has_solution']);self.assertEqual(len(r['assignments']),sum(s['status']=='scheduled' for s in d['sections']))
         self.assertEqual(r['validation']['hard_rule_violations'],0)
-        self.assertEqual(len(table_rows(d,r)),156)
+        self.assertEqual(len(table_rows(d,r)),len(d['sections']))
         self.assertEqual(sum(s['status']=='no_meeting_days' for s in d['sections']),46)
         self.assertEqual(d,before)
 

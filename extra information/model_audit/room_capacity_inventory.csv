@@ -1,0 +1,21 @@
+﻿room_id,room_name,type,capacity,capacity_status
+T101,101تكنولوجيا,classroom,73,verified
+T102,102تكنولوجيا,classroom,70,verified
+T103,103تكنولوجيا,classroom,69,verified
+T104,104تكنولوجيا,classroom,70,verified
+T105,105تكنولوجيا,classroom,78,verified
+T204,204تكنولوجيا,classroom,75,verified
+LAB_DUAL,م.ح دراسات الثنائية,computer_lab,30,user_requested_scenario
+LAB1,م.ح.ت.م1,computer_lab,38,verified
+LAB2,م.ح.ت.م2,computer_lab,38,verified
+LAB3,م.ح.ت.م3,computer_lab,28,verified
+LAB4,م.ح.ت.م4,computer_lab,28,verified
+LAB5,م.ح.ت.م5,computer_lab,27,verified
+LAB6,م.ح.ت.م6,computer_lab,28,verified
+LAB7,م.ح.ت.م7,computer_lab,21,verified
+LAB_IOT,مختبر انترنت الأشياء,computer_lab,13,verified
+LAB_GIZ,مختبر GIZ,computer_lab,20,verified
+EXT_LANG_1,خارج الكلية — قاعة لغات تقديرية,external_languages_classroom,100,estimated_external_inventory
+EXT_SCIENCE_1,خارج الكلية — قاعة علوم تقديرية,external_science_classroom,100,estimated_external_inventory
+EXT_ENG_1,خارج الكلية — قاعة هندسة تقديرية,external_engineering_classroom,100,estimated_external_inventory
+EXT_ENG_LAB_1,خارج الكلية — مختبر هندسة تقديري,external_engineering_lab,40,estimated_external_inventory

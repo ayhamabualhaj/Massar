@@ -1,0 +1,10 @@
+﻿lab_name_ar,room_id,computer_count,area_m2,supervisor_name_ar,supervisor_role_ar,supervisor_qualification_ar,source,scheduling_status
+مختبر (1) - مختبر البرمجة,LAB1,38,72,محمد الفناطسه,مشرف مختبر,بكالوريوس نظم معلومات حاسوبية,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (2) - مختبر تطبيقات النظم,LAB2,38,72,اسلام صبيحات,مشرف مختبر,ماجستير علم حاسوب,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (3) - مختبر تكنولوجيا قواعد البيانات,LAB3,28,48,حازم الطراونه,مشرف مختبر,بكالوريوس علم الحاسوب,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (4) - مختبر الابتكار والابداع التقني,LAB4,28,48,حازم الطراونه,مشرف مختبر,بكالوريوس علم الحاسوب,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (5) - مختبر هندسة البرمجيات,LAB5,27,48,حازم الطراونه,مشرف مختبر,بكالوريوس علم الحاسوب,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (6) - مختبر الذكاء الاصطناعي,LAB6,28,48,محمد الفناطسه,مشرف مختبر,بكالوريوس نظم معلومات حاسوبية,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (7) - مختبر مشاريع التخرج,LAB7,21,36,اسلام صبيحات,مشرف مختبر,ماجستير علم حاسوب,University resources supplied by user on 2026-11-17,active_mapped
+مختبر انترنت الاشياء,LAB_IOT,13,36,محمد فناطسه,مشرف مختبر,بكالوريوس نظم معلومات حاسوبية,University resources supplied by user on 2026-11-17,active_mapped
+مختبر (GIZ),LAB_GIZ,20,48,فاطمه الشراري,مشرف مختبر,ماجستير هندسة الحاسوب والشبكات,University resources supplied by user on 2026-11-17,active_mapped

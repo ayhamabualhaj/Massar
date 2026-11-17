@@ -5,6 +5,7 @@ from ortools.sat.python import cp_model
 from .checker import inspect_solution
 from .constraints import add_group_constraints, add_objective, add_room_constraints
 from .validation import need, prepare
+from .staffing import add_teacher_constraints
 
 
 def _find_input_problems(ctx):
@@ -18,7 +19,7 @@ def _find_input_problems(ctx):
     return diagnostics
 
 
-def _read_assignments(ctx, solver, starts, room_choices):
+def _read_assignments(ctx, solver, starts, room_choices, teacher_choices=None):
     assignments = []
     for event_id, event in ctx["events"].items():
         start = solver.value(starts[event_id])
@@ -41,6 +42,9 @@ def _read_assignments(ctx, solver, starts, room_choices):
                 for day in pattern["days"]
             ],
         })
+        if ctx['data']['teachers_enabled']:
+            assignments[-1]['teacher_id'] = next(tid for tid, var in teacher_choices[event_id].items()
+                                                  if solver.boolean_value(var))
     return assignments
 
 
@@ -57,7 +61,7 @@ def _group_coverage(ctx):
     }
 
 
-def solve(data, optimize=True, seconds=30):
+def _solve_fixed(data, optimize=True, seconds=30, hints=None):
     """Build and solve a timetable without changing input data or writing files."""
     need(type(optimize) is bool, "optimize must be Boolean.")
     need(
@@ -87,9 +91,18 @@ def solve(data, optimize=True, seconds=30):
         for event_id, event in ctx["events"].items()
     }
     room_choices = add_room_constraints(model, ctx, starts)
+    teacher_choices = add_teacher_constraints(model, ctx, starts)
     idle_minutes = add_group_constraints(model, ctx, starts)
     if optimize:
         add_objective(model, ctx, starts, idle_minutes)
+
+    for assignment in hints or []:
+        event_id = assignment["event_id"]
+        model.add_hint(starts[event_id], assignment["start"])
+        for room_id, selected in room_choices.get(event_id, {}).items():
+            model.add_hint(selected, int(room_id == assignment["room_id"]))
+        for tid, selected in teacher_choices.get(event_id, {}).items():
+            model.add_hint(selected, int(tid == assignment.get('teacher_id')))
 
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = float(seconds)
@@ -110,7 +123,7 @@ def solve(data, optimize=True, seconds=30):
         ]
         return result
 
-    assignments = _read_assignments(ctx, solver, starts, room_choices)
+    assignments = _read_assignments(ctx, solver, starts, room_choices, teacher_choices)
     validation = inspect_solution(ctx, assignments)
     result["validation"] = validation
     if not validation["valid"]:
@@ -128,4 +141,22 @@ def solve(data, optimize=True, seconds=30):
     result["has_solution"] = True
     result["assignments"] = assignments
     result["coverage"] = _group_coverage(ctx)
+    return result
+
+
+def solve(data, optimize=True, seconds=30, plan_sections=True, hints=None):
+    """Minimize required sections, then improve their timetable preferences.
+
+    Set plan_sections=False to schedule an explicitly fixed section list.
+    """
+    need(type(plan_sections) is bool, "plan_sections must be Boolean.")
+    if not plan_sections:
+        return _solve_fixed(data, optimize=optimize, seconds=seconds)
+    from .planning import solve_sections
+
+    result = solve_sections(data, optimize=optimize, seconds=seconds, hints=hints)
+    import copy
+    for key in ("group_inference", "enrollment_projection"):
+        if data.get(key):
+            result[key] = copy.deepcopy(data[key])
     return result

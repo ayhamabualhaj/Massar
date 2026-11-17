@@ -1,0 +1,77 @@
+{
+  "status": "source_conflicts_found",
+  "timed_sections": 109,
+  "course_codes": 63,
+  "issues": [
+    "0613442_2: unknown room.",
+    "0615334_1: incompatible room.",
+    "0615344_1: incompatible room.",
+    "Room clash LAB4, day 1: 0613316_2, 0613322_2.",
+    "Room clash LAB4, day 3: 0613316_2, 0613322_2.",
+    "Room clash LAB6, day 1: 0612331_1, 0615431_1.",
+    "Room clash LAB6, day 3: 0612331_1, 0615431_1.",
+    "Room clash T102, day 1: 0614443_1, 0614448_1.",
+    "Room clash T102, day 3: 0614443_1, 0614448_1.",
+    "Room clash LAB4, day 7: 0613455_2, 0613458_2.",
+    "Room clash LAB4, day 2: 0613455_2, 0613458_2.",
+    "Room clash LAB4, day 4: 0613455_2, 0613458_2.",
+    "Room clash T103, day 7: 0614421_1, 0614422_2.",
+    "Room clash T103, day 2: 0614421_1, 0614422_2.",
+    "Room clash T103, day 4: 0614421_1, 0614422_2."
+  ],
+  "overlapping_pairs": [
+    {
+      "room_id": "LAB4",
+      "first_section": "0613316_2",
+      "second_section": "0613322_2",
+      "days": [
+        1,
+        3
+      ],
+      "overlap_minutes_per_day": 90
+    },
+    {
+      "room_id": "LAB6",
+      "first_section": "0612331_1",
+      "second_section": "0615431_1",
+      "days": [
+        1,
+        3
+      ],
+      "overlap_minutes_per_day": 90
+    },
+    {
+      "room_id": "T102",
+      "first_section": "0614443_1",
+      "second_section": "0614448_1",
+      "days": [
+        1,
+        3
+      ],
+      "overlap_minutes_per_day": 90
+    },
+    {
+      "room_id": "LAB4",
+      "first_section": "0613455_2",
+      "second_section": "0613458_2",
+      "days": [
+        7,
+        2,
+        4
+      ],
+      "overlap_minutes_per_day": 60
+    },
+    {
+      "room_id": "T103",
+      "first_section": "0614421_1",
+      "second_section": "0614422_2",
+      "days": [
+        7,
+        2,
+        4
+      ],
+      "overlap_minutes_per_day": 60
+    }
+  ],
+  "scope": "Imported source room/time placements and configured equipment compatibility only. Enrollment, room capacity, teachers and student conflicts are not certified. Overlaps may reflect source errors or unrecorded shared classes; no automatic merging or course-code aliases."
+}

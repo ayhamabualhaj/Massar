@@ -1,0 +1,17 @@
+room_id,room_name,room_type,capacity
+T101,101تكنولوجيا,classroom,73
+T102,102تكنولوجيا,classroom,70
+T103,103تكنولوجيا,classroom,69
+T104,104تكنولوجيا,classroom,70
+T105,105تكنولوجيا,classroom,78
+T204,204تكنولوجيا,classroom,75
+LAB_DUAL,م.ح دراسات الثنائية,computer_lab,30
+LAB1,م.ح.ت.م1,computer_lab,38
+LAB2,م.ح.ت.م2,computer_lab,38
+LAB3,م.ح.ت.م3,computer_lab,28
+LAB4,م.ح.ت.م4,computer_lab,28
+LAB5,م.ح.ت.م5,computer_lab,27
+LAB6,م.ح.ت.م6,computer_lab,28
+LAB7,م.ح.ت.م7,computer_lab,21
+LAB_IOT,مختبر انترنت الأشياء,computer_lab,13
+LAB_GIZ,مختبر GIZ,computer_lab,20

@@ -1,0 +1,80 @@
+﻿رقم المادة,نمط التدريس,متطلب القاعة,عدد الطلبة المتوقع,أكبر سعة مناسبة,الحد الأدنى للشعب حسب السعة,دقائق تدريس الشعبة أسبوعيًا,حالة الجدولة
+0202100,in_person,external_languages_classroom,233,100,3,180,FEASIBLE
+0302106,in_person,external_science_classroom,200,100,2,180,FEASIBLE
+0302131,in_person,external_science_classroom,175,100,2,180,FEASIBLE
+0302241,in_person,external_science_classroom,178,100,2,180,FEASIBLE
+0303106,in_person,external_science_classroom,204,100,3,180,FEASIBLE
+0511231,in_person,external_engineering_classroom,94,100,1,180,FEASIBLE
+0511234,in_person,external_engineering_lab,34,40,1,60,FEASIBLE
+0511336,in_person,external_engineering_lab,38,40,1,60,FEASIBLE
+0512443,in_person,external_engineering_lab,38,40,1,60,FEASIBLE
+0612102,in_person,lecture,252,78,4,180,FEASIBLE
+0612112,in_person,computers,226,38,6,180,FEASIBLE
+0612117,in_person,computers,174,38,5,120,FEASIBLE
+0612118,in_person,computers,231,38,7,60,FEASIBLE
+0612201,in_person,computers,30,38,1,180,FEASIBLE
+0612214,in_person,computers,197,38,6,120,FEASIBLE
+0612215,in_person,computers,168,38,5,60,FEASIBLE
+0612222,in_person,computers,206,38,6,180,FEASIBLE
+0612223,in_person,computers,225,38,6,60,FEASIBLE
+0612312,in_person,lecture,191,78,3,180,FEASIBLE
+0612316,in_person,lecture,148,78,2,120,FEASIBLE
+0612317,in_person,computers,151,38,4,60,FEASIBLE
+0612318,in_person,lecture,21,78,1,120,FEASIBLE
+0612321,in_person,computers,152,38,4,180,FEASIBLE
+0612321,in_person,lecture,64,78,1,180,FEASIBLE
+0612329,in_person,computers,11,38,1,60,FEASIBLE
+0612331,in_person,computers,76,38,2,180,FEASIBLE
+0612331,in_person,lecture,94,78,2,180,FEASIBLE
+0612332,in_person,lecture,181,78,3,180,FEASIBLE
+0612333,in_person,computers,245,38,7,60,FEASIBLE
+0612342,in_person,lecture,117,78,2,180,FEASIBLE
+0612347,in_person,computers,143,38,4,60,FEASIBLE
+0612412,in_person,lecture,31,78,1,180,FEASIBLE
+0612413,in_person,lecture,20,78,1,120,FEASIBLE
+0612414,in_person,computers,20,38,1,60,FEASIBLE
+0612491,online,online,10,غير محدود,1,180,FEASIBLE
+0613101,in_person,lecture,156,78,2,180,FEASIBLE
+0613102,online,online,160,غير محدود,1,180,FEASIBLE
+0613313,in_person,lecture,198,78,3,180,FEASIBLE
+0613316,in_person,computers,144,38,4,180,FEASIBLE
+0613434,online,online,15,غير محدود,1,180,FEASIBLE
+0613435,in_person,lecture,76,78,1,180,FEASIBLE
+0613453,in_person,computers,80,38,3,180,FEASIBLE
+0613458,in_person,computers,20,38,1,180,FEASIBLE
+0613491,online,online,15,غير محدود,1,180,FEASIBLE
+0614204,in_person,computers,79,38,3,180,FEASIBLE
+0614204,in_person,lecture,98,78,2,180,FEASIBLE
+0614211,in_person,lecture,153,78,2,180,FEASIBLE
+0614323,in_person,computers,84,38,3,180,FEASIBLE
+0614351,in_person,computers,47,38,2,180,FEASIBLE
+0614351,in_person,lecture,58,78,1,180,FEASIBLE
+0614422,in_person,lecture,84,78,2,180,FEASIBLE
+0614445,in_person,lecture,112,78,2,180,FEASIBLE
+0614448,in_person,lecture,85,78,2,180,FEASIBLE
+0614491,online,online,28,غير محدود,1,180,FEASIBLE
+0615201,in_person,computers,45,38,2,120,FEASIBLE
+0615204,in_person,computers,13,38,1,60,FEASIBLE
+0615205,in_person,lecture,38,78,1,120,FEASIBLE
+0615206,in_person,computers,31,38,1,60,FEASIBLE
+0615207,in_person,lecture,6,78,1,120,FEASIBLE
+0615208,in_person,computers,20,38,1,60,FEASIBLE
+0615334,in_person,computers,25,38,1,180,FEASIBLE
+0615343,in_person,computers,22,38,1,180,FEASIBLE
+0615344,in_person,computers,13,38,1,180,FEASIBLE
+0615345,in_person,computers,6,38,1,180,FEASIBLE
+0615431,in_person,computers,67,38,2,180,FEASIBLE
+0615432,in_person,computers,88,38,3,180,FEASIBLE
+0615434,in_person,lecture,31,78,1,180,FEASIBLE
+0615435,in_person,computers,6,38,1,60,FEASIBLE
+0615454,in_person,lecture,32,78,1,180,FEASIBLE
+0615491,online,online,6,غير محدود,1,180,FEASIBLE
+0616151,in_person,computers,34,38,1,180,FEASIBLE
+0616212,in_person,computers,34,38,1,180,FEASIBLE
+0616352,in_person,lecture,17,78,1,180,FEASIBLE
+0616353,in_person,lecture,13,78,1,180,FEASIBLE
+0616451,in_person,lecture,17,78,1,180,FEASIBLE
+0616454,in_person,lecture,34,78,1,180,FEASIBLE
+0616462,in_person,lecture,13,78,1,180,FEASIBLE
+0616463,in_person,lecture,17,78,1,180,FEASIBLE
+0616464,in_person,lecture,34,78,1,180,FEASIBLE

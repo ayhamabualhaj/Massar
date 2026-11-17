@@ -1,0 +1,3169 @@
+{
+  "status": "INFEASIBLE",
+  "has_solution": false,
+  "assignments": [],
+  "validation": null,
+  "diagnostics": [
+    "Rooms LAB1, LAB2, LAB3, LAB4, LAB5, LAB6, LAB7, LAB_DUAL need at least 299 weekly teaching hours, but their allowed time windows provide at most 288.",
+    "Rooms LAB1, LAB2, LAB3, LAB4, LAB5, LAB6, LAB7, LAB_DUAL, T101, T102, T103, T104, T105 need at least 539 weekly teaching hours, but their allowed time windows provide at most 468."
+  ],
+  "mode": "minimum_sections",
+  "objective_bound": null,
+  "section_requirements": [
+    {
+      "course_code": "0612102",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 288,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 6,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612112",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 758,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 26,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612118",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 60,
+      "students": 244,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 9,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612214",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 120,
+      "students": 514,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 18,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612215",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 60,
+      "students": 192,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 7,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612222",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 418,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 14,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612223",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 60,
+      "students": 418,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 14,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612321",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 104,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 4,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612321",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 44,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 1,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612331",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 186,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 7,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612331",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 232,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 5,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612332",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 662,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 14,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612342",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 192,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 4,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0612412",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 96,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 2,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0613101",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 758,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 16,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0613102",
+      "delivery": "online",
+      "room_requirement": "online",
+      "weekly_minutes": 180,
+      "students": 148,
+      "maximum_room_capacity": null,
+      "minimum_sections": 1,
+      "eligible_room_ids": []
+    },
+    {
+      "course_code": "0613313",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 192,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 4,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0613316",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 148,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 5,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614100",
+      "delivery": "online",
+      "room_requirement": "online",
+      "weekly_minutes": 180,
+      "students": 192,
+      "maximum_room_capacity": null,
+      "minimum_sections": 1,
+      "eligible_room_ids": []
+    },
+    {
+      "course_code": "0614204",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 228,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 8,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614204",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 286,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 6,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614211",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 470,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 10,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614351",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 186,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 7,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614351",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 232,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 5,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0614448",
+      "delivery": "in_person",
+      "room_requirement": "lecture",
+      "weekly_minutes": 180,
+      "students": 322,
+      "maximum_room_capacity": 50,
+      "minimum_sections": 7,
+      "eligible_room_ids": [
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105",
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0615201",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 120,
+      "students": 96,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 4,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    },
+    {
+      "course_code": "0615432",
+      "delivery": "in_person",
+      "room_requirement": "computers",
+      "weekly_minutes": 180,
+      "students": 96,
+      "maximum_room_capacity": 30,
+      "minimum_sections": 4,
+      "eligible_room_ids": [
+        "LAB_DUAL",
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7"
+      ]
+    }
+  ],
+  "resource_diagnostics": [
+    {
+      "reason": "weekly_room_workload_exceeded",
+      "room_ids": [
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7",
+        "LAB_DUAL"
+      ],
+      "minimum_weekly_minutes": 17940,
+      "available_weekly_minutes": 17280,
+      "shortfall_minutes": 660,
+      "message": "Rooms LAB1, LAB2, LAB3, LAB4, LAB5, LAB6, LAB7, LAB_DUAL need at least 299 weekly teaching hours, but their allowed time windows provide at most 288."
+    },
+    {
+      "reason": "weekly_room_workload_exceeded",
+      "room_ids": [
+        "LAB1",
+        "LAB2",
+        "LAB3",
+        "LAB4",
+        "LAB5",
+        "LAB6",
+        "LAB7",
+        "LAB_DUAL",
+        "T101",
+        "T102",
+        "T103",
+        "T104",
+        "T105"
+      ],
+      "minimum_weekly_minutes": 32340,
+      "available_weekly_minutes": 28080,
+      "shortfall_minutes": 4260,
+      "message": "Rooms LAB1, LAB2, LAB3, LAB4, LAB5, LAB6, LAB7, LAB_DUAL, T101, T102, T103, T104, T105 need at least 539 weekly teaching hours, but their allowed time windows provide at most 468."
+    }
+  ],
+  "required_sections_lower_bound": 209,
+  "solver_seconds": 0.002319848004844971,
+  "group_inference": {
+    "method": "four_year_intake_cohorts",
+    "inferred": true,
+    "actual_registrations": false,
+    "policy": {
+      "enabled": true,
+      "reference_source": "data/masar_section_templates.json",
+      "intake_source": "extra information/student_numbers/student_expected_number_for_each_semester.csv",
+      "curriculum_source": "course_requirements/course_requirements.json",
+      "current_year": 2026,
+      "current_semester": 1,
+      "years": 4,
+      "semesters_per_year": 2,
+      "plan_semesters": 8,
+      "max_semester_credits": 18,
+      "retain_all_cohorts": true,
+      "study_plan_method": "balanced_prerequisites_v2",
+      "program_names": {
+        "SE": "هندسة البرمجيات",
+        "CS": "علم الحاسوب",
+        "AI": "علم البيانات والذكاء الاصطناعي",
+        "CYBER": "الأمن السيبراني",
+        "CIS": "نظم المعلومات الحاسوبية"
+      }
+    },
+    "group_count": 99,
+    "cohort_count": 20,
+    "inferred_group_students": 2840,
+    "estimated_students": 3032,
+    "students_without_offered_courses": 192,
+    "scheduled_courses": 23,
+    "exact_plan_matched_courses": 45,
+    "grouped_courses": 23,
+    "modeled_course_enrollments": 7702,
+    "total_course_enrollments": 7702,
+    "unmodeled_course_enrollments": null,
+    "course_coverage": [
+      {
+        "course_code": "0612099",
+        "course_name": "حاسوب استدراكي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612102",
+        "course_name": "الرياضيات المتقطعة",
+        "students": 288,
+        "modeled_students": 288,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612112",
+        "course_name": "لغة برمجة (1)",
+        "students": 758,
+        "modeled_students": 758,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612114",
+        "course_name": "لغة البرمجة ++C",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612116",
+        "course_name": "لغة برمجة (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612117",
+        "course_name": "لغة برمجة (2)",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612118",
+        "course_name": "مختبر لغة برمجة (2)",
+        "students": 244,
+        "modeled_students": 244,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612201",
+        "course_name": "النظرية الاحتسابية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612213",
+        "course_name": "البرمجة الشيئية (1)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612214",
+        "course_name": "البرمجة الشيئية (1)",
+        "students": 514,
+        "modeled_students": 514,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612215",
+        "course_name": "مختبر البرمجة الشيئية (1)",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612222",
+        "course_name": "تراكيب البيانات",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612223",
+        "course_name": "مختبر تراكيب البيانات",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612313",
+        "course_name": "البرمجة بلغة مرئية (1)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612315",
+        "course_name": "البرمجة الشيئية (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612321",
+        "course_name": "خوارزميات الحاسوب",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612331",
+        "course_name": "نظم تشغيل الحاسوب",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612332",
+        "course_name": "مقدمة في شبكات الحاسوب",
+        "students": 662,
+        "modeled_students": 662,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612342",
+        "course_name": "الذكاء الاصطناعي",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0612410",
+        "course_name": "البرمجة بلغة مرئية (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612412",
+        "course_name": "تصميم المترجمات",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612490",
+        "course_name": "مشروع تخرج - علم الحاسوب",
+        "students": 96,
+        "modeled_students": 0,
+        "unmodeled_students": 96,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0612491",
+        "course_name": "موضوعات خاصة في علم الحاسوب",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613101",
+        "course_name": "أساسيات في تكنولوجيا المعلومات",
+        "students": 758,
+        "modeled_students": 758,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613102",
+        "course_name": "مقدمة في نظم المعلومات",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613201",
+        "course_name": "مقدمة في نظم المعلومات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613212",
+        "course_name": "تحليل النظم",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613313",
+        "course_name": "نظم قواعد البيانات",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613316",
+        "course_name": "مقدمة في برمجة الذكاء الاصطناعي",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613322",
+        "course_name": "إحدى لغات الجيل الرابع",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613341",
+        "course_name": "برمجة الإنترنت",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0613434",
+        "course_name": "نظم الوسائط المتعددة",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613435",
+        "course_name": "أمن نظم المعلومات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613442",
+        "course_name": "التجارة الإلكترونية",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613453",
+        "course_name": "استرجاع المعلومات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613454",
+        "course_name": "إدارة نظم قواعد البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613455",
+        "course_name": "النظم الخبيرة ودعم القرار",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613458",
+        "course_name": "نظم دعم القرار وذكاء الأعمال",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613490",
+        "course_name": "مشروع تخرج - نظم المعلومات الحاسوبية",
+        "students": 148,
+        "modeled_students": 0,
+        "unmodeled_students": 148,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0613491",
+        "course_name": "موضوعات خاصة في نظم المعلومات الحاسوبية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614100",
+        "course_name": "المهارات الرقمية",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614204",
+        "course_name": "مقدمة في هندسة البرمجيات",
+        "students": 514,
+        "modeled_students": 514,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614211",
+        "course_name": "قضايا مهنية وأخلاقية في الحوسبة",
+        "students": 470,
+        "modeled_students": 470,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614322",
+        "course_name": "مواصفات البرمجيات وتصميمها",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614323",
+        "course_name": "مواصفات وتصميم البرمجيات والتطبيقات الذكية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614351",
+        "course_name": "إدارة المشاريع البرمجية وجودتها",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614390",
+        "course_name": "التدريب الميداني",
+        "students": 322,
+        "modeled_students": 0,
+        "unmodeled_students": 322,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0614421",
+        "course_name": "تفاعل الإنسان مع الحاسوب",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614422",
+        "course_name": "تفاعل الانسان مع الحاسوب والواجهات الذكية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614443",
+        "course_name": "فحص البرمجيات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614445",
+        "course_name": "تطوير البرمجيات وتوثيقها",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614448",
+        "course_name": "فحص البرمجيات والأنظمة الذكية",
+        "students": 322,
+        "modeled_students": 322,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614490",
+        "course_name": "مشروع تخرج - هندسة البرمجيات",
+        "students": 322,
+        "modeled_students": 0,
+        "unmodeled_students": 322,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0614491",
+        "course_name": "موضوعات خاصة في هندسة البرمجيات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615201",
+        "course_name": "برمجة علوم البيانات والذكاء الاصطناعي",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0615204",
+        "course_name": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615330",
+        "course_name": "أساسيات علم البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0615331",
+        "course_name": "هندسة البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0615334",
+        "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615343",
+        "course_name": "التعلم الآلي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615344",
+        "course_name": "معالجة اللغات الطبيعية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615345",
+        "course_name": "الشبكات العصبية والتعلم العميق",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0615431",
+        "course_name": "الحوسبة السحابية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615432",
+        "course_name": "تنقيب البيانات",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0615490",
+        "course_name": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+        "students": 96,
+        "modeled_students": 0,
+        "unmodeled_students": 96,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0615491",
+        "course_name": "موضوعات خاصة في علم البيانات والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0616151",
+        "course_name": "أساسيات الأمن السيبراني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0616212",
+        "course_name": "برمجة الأمن السيبراني والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      }
+    ],
+    "assumptions": [
+      "All four first-semester intake cohorts are retained; no graduation, withdrawal or repeat rates were supplied.",
+      "The 288 combined CS/AI/CYBER intake is equally divided into estimated intakes of 96 per major.",
+      "Unknown second-semester intakes are excluded, not treated as confirmed zero.",
+      "Normal progression: 2026/2025/2024/2023 cohorts attend study semesters 1/3/5/7 in first semester 2026.",
+      "An inferred eight-semester, 132-credit plan respects strict prerequisites, permitted concurrency, elective limits and 90-credit thresholds.",
+      "Credit loads are balanced without using current offerings to choose semester parity; the inferred plan is not an official recommended study plan.",
+      "Estimated groups are demand batches; their members can attend different sections, each retaining the complete requested course combination.",
+      "Only currently offered exact course codes are assigned; unavailable planned courses are explicitly reported.",
+      "Enrollment among different reference delivery/equipment pools is proportional to their reference counts; these proportions remain estimates.",
+      "Legacy course codes without an exact plan match have unknown demand and are not assigned the old synthetic counts."
+    ]
+  },
+  "enrollment_projection": {
+    "estimated_students": 3032,
+    "represented_students": 2840,
+    "plan_fingerprint": "cafa7914536715369a7ae7f28cf8698e9c77d7a2af15a0bd1c2ab506d859fae1",
+    "cohorts": [
+      {
+        "id": "INTAKE_AI_2023_S1",
+        "program_id": "AI",
+        "program_name": "علم البيانات والذكاء الاصطناعي",
+        "intake_year": 2023,
+        "intake_semester": 1,
+        "study_year": 4,
+        "study_semester": 7,
+        "students": 96,
+        "planned_courses": [
+          "0612312",
+          "0612333",
+          "0614101",
+          "0615206",
+          "0615433",
+          "0615454",
+          "0615490"
+        ],
+        "offered_courses": [],
+        "unavailable_courses": [
+          "0612312",
+          "0612333",
+          "0614101",
+          "0615206",
+          "0615433",
+          "0615454",
+          "0615490"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 0
+      },
+      {
+        "id": "INTAKE_AI_2024_S1",
+        "program_id": "AI",
+        "program_name": "علم البيانات والذكاء الاصطناعي",
+        "intake_year": 2024,
+        "intake_semester": 1,
+        "study_year": 3,
+        "study_semester": 5,
+        "students": 96,
+        "planned_courses": [
+          "0250100",
+          "0612102",
+          "0612342",
+          "0614204",
+          "0615205",
+          "0615434"
+        ],
+        "offered_courses": [
+          "0612102",
+          "0612342",
+          "0614204"
+        ],
+        "unavailable_courses": [
+          "0250100",
+          "0615205",
+          "0615434"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 9
+      },
+      {
+        "id": "INTAKE_AI_2025_S1",
+        "program_id": "AI",
+        "program_name": "علم البيانات والذكاء الاصطناعي",
+        "intake_year": 2025,
+        "intake_semester": 1,
+        "study_year": 2,
+        "study_semester": 3,
+        "students": 96,
+        "planned_courses": [
+          "0302106",
+          "0612214",
+          "0612215",
+          "0612331",
+          "0614100",
+          "0615201",
+          "0615432"
+        ],
+        "offered_courses": [
+          "0612214",
+          "0612215",
+          "0612331",
+          "0614100",
+          "0615201",
+          "0615432"
+        ],
+        "unavailable_courses": [
+          "0302106"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 14
+      },
+      {
+        "id": "INTAKE_AI_2026_S1",
+        "program_id": "AI",
+        "program_name": "علم البيانات والذكاء الاصطناعي",
+        "intake_year": 2026,
+        "intake_semester": 1,
+        "study_year": 1,
+        "study_semester": 1,
+        "students": 96,
+        "planned_courses": [
+          "0100104",
+          "0202101",
+          "0303106",
+          "0612112",
+          "0613101"
+        ],
+        "offered_courses": [
+          "0612112",
+          "0613101"
+        ],
+        "unavailable_courses": [
+          "0100104",
+          "0202101",
+          "0303106"
+        ],
+        "planned_credit_hours": 15,
+        "offered_credit_hours": 6
+      },
+      {
+        "id": "INTAKE_CIS_2023_S1",
+        "program_id": "CIS",
+        "program_name": "نظم المعلومات الحاسوبية",
+        "intake_year": 2023,
+        "intake_semester": 1,
+        "study_year": 4,
+        "study_semester": 7,
+        "students": 148,
+        "planned_courses": [
+          "0205181",
+          "0612312",
+          "0612321",
+          "0612333",
+          "0613445",
+          "0613457",
+          "0613490"
+        ],
+        "offered_courses": [
+          "0612321"
+        ],
+        "unavailable_courses": [
+          "0205181",
+          "0612312",
+          "0612333",
+          "0613445",
+          "0613457",
+          "0613490"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 3
+      },
+      {
+        "id": "INTAKE_CIS_2024_S1",
+        "program_id": "CIS",
+        "program_name": "نظم المعلومات الحاسوبية",
+        "intake_year": 2024,
+        "intake_semester": 1,
+        "study_year": 3,
+        "study_semester": 5,
+        "students": 148,
+        "planned_courses": [
+          "0100104",
+          "0302106",
+          "0612316",
+          "0612332",
+          "0612341",
+          "0614211"
+        ],
+        "offered_courses": [
+          "0612332",
+          "0614211"
+        ],
+        "unavailable_courses": [
+          "0100104",
+          "0302106",
+          "0612316",
+          "0612341"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 6
+      },
+      {
+        "id": "INTAKE_CIS_2025_S1",
+        "program_id": "CIS",
+        "program_name": "نظم المعلومات الحاسوبية",
+        "intake_year": 2025,
+        "intake_semester": 1,
+        "study_year": 2,
+        "study_semester": 3,
+        "students": 148,
+        "planned_courses": [
+          "0201101",
+          "0202100",
+          "0250100",
+          "0612118",
+          "0613102",
+          "0613316"
+        ],
+        "offered_courses": [
+          "0612118",
+          "0613102",
+          "0613316"
+        ],
+        "unavailable_courses": [
+          "0201101",
+          "0202100",
+          "0250100"
+        ],
+        "planned_credit_hours": 16,
+        "offered_credit_hours": 7
+      },
+      {
+        "id": "INTAKE_CIS_2026_S1",
+        "program_id": "CIS",
+        "program_name": "نظم المعلومات الحاسوبية",
+        "intake_year": 2026,
+        "intake_semester": 1,
+        "study_year": 1,
+        "study_semester": 1,
+        "students": 148,
+        "planned_courses": [
+          "0100171",
+          "0202101",
+          "0612112",
+          "0613101",
+          "1900160"
+        ],
+        "offered_courses": [
+          "0612112",
+          "0613101"
+        ],
+        "unavailable_courses": [
+          "0100171",
+          "0202101",
+          "1900160"
+        ],
+        "planned_credit_hours": 15,
+        "offered_credit_hours": 6
+      },
+      {
+        "id": "INTAKE_CS_2023_S1",
+        "program_id": "CS",
+        "program_name": "علم الحاسوب",
+        "intake_year": 2023,
+        "intake_semester": 1,
+        "study_year": 4,
+        "study_semester": 7,
+        "students": 96,
+        "planned_courses": [
+          "0250100",
+          "0302241",
+          "0612223",
+          "0612317",
+          "0612318",
+          "0612329",
+          "0612342",
+          "0612490"
+        ],
+        "offered_courses": [
+          "0612223",
+          "0612342"
+        ],
+        "unavailable_courses": [
+          "0250100",
+          "0302241",
+          "0612317",
+          "0612318",
+          "0612329",
+          "0612490"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 4
+      },
+      {
+        "id": "INTAKE_CS_2024_S1",
+        "program_id": "CS",
+        "program_name": "علم الحاسوب",
+        "intake_year": 2024,
+        "intake_semester": 1,
+        "study_year": 3,
+        "study_semester": 5,
+        "students": 96,
+        "planned_courses": [
+          "0100104",
+          "0612222",
+          "0612332",
+          "0612341",
+          "0612347",
+          "0613457",
+          "0614100"
+        ],
+        "offered_courses": [
+          "0612222",
+          "0612332",
+          "0614100"
+        ],
+        "unavailable_courses": [
+          "0100104",
+          "0612341",
+          "0612347",
+          "0613457"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 9
+      },
+      {
+        "id": "INTAKE_CS_2025_S1",
+        "program_id": "CS",
+        "program_name": "علم الحاسوب",
+        "intake_year": 2025,
+        "intake_semester": 1,
+        "study_year": 2,
+        "study_semester": 3,
+        "students": 96,
+        "planned_courses": [
+          "0202100",
+          "0302131",
+          "0612118",
+          "0612412",
+          "0613313",
+          "0614204"
+        ],
+        "offered_courses": [
+          "0612118",
+          "0612412",
+          "0613313",
+          "0614204"
+        ],
+        "unavailable_courses": [
+          "0202100",
+          "0302131"
+        ],
+        "planned_credit_hours": 16,
+        "offered_credit_hours": 10
+      },
+      {
+        "id": "INTAKE_CS_2026_S1",
+        "program_id": "CS",
+        "program_name": "علم الحاسوب",
+        "intake_year": 2026,
+        "intake_semester": 1,
+        "study_year": 1,
+        "study_semester": 1,
+        "students": 96,
+        "planned_courses": [
+          "0205181",
+          "0302106",
+          "0612102",
+          "0612112",
+          "0613101"
+        ],
+        "offered_courses": [
+          "0612102",
+          "0612112",
+          "0613101"
+        ],
+        "unavailable_courses": [
+          "0205181",
+          "0302106"
+        ],
+        "planned_credit_hours": 15,
+        "offered_credit_hours": 9
+      },
+      {
+        "id": "INTAKE_CYBER_2023_S1",
+        "program_id": "CYBER",
+        "program_name": "الأمن السيبراني",
+        "intake_year": 2023,
+        "intake_semester": 1,
+        "study_year": 4,
+        "study_semester": 7,
+        "students": 96,
+        "planned_courses": [
+          "0303106",
+          "0612435",
+          "0616353",
+          "0616451",
+          "0616462",
+          "0616463"
+        ],
+        "offered_courses": [],
+        "unavailable_courses": [
+          "0303106",
+          "0612435",
+          "0616353",
+          "0616451",
+          "0616462",
+          "0616463"
+        ],
+        "planned_credit_hours": 18,
+        "offered_credit_hours": 0
+      },
+      {
+        "id": "INTAKE_CYBER_2024_S1",
+        "program_id": "CYBER",
+        "program_name": "الأمن السيبراني",
+        "intake_year": 2024,
+        "intake_semester": 1,
+        "study_year": 3,
+        "study_semester": 5,
+        "students": 96,
+        "planned_courses": [
+          "0100104",
+          "0250100",
+          "0302241",
+          "0612332",
+          "0614351",
+          "0616352"
+        ],
+        "offered_courses": [
+          "0612332",
+          "0614351"
+        ],
+        "unavailable_courses": [
+          "0100104",
+          "0250100",
+          "0302241",
+          "0616352"
+        ],
+        "planned_credit_hours": 18,
+        "offered_credit_hours": 6
+      },
+      {
+        "id": "INTAKE_CYBER_2025_S1",
+        "program_id": "CYBER",
+        "program_name": "الأمن السيبراني",
+        "intake_year": 2025,
+        "intake_semester": 1,
+        "study_year": 2,
+        "study_semester": 3,
+        "students": 96,
+        "planned_courses": [
+          "0302131",
+          "0511231",
+          "0612214",
+          "0612215",
+          "0612341",
+          "0613313",
+          "0614101"
+        ],
+        "offered_courses": [
+          "0612214",
+          "0612215",
+          "0613313"
+        ],
+        "unavailable_courses": [
+          "0302131",
+          "0511231",
+          "0612341",
+          "0614101"
+        ],
+        "planned_credit_hours": 18,
+        "offered_credit_hours": 6
+      },
+      {
+        "id": "INTAKE_CYBER_2026_S1",
+        "program_id": "CYBER",
+        "program_name": "الأمن السيبراني",
+        "intake_year": 2026,
+        "intake_semester": 1,
+        "study_year": 1,
+        "study_semester": 1,
+        "students": 96,
+        "planned_courses": [
+          "0100102",
+          "0100171",
+          "0202101",
+          "0612102",
+          "0612112",
+          "0613101"
+        ],
+        "offered_courses": [
+          "0612102",
+          "0612112",
+          "0613101"
+        ],
+        "unavailable_courses": [
+          "0100102",
+          "0100171",
+          "0202101"
+        ],
+        "planned_credit_hours": 18,
+        "offered_credit_hours": 9
+      },
+      {
+        "id": "INTAKE_SE_2023_S1",
+        "program_id": "SE",
+        "program_name": "هندسة البرمجيات",
+        "intake_year": 2023,
+        "intake_semester": 1,
+        "study_year": 4,
+        "study_semester": 7,
+        "students": 322,
+        "planned_courses": [
+          "0612222",
+          "0612223",
+          "0612332",
+          "0612347",
+          "0614390",
+          "0614490",
+          "1900160"
+        ],
+        "offered_courses": [
+          "0612222",
+          "0612223",
+          "0612332"
+        ],
+        "unavailable_courses": [
+          "0612347",
+          "0614390",
+          "0614490",
+          "1900160"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 7
+      },
+      {
+        "id": "INTAKE_SE_2024_S1",
+        "program_id": "SE",
+        "program_name": "هندسة البرمجيات",
+        "intake_year": 2024,
+        "intake_semester": 1,
+        "study_year": 3,
+        "study_semester": 5,
+        "students": 322,
+        "planned_courses": [
+          "0511231",
+          "0612214",
+          "0612331",
+          "0614211",
+          "0614351",
+          "0614448"
+        ],
+        "offered_courses": [
+          "0612214",
+          "0612331",
+          "0614211",
+          "0614351",
+          "0614448"
+        ],
+        "unavailable_courses": [
+          "0511231"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 14
+      },
+      {
+        "id": "INTAKE_SE_2025_S1",
+        "program_id": "SE",
+        "program_name": "هندسة البرمجيات",
+        "intake_year": 2025,
+        "intake_semester": 1,
+        "study_year": 2,
+        "study_semester": 3,
+        "students": 322,
+        "planned_courses": [
+          "0201101",
+          "0302241",
+          "0303106",
+          "0612312",
+          "0613456",
+          "0614204"
+        ],
+        "offered_courses": [
+          "0614204"
+        ],
+        "unavailable_courses": [
+          "0201101",
+          "0302241",
+          "0303106",
+          "0612312",
+          "0613456"
+        ],
+        "planned_credit_hours": 17,
+        "offered_credit_hours": 3
+      },
+      {
+        "id": "INTAKE_SE_2026_S1",
+        "program_id": "SE",
+        "program_name": "هندسة البرمجيات",
+        "intake_year": 2026,
+        "intake_semester": 1,
+        "study_year": 1,
+        "study_semester": 1,
+        "students": 322,
+        "planned_courses": [
+          "0100102",
+          "0202101",
+          "0302106",
+          "0612112",
+          "0613101"
+        ],
+        "offered_courses": [
+          "0612112",
+          "0613101"
+        ],
+        "unavailable_courses": [
+          "0100102",
+          "0202101",
+          "0302106"
+        ],
+        "planned_credit_hours": 15,
+        "offered_credit_hours": 6
+      }
+    ],
+    "study_plans": {
+      "AI": {
+        "info": {
+          "status": "OPTIMAL",
+          "inferred": true,
+          "method": "balanced_prerequisites_v2",
+          "credits": 132
+        },
+        "semesters": {
+          "0614100": 3,
+          "0250100": 5,
+          "0201101": 6,
+          "0202101": 1,
+          "0100102": 2,
+          "0100104": 1,
+          "0100171": 4,
+          "0205181": 2,
+          "1900160": 6,
+          "0613101": 1,
+          "0612102": 5,
+          "0303106": 1,
+          "0302106": 3,
+          "0612112": 1,
+          "0302131": 8,
+          "0302241": 4,
+          "0202100": 2,
+          "0612117": 2,
+          "0612118": 2,
+          "0615201": 3,
+          "0615204": 8,
+          "0615205": 5,
+          "0615206": 7,
+          "0615207": 4,
+          "0615208": 6,
+          "0612312": 7,
+          "0612214": 3,
+          "0612215": 3,
+          "0612222": 4,
+          "0612223": 6,
+          "0613313": 2,
+          "0612321": 8,
+          "0612331": 3,
+          "0612332": 4,
+          "0612333": 7,
+          "0612342": 5,
+          "0615343": 6,
+          "0615344": 8,
+          "0615345": 6,
+          "0615390": 8,
+          "0615431": 6,
+          "0615432": 3,
+          "0615433": 7,
+          "0615434": 5,
+          "0615435": 8,
+          "0613453": 8,
+          "0615454": 7,
+          "0615490": 7,
+          "0614101": 7,
+          "0614204": 5,
+          "0612341": 4
+        }
+      },
+      "CIS": {
+        "info": {
+          "status": "FEASIBLE",
+          "inferred": true,
+          "method": "balanced_prerequisites_v2",
+          "credits": 132
+        },
+        "semesters": {
+          "0614100": 2,
+          "0250100": 3,
+          "0201101": 3,
+          "0202101": 1,
+          "0100102": 4,
+          "0100104": 5,
+          "0100171": 1,
+          "0205181": 7,
+          "1900160": 1,
+          "0613101": 1,
+          "0612102": 2,
+          "0303106": 2,
+          "0302106": 5,
+          "0612112": 1,
+          "0302131": 4,
+          "0302241": 6,
+          "0202100": 3,
+          "0613102": 3,
+          "0612117": 2,
+          "0612118": 3,
+          "0614204": 2,
+          "0614211": 5,
+          "0612312": 7,
+          "0612214": 4,
+          "0612215": 4,
+          "0612222": 6,
+          "0612223": 6,
+          "0613313": 2,
+          "0613316": 3,
+          "0612316": 5,
+          "0612317": 6,
+          "0612321": 7,
+          "0612331": 4,
+          "0612332": 5,
+          "0612333": 7,
+          "0612341": 5,
+          "0612342": 8,
+          "0612347": 8,
+          "0613390": 8,
+          "0615432": 4,
+          "0613435": 8,
+          "0612435": 8,
+          "0613445": 7,
+          "0613453": 8,
+          "0613456": 4,
+          "0613457": 7,
+          "0613490": 7,
+          "0615334": 6,
+          "0614351": 6,
+          "0615433": 6
+        }
+      },
+      "CS": {
+        "info": {
+          "status": "OPTIMAL",
+          "inferred": true,
+          "method": "balanced_prerequisites_v2",
+          "credits": 132
+        },
+        "semesters": {
+          "0614100": 5,
+          "0250100": 7,
+          "0201101": 4,
+          "0202101": 6,
+          "0100102": 4,
+          "0100104": 5,
+          "0100171": 2,
+          "0205181": 1,
+          "1900160": 2,
+          "0613101": 1,
+          "0612102": 1,
+          "0302106": 1,
+          "0303106": 2,
+          "0612112": 1,
+          "0302131": 3,
+          "0302241": 7,
+          "0202100": 3,
+          "0612117": 2,
+          "0612118": 3,
+          "0612201": 2,
+          "0614204": 3,
+          "0614211": 4,
+          "0612312": 2,
+          "0612214": 4,
+          "0612215": 4,
+          "0612222": 5,
+          "0612223": 7,
+          "0511231": 8,
+          "0613313": 3,
+          "0612316": 6,
+          "0613316": 8,
+          "0612317": 7,
+          "0612318": 7,
+          "0612329": 7,
+          "0612321": 6,
+          "0612331": 4,
+          "0612332": 5,
+          "0612333": 8,
+          "0612341": 5,
+          "0612347": 5,
+          "0612342": 7,
+          "0612390": 8,
+          "0612412": 3,
+          "0612413": 8,
+          "0612414": 8,
+          "0613435": 6,
+          "0613458": 8,
+          "0612490": 7,
+          "0615431": 6,
+          "0613456": 4,
+          "0613457": 5,
+          "0612491": 6
+        }
+      },
+      "CYBER": {
+        "info": {
+          "status": "FEASIBLE",
+          "inferred": true,
+          "method": "balanced_prerequisites_v2",
+          "credits": 132
+        },
+        "semesters": {
+          "0614100": 2,
+          "0250100": 5,
+          "0201101": 4,
+          "0202101": 1,
+          "0100102": 1,
+          "0100104": 5,
+          "0100171": 1,
+          "0205181": 2,
+          "1900160": 6,
+          "0613101": 1,
+          "0612102": 1,
+          "0302106": 2,
+          "0303106": 7,
+          "0612112": 1,
+          "0302131": 3,
+          "0302241": 5,
+          "0202100": 2,
+          "0612117": 2,
+          "0612118": 2,
+          "0616151": 2,
+          "0614211": 4,
+          "0616212": 4,
+          "0612312": 4,
+          "0612214": 3,
+          "0612215": 3,
+          "0612222": 4,
+          "0612223": 4,
+          "0511231": 3,
+          "0511234": 4,
+          "0612321": 6,
+          "0511336": 8,
+          "0612332": 5,
+          "0612333": 8,
+          "0612341": 3,
+          "0612347": 4,
+          "0616352": 5,
+          "0616353": 7,
+          "0616390": 6,
+          "0615431": 6,
+          "0612435": 7,
+          "0512443": 8,
+          "0616451": 7,
+          "0616454": 6,
+          "0616462": 7,
+          "0616463": 7,
+          "0616464": 8,
+          "0616490": 6,
+          "0614101": 3,
+          "0613313": 3,
+          "0614351": 5
+        }
+      },
+      "SE": {
+        "info": {
+          "status": "OPTIMAL",
+          "inferred": true,
+          "method": "balanced_prerequisites_v2",
+          "credits": 132
+        },
+        "semesters": {
+          "0614100": 6,
+          "0250100": 4,
+          "0201101": 3,
+          "0202101": 1,
+          "0100102": 1,
+          "0100104": 4,
+          "0100171": 4,
+          "0205181": 2,
+          "1900160": 7,
+          "0613101": 1,
+          "0612102": 2,
+          "0302106": 1,
+          "0303106": 3,
+          "0612112": 1,
+          "0302131": 4,
+          "0302241": 3,
+          "0202100": 2,
+          "0613102": 2,
+          "0612117": 2,
+          "0612118": 4,
+          "0614204": 3,
+          "0614211": 5,
+          "0612312": 3,
+          "0612214": 5,
+          "0612215": 6,
+          "0612222": 7,
+          "0612223": 7,
+          "0511231": 5,
+          "0613313": 2,
+          "0612316": 8,
+          "0612317": 8,
+          "0612321": 8,
+          "0614323": 4,
+          "0612331": 5,
+          "0612332": 7,
+          "0511233": 6,
+          "0612333": 8,
+          "0612341": 8,
+          "0612347": 7,
+          "0614351": 5,
+          "0614390": 7,
+          "0614422": 8,
+          "0614445": 8,
+          "0614448": 5,
+          "0613456": 3,
+          "0613457": 4,
+          "0614490": 7,
+          "0613316": 6,
+          "0613452": 6,
+          "0613453": 6
+        }
+      }
+    },
+    "excluded_unknown_second_semester_intakes": [
+      {
+        "program_id": "SE",
+        "intake_year": 2023
+      },
+      {
+        "program_id": "CS",
+        "intake_year": 2023
+      },
+      {
+        "program_id": "AI",
+        "intake_year": 2023
+      },
+      {
+        "program_id": "CYBER",
+        "intake_year": 2023
+      },
+      {
+        "program_id": "CIS",
+        "intake_year": 2023
+      },
+      {
+        "program_id": "SE",
+        "intake_year": 2024
+      },
+      {
+        "program_id": "CS",
+        "intake_year": 2024
+      },
+      {
+        "program_id": "AI",
+        "intake_year": 2024
+      },
+      {
+        "program_id": "CYBER",
+        "intake_year": 2024
+      },
+      {
+        "program_id": "CIS",
+        "intake_year": 2024
+      },
+      {
+        "program_id": "SE",
+        "intake_year": 2025
+      },
+      {
+        "program_id": "CS",
+        "intake_year": 2025
+      },
+      {
+        "program_id": "AI",
+        "intake_year": 2025
+      },
+      {
+        "program_id": "CYBER",
+        "intake_year": 2025
+      },
+      {
+        "program_id": "CIS",
+        "intake_year": 2025
+      },
+      {
+        "program_id": "SE",
+        "intake_year": 2026
+      },
+      {
+        "program_id": "CS",
+        "intake_year": 2026
+      },
+      {
+        "program_id": "AI",
+        "intake_year": 2026
+      },
+      {
+        "program_id": "CYBER",
+        "intake_year": 2026
+      },
+      {
+        "program_id": "CIS",
+        "intake_year": 2026
+      }
+    ],
+    "course_coverage": [
+      {
+        "course_code": "0612099",
+        "course_name": "حاسوب استدراكي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612102",
+        "course_name": "الرياضيات المتقطعة",
+        "students": 288,
+        "modeled_students": 288,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612112",
+        "course_name": "لغة برمجة (1)",
+        "students": 758,
+        "modeled_students": 758,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612114",
+        "course_name": "لغة البرمجة ++C",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612116",
+        "course_name": "لغة برمجة (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612117",
+        "course_name": "لغة برمجة (2)",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612118",
+        "course_name": "مختبر لغة برمجة (2)",
+        "students": 244,
+        "modeled_students": 244,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612201",
+        "course_name": "النظرية الاحتسابية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0612213",
+        "course_name": "البرمجة الشيئية (1)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612214",
+        "course_name": "البرمجة الشيئية (1)",
+        "students": 514,
+        "modeled_students": 514,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612215",
+        "course_name": "مختبر البرمجة الشيئية (1)",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612222",
+        "course_name": "تراكيب البيانات",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612223",
+        "course_name": "مختبر تراكيب البيانات",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612313",
+        "course_name": "البرمجة بلغة مرئية (1)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612315",
+        "course_name": "البرمجة الشيئية (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612321",
+        "course_name": "خوارزميات الحاسوب",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612331",
+        "course_name": "نظم تشغيل الحاسوب",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612332",
+        "course_name": "مقدمة في شبكات الحاسوب",
+        "students": 662,
+        "modeled_students": 662,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612342",
+        "course_name": "الذكاء الاصطناعي",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0612410",
+        "course_name": "البرمجة بلغة مرئية (2)",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0612412",
+        "course_name": "تصميم المترجمات",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0612490",
+        "course_name": "مشروع تخرج - علم الحاسوب",
+        "students": 96,
+        "modeled_students": 0,
+        "unmodeled_students": 96,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0612491",
+        "course_name": "موضوعات خاصة في علم الحاسوب",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613101",
+        "course_name": "أساسيات في تكنولوجيا المعلومات",
+        "students": 758,
+        "modeled_students": 758,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CIS": 148,
+          "CS": 96,
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613102",
+        "course_name": "مقدمة في نظم المعلومات",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613201",
+        "course_name": "مقدمة في نظم المعلومات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613212",
+        "course_name": "تحليل النظم",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613313",
+        "course_name": "نظم قواعد البيانات",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CS": 96,
+          "CYBER": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613316",
+        "course_name": "مقدمة في برمجة الذكاء الاصطناعي",
+        "students": 148,
+        "modeled_students": 148,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0613322",
+        "course_name": "إحدى لغات الجيل الرابع",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613341",
+        "course_name": "برمجة الإنترنت",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0613434",
+        "course_name": "نظم الوسائط المتعددة",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613435",
+        "course_name": "أمن نظم المعلومات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613442",
+        "course_name": "التجارة الإلكترونية",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613453",
+        "course_name": "استرجاع المعلومات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613454",
+        "course_name": "إدارة نظم قواعد البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613455",
+        "course_name": "النظم الخبيرة ودعم القرار",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0613458",
+        "course_name": "نظم دعم القرار وذكاء الأعمال",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0613490",
+        "course_name": "مشروع تخرج - نظم المعلومات الحاسوبية",
+        "students": 148,
+        "modeled_students": 0,
+        "unmodeled_students": 148,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0613491",
+        "course_name": "موضوعات خاصة في نظم المعلومات الحاسوبية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614100",
+        "course_name": "المهارات الرقمية",
+        "students": 192,
+        "modeled_students": 192,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614204",
+        "course_name": "مقدمة في هندسة البرمجيات",
+        "students": 514,
+        "modeled_students": 514,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96,
+          "CS": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614211",
+        "course_name": "قضايا مهنية وأخلاقية في الحوسبة",
+        "students": 470,
+        "modeled_students": 470,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CIS": 148,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614322",
+        "course_name": "مواصفات البرمجيات وتصميمها",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614323",
+        "course_name": "مواصفات وتصميم البرمجيات والتطبيقات الذكية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614351",
+        "course_name": "إدارة المشاريع البرمجية وجودتها",
+        "students": 418,
+        "modeled_students": 418,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "CYBER": 96,
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614390",
+        "course_name": "التدريب الميداني",
+        "students": 322,
+        "modeled_students": 0,
+        "unmodeled_students": 322,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0614421",
+        "course_name": "تفاعل الإنسان مع الحاسوب",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614422",
+        "course_name": "تفاعل الانسان مع الحاسوب والواجهات الذكية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614443",
+        "course_name": "فحص البرمجيات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0614445",
+        "course_name": "تطوير البرمجيات وتوثيقها",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0614448",
+        "course_name": "فحص البرمجيات والأنظمة الذكية",
+        "students": 322,
+        "modeled_students": 322,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "SE": 322
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0614490",
+        "course_name": "مشروع تخرج - هندسة البرمجيات",
+        "students": 322,
+        "modeled_students": 0,
+        "unmodeled_students": 322,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0614491",
+        "course_name": "موضوعات خاصة في هندسة البرمجيات",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615201",
+        "course_name": "برمجة علوم البيانات والذكاء الاصطناعي",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0615204",
+        "course_name": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615330",
+        "course_name": "أساسيات علم البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0615331",
+        "course_name": "هندسة البيانات",
+        "students": null,
+        "modeled_students": 0,
+        "unmodeled_students": null,
+        "program_allocation": {},
+        "reason": "no_exact_plan_code_match"
+      },
+      {
+        "course_code": "0615334",
+        "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615343",
+        "course_name": "التعلم الآلي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615344",
+        "course_name": "معالجة اللغات الطبيعية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615345",
+        "course_name": "الشبكات العصبية والتعلم العميق",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615390",
+        "course_name": "التدريب الميداني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0615431",
+        "course_name": "الحوسبة السحابية",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0615432",
+        "course_name": "تنقيب البيانات",
+        "students": 96,
+        "modeled_students": 96,
+        "unmodeled_students": 0,
+        "program_allocation": {
+          "AI": 96
+        },
+        "reason": "fully_modeled"
+      },
+      {
+        "course_code": "0615490",
+        "course_name": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+        "students": 96,
+        "modeled_students": 0,
+        "unmodeled_students": 96,
+        "program_allocation": {},
+        "reason": "non_meeting_course"
+      },
+      {
+        "course_code": "0615491",
+        "course_name": "موضوعات خاصة في علم البيانات والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0616151",
+        "course_name": "أساسيات الأمن السيبراني",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      },
+      {
+        "course_code": "0616212",
+        "course_name": "برمجة الأمن السيبراني والذكاء الاصطناعي",
+        "students": 0,
+        "modeled_students": 0,
+        "unmodeled_students": 0,
+        "program_allocation": {},
+        "reason": "not_selected_this_semester"
+      }
+    ],
+    "assumptions": [
+      "All four first-semester intake cohorts are retained; no graduation, withdrawal or repeat rates were supplied.",
+      "The 288 combined CS/AI/CYBER intake is equally divided into estimated intakes of 96 per major.",
+      "Unknown second-semester intakes are excluded, not treated as confirmed zero.",
+      "Normal progression: 2026/2025/2024/2023 cohorts attend study semesters 1/3/5/7 in first semester 2026.",
+      "An inferred eight-semester, 132-credit plan respects strict prerequisites, permitted concurrency, elective limits and 90-credit thresholds.",
+      "Credit loads are balanced without using current offerings to choose semester parity; the inferred plan is not an official recommended study plan.",
+      "Estimated groups are demand batches; their members can attend different sections, each retaining the complete requested course combination.",
+      "Only currently offered exact course codes are assigned; unavailable planned courses are explicitly reported.",
+      "Enrollment among different reference delivery/equipment pools is proportional to their reference counts; these proportions remain estimates.",
+      "Legacy course codes without an exact plan match have unknown demand and are not assigned the old synthetic counts."
+    ]
+  },
+  "run_metadata": {
+    "generated_at": "2026-11-15T22:32:17.865417+00:00",
+    "python_version": "3.14.8",
+    "ortools_version": "9.15.6755",
+    "time_budget_seconds": 60,
+    "input_sha256": "36e58721eedfdf724ca280110146c196a2e22a41c77eef75cf53056acaf78bd0",
+    "demand_source": "intake_forecast",
+    "constraints": {
+      "rooms": true,
+      "student_groups": true,
+      "teachers": false
+    }
+  },
+  "data_quality": {
+    "operational_readiness": "not_certified",
+    "issues": [
+      {
+        "code": "unverified_room_capacities",
+        "count": 13,
+        "message": "Room capacities are assumed or unverified; capacity conclusions are scenario estimates."
+      },
+      {
+        "code": "teachers_not_modeled",
+        "count": 1,
+        "message": "Instructor assignments and availability are not protected in this scenario."
+      },
+      {
+        "code": "inferred_room_requirements",
+        "count": 27,
+        "message": "Equipment requirements inferred from historical room placement need verification; a past lab placement does not prove a mandatory lab requirement."
+      },
+      {
+        "code": "estimated_course_demand",
+        "count": 1,
+        "message": "Admissions and an inferred study plan are not actual course registrations."
+      },
+      {
+        "code": "unknown_course_demand",
+        "count": 18,
+        "message": "Reference course codes without an exact curriculum match have unknown demand."
+      },
+      {
+        "code": "missing_planned_course_registrations",
+        "count": 10874,
+        "message": "These planned student-course registrations have no offered teaching template and are not scheduled."
+      },
+      {
+        "code": "students_without_offered_courses",
+        "count": 192,
+        "message": "These students remain in the population forecast but have no modeled offered courses this term."
+      },
+      {
+        "code": "unknown_second_semester_intakes",
+        "count": 20,
+        "message": "Second-semester admissions are unknown and excluded from the estimate."
+      }
+    ],
+    "note": "A valid solver result certifies modeled hard constraints only; this audit does not certify a university timetable.",
+    "solver_status": "INFEASIBLE",
+    "has_valid_modeled_timetable": false,
+    "required_sections_lower_bound": 209
+  },
+  "timetable_export": {
+    "kind": "unscheduled_capacity_proposals",
+    "row_count": 209,
+    "has_assigned_times_and_rooms": false,
+    "has_group_section_assignments": false
+  }
+}

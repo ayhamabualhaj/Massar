@@ -2,6 +2,7 @@ from collections import defaultdict
 from itertools import combinations
 
 from .constraints import parallel_pairs
+from .staffing import check_teachers
 
 
 def _check_assignments(ctx, assignments, errors, metrics):
@@ -140,6 +141,7 @@ def inspect_solution(ctx, assignments):
     metrics = defaultdict(int)
     scheduled, room_meetings = _check_assignments(ctx, assignments, errors, metrics)
     _check_room_clashes(ctx, room_meetings, errors)
+    check_teachers(ctx, scheduled, errors)
     group_report = _check_group_clashes(ctx, scheduled, errors, metrics)
     _measure_preferences(ctx, scheduled, metrics)
 

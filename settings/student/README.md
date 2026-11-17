@@ -1,0 +1,1 @@
+Edit major_students.csv to set each major's student total. Edit students.csv to control how that total is spread across cohorts. The next normal run uses both files to project demand before CP-SAT.

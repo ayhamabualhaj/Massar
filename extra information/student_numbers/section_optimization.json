@@ -1,0 +1,175 @@
+{
+  "previous_sections": 191,
+  "opened_sections": 188,
+  "removed_sections": 3,
+  "target_sections": 188,
+  "configured_default_seconds": 1800,
+  "students": 1600,
+  "course_count": 111,
+  "source_trial": "fixed_membership_188",
+  "minimum_proven": true,
+  "section_lower_bound": 188,
+  "trials": [
+    {
+      "trial": "essential_large_room_layout",
+      "opened_sections": 190,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 3.2368526919963188,
+        "search_seconds": 121.05790693300514,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41824,
+        "workers": 8,
+        "observed_peak_rss_mb": 2538.3671875,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true,
+        "incumbent_retained": true
+      }
+    },
+    {
+      "trial": "expanded_routes",
+      "opened_sections": 194,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 1.170938039002067,
+        "search_seconds": 599.6056135320032,
+        "student_units": 296,
+        "candidate_sections": 11385,
+        "variables": 60834,
+        "workers": 8,
+        "observed_peak_rss_mb": 5488.01953125,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 2,
+        "incumbent_hint_applied": true
+      }
+    },
+    {
+      "trial": "fixed_membership_188",
+      "opened_sections": 188,
+      "minimum_proven": true,
+      "search_statistics": {
+        "backend": "fixed_membership",
+        "attempt": 0,
+        "workers": 4,
+        "route_limit": 4,
+        "observed_peak_rss_mb": 220.359375,
+        "memory_limit_mb": 16384,
+        "assignment_orders_attempted": 1,
+        "per_order_seconds": 25
+      }
+    },
+    {
+      "trial": "local_100_seat_room_188",
+      "opened_sections": 190,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 2.3626750280018314,
+        "search_seconds": 88.53813780700148,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41824,
+        "workers": 8,
+        "observed_peak_rss_mb": 1359.109375,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true,
+        "incumbent_retained": true
+      }
+    },
+    {
+      "trial": "local_retrieval_190",
+      "opened_sections": 190,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 2.111921834999521,
+        "search_seconds": 1.5279926599978353,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41802,
+        "workers": 8,
+        "observed_peak_rss_mb": 251.4609375,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true
+      }
+    },
+    {
+      "trial": "target_lower_bound",
+      "opened_sections": 197,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 2.355857238995668,
+        "search_seconds": 238.608768074002,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41802,
+        "workers": 8,
+        "observed_peak_rss_mb": 2721.15625,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true,
+        "incumbent_retained": true
+      }
+    },
+    {
+      "trial": "tight_capacity_target",
+      "opened_sections": 190,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 1.7935696479980834,
+        "search_seconds": 599.9754241409973,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41824,
+        "workers": 8,
+        "observed_peak_rss_mb": 2911.25390625,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true,
+        "incumbent_retained": true
+      }
+    },
+    {
+      "trial": "warm_start",
+      "opened_sections": 191,
+      "minimum_proven": false,
+      "search_statistics": {
+        "build_seconds": 0.5826026310023735,
+        "search_seconds": 600.1925496449985,
+        "student_units": 148,
+        "candidate_sections": 11385,
+        "variables": 41802,
+        "workers": 8,
+        "observed_peak_rss_mb": 2871.7578125,
+        "memory_limit_mb": 16384,
+        "stopped_for_memory": false,
+        "backend": "room_time_slots",
+        "route_limit": 1,
+        "incumbent_hint_applied": true
+      }
+    }
+  ],
+  "stopped_after_optimum_found": [
+    "resumed_188_search",
+    "capacity_guided_188"
+  ],
+  "earlier_runs_without_final_record": [
+    "extended_188_search",
+    "target_188_extended",
+    "checkpoint_188_search"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "operational_readiness": "not_certified",
+  "issues": [
+    {
+      "code": "unverified_room_capacities",
+      "count": 5,
+      "message": "Room capacities are assumed or unverified; capacity conclusions are scenario estimates."
+    },
+    {
+      "code": "unverified_external_room_inventory",
+      "count": 4,
+      "message": "External rooms are estimated placeholders; actual outside-room inventory and fixed meeting times have not been supplied."
+    },
+    {
+      "code": "teachers_not_modeled",
+      "count": 1,
+      "message": "Instructor assignments and availability are not protected in this scenario."
+    },
+    {
+      "code": "inferred_room_requirements",
+      "count": 21,
+      "message": "Equipment requirements inferred from historical room placement need verification; a past lab placement does not prove a mandatory lab requirement."
+    },
+    {
+      "code": "estimated_meeting_patterns",
+      "count": 32,
+      "message": "Weekly contact patterns are approved estimates, not verified university teaching hours."
+    },
+    {
+      "code": "estimated_course_demand",
+      "count": 1,
+      "message": "Admissions and an inferred study plan are not actual course registrations."
+    },
+    {
+      "code": "unknown_second_semester_intakes",
+      "count": 20,
+      "message": "Second-semester admissions are unknown and excluded from the estimate."
+    }
+  ],
+  "user_confirmed_computer_courses": 26,
+  "note": "A valid solver result certifies modeled hard constraints only; this audit does not certify a university timetable.",
+  "solver_status": "FEASIBLE",
+  "has_valid_modeled_timetable": true,
+  "required_sections_lower_bound": 168
+}

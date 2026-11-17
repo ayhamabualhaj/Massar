@@ -1,0 +1,8 @@
+﻿issue,count,explanation
+unverified_room_capacities,5,Room capacities are assumed or unverified; capacity conclusions are scenario estimates.
+unverified_external_room_inventory,4,External rooms are estimated placeholders; actual outside-room inventory and fixed meeting times have not been supplied.
+teachers_not_modeled,1,Instructor assignments and availability are not protected in this scenario.
+inferred_room_requirements,21,Equipment requirements inferred from historical room placement need verification; a past lab placement does not prove a mandatory lab requirement.
+estimated_meeting_patterns,32,"Weekly contact patterns are approved estimates, not verified university teaching hours."
+estimated_course_demand,1,Admissions and an inferred study plan are not actual course registrations.
+unknown_second_semester_intakes,20,Second-semester admissions are unknown and excluded from the estimate.

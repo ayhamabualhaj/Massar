@@ -1,0 +1,87 @@
+{
+  "selected_students": 1600,
+  "maximum_population_proven": false,
+  "trials": [
+    {
+      "trial": "1000",
+      "students": 1000,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 120.38255090400344,
+      "route_limit": 3
+    },
+    {
+      "trial": "1200_routes1",
+      "students": 1200,
+      "status": "FEASIBLE",
+      "has_solution": true,
+      "opened_sections": 167,
+      "seconds": 241.9092512779971,
+      "route_limit": 1
+    },
+    {
+      "trial": "1600",
+      "students": 1600,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 120.51920563999738,
+      "route_limit": 3
+    },
+    {
+      "trial": "1600_first",
+      "students": 1600,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 180.9847425439948,
+      "route_limit": 1
+    },
+    {
+      "trial": "1600_hint",
+      "students": 1600,
+      "status": "FEASIBLE",
+      "has_solution": true,
+      "opened_sections": 197,
+      "seconds": 120.33162505800283,
+      "route_limit": 1
+    },
+    {
+      "trial": "1600_routes1",
+      "students": 1600,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 181.27886205699906,
+      "route_limit": 1
+    },
+    {
+      "trial": "1800_routes1",
+      "students": 1800,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 240.7238960859977,
+      "route_limit": 1
+    },
+    {
+      "trial": "2000",
+      "students": 2000,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 120.92365029400389,
+      "route_limit": 3
+    },
+    {
+      "trial": "2000_routes1",
+      "students": 2000,
+      "status": "UNKNOWN",
+      "has_solution": false,
+      "opened_sections": null,
+      "seconds": 301.54112858299777,
+      "route_limit": 1
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿رقم المادة,اسم المادة,الساعات المعتمدة,متطلب القاعة,بدائل اللقاء,الحالة
+0202100,مهارات اللغة الإنجليزية في تكنولوجيا,3,lecture,UTT60 | MW90,estimated_user_approved
+0302106,تفاضل وتكامل لطلبة الحاسوب,3,lecture,UTT60 | MW90,estimated_user_approved
+0302131,مبادئ في الإحصاء والاحتمالات,3,lecture,UTT60 | MW90,estimated_user_approved
+0302241,جبر خطي (1),3,lecture,UTT60 | MW90,estimated_user_approved
+0303106,الفيزياء العامة لطلبة الحاسوب,3,lecture,UTT60 | MW90,estimated_user_approved
+0511231,تصميم الدارات المنطقية,3,lecture,UTT60 | MW90,estimated_user_approved
+0511234,مختبر تصميم الدارات المنطقية,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0511336,مختبر شبكات الحاسوب,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0512443,مختبر أمن الشبكات,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0612312,تحليل النظم,3,lecture,UTT60 | MW90,estimated_user_approved
+0612316,البرمجة بلغة مرئية (1),2,lecture,UT60,estimated_user_approved
+0612317,مختبر البرمجة بلغة مرئية (1),1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0612318,البرمجة الشيئية (2),2,lecture,UT60,estimated_user_approved
+0612329,مختبر البرمجة الشيئية (2),1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0612333,مختبر خوارزميات الحاسوب,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0612347,مختبر برمجة الإنترنت,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0612413,البرمجة بلغة مرئية (2),2,lecture,UT60,estimated_user_approved
+0612414,مختبر البرمجة بلغة مرئية (2),1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0615205,أساسيات علم البيانات,2,lecture,UT60,estimated_user_approved
+0615206,مختبر أساسيات علم البيانات,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0615207,هندسة البيانات,2,lecture,UT60,estimated_user_approved
+0615208,مختبر هندسة البيانات,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0615434,الحوسبة عالية الأداء والبيانات الضخمة,3,lecture,UTT60 | MW90,estimated_user_approved
+0615435,مختبر إنترنت الأشياء,1,computers,ESTIMATED_SINGLE60_D7 | ESTIMATED_SINGLE60_D1 | ESTIMATED_SINGLE60_D2 | ESTIMATED_SINGLE60_D3 | ESTIMATED_SINGLE60_D4,estimated_user_approved
+0615454,الإبصار الحاسوبي,3,lecture,UTT60 | MW90,estimated_user_approved
+0616352,التشفير,3,lecture,UTT60 | MW90,estimated_user_approved
+0616353,بروتوكولات الاتصالات الآمنة,3,lecture,UTT60 | MW90,estimated_user_approved
+0616451,أمن البنية التحتية باستخدام لينكس,3,lecture,UTT60 | MW90,estimated_user_approved
+0616454,أمن البيانات والبرمجيات باستخدام آر,3,lecture,UTT60 | MW90,estimated_user_approved
+0616462,تطبيقات الحوسبة السحابية باستخدام آر,3,lecture,UTT60 | MW90,estimated_user_approved
+0616463,الحوسبة السحابية المتقدمة,3,lecture,UTT60 | MW90,estimated_user_approved
+0616464,أمن الحوسبة السحابية,3,lecture,UTT60 | MW90,estimated_user_approved

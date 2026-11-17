@@ -215,6 +215,7 @@ def _resolve_groups(groups, active, events, section_events):
             f"{group_id}: repeated section.",
         )
         need(whole(group.get("students"), 1, 100000), f"{group_id}: invalid students.")
+        need(type(group.get('splittable', False)) is bool, f'{group_id}: splittable must be Boolean.')
         event_ids = sorted({section_events[section_id] for section_id in section_ids})
         resolved[group_id] = dict(group, event_ids=event_ids)
         for event_id in event_ids:
@@ -266,7 +267,15 @@ def prepare(data):
         isinstance(data, dict) and data.get("schema_version") == "2.0",
         "Expected schema_version 2.0.",
     )
-    need(data.get("teachers_enabled") is False, "Teacher scheduling is not implemented.")
+    need(type(data.get('teachers_enabled')) is bool, 'teachers_enabled must be Boolean.')
+    teachers = index_records(data.get('teachers', []), 'teachers')
+    for tid, teacher in teachers.items():
+        maximum = teacher.get('max_weekly_minutes')
+        need(maximum is None or whole(maximum, 0, 7*1440), f'{tid}: invalid teaching load.')
+    # Availability uses the same interval validation/normalization as rooms.
+    if teachers:
+        _validate_rooms({tid: dict(t, type='teacher', capacity=1) for tid, t in teachers.items()})
+    teachers = _merge_blackouts(teachers)
     rooms = index_records(data.get("rooms"), "rooms")
     sections = index_records(data.get("sections"), "sections")
     groups = index_records(data.get("groups"), "groups")
@@ -289,13 +298,34 @@ def prepare(data):
         )
     _validate_patterns(patterns)
     active = _active_sections(sections, patterns, compatibility)
+    if data['teachers_enabled']:
+        for sid, section in active.items():
+            ids = section.get('teacher_ids')
+            need(isinstance(ids, list) and ids and all(isinstance(t, str) and t in teachers for t in ids)
+                 and len(set(ids)) == len(ids), f'{sid}: explicit qualified teacher_ids required.')
+    options = data.get('section_pattern_options', {})
+    need(isinstance(options, dict), 'section_pattern_options must be an object.')
+    for sid, ids in options.items():
+        need(sid in active and isinstance(ids, list) and ids
+             and all(isinstance(pid, str) and pid in patterns for pid in ids),
+             f'{sid}: unknown or invalid pattern option.')
+        source = patterns[active[sid]['pattern_id']]
+        minutes = len(source['days']) * source['duration']
+        need(all(len(patterns[pid]['days']) * patterns[pid]['duration'] == minutes for pid in ids),
+             f'{sid}: pattern option changes weekly teaching hours.')
     events, section_events = _resolve_events(sections, active, shared_classes)
+    if data['teachers_enabled']:
+        for eid, event in events.items():
+            qualified = set.intersection(*(set(active[sid]['teacher_ids']) for sid in event['source_ids']))
+            need(bool(qualified), f'{eid}: shared members have no common qualified teacher.')
+            event['teacher_ids'] = sorted(qualified)
     resolved_groups = _resolve_groups(groups, active, events, section_events)
     _validate_objective(data)
 
     return {
         "data": data,
         "rooms": rooms,
+        "teachers": teachers,
         "sections": sections,
         "patterns": patterns,
         "events": events,
