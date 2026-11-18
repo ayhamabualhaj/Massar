@@ -1,4 +1,4 @@
-> **Current settings:** Nine university-listed computer labs plus LAB_DUAL are configured. `settings/student/major_students.csv` now sets 891 estimated students across five majors for the next intake-based CP-SAT run. The saved `masar_v2_output/` timetable is from the earlier 1,600-student run; rerun `main.py` to apply the new major totals. Older scenario descriptions below are historical.
+> **Current output:** `masar_v2_output/timetable.csv` is the five-major, 891-student scenario from the nine source plan images. It uses the current course switches and excludes university-required and university-elective courses. The validated result has 123 timed sections and 27 room-free project/training rows. Older scenario descriptions below are historical.
 
 # Masar
 
@@ -13,7 +13,8 @@ python -m pip install -r requirements.txt
 ```
 
 Right-click `main.py` and choose **Run**. Results are saved in `masar_v2_output/` as JSON and CSV.
-The default scheduling budget is 600 seconds (10 minutes); override it with `--seconds`.
+The default scheduling budget is 240 seconds (4 minutes). `--seconds` may be set
+up to 285 seconds, keeping the CP-SAT search below five minutes.
 
 The default solver sums the current `students` values for each course and opens
 the minimum feasible number of sections. Room capacity limits the enrollment of
@@ -35,19 +36,25 @@ The original section templates are preserved in `data/masar_section_templates.js
 `عدد الطلبة`. Entries with `no_meeting_days` and unknown enrollment are excluded
 from section planning and listed in `section_plan.unplanned_section_ids` instead.
 The reference contains 46 non-meeting entries. Intake mode reports their course demand separately; they never consume timed room sections.
+Graduation project demand is divided into groups of five students. When a final group
+would have fewer than five, those students are assigned to existing project groups,
+which may then have six students. A project enrollment that cannot be divided into
+groups of five or six is rejected rather than creating an undersized group. Field
+training remains one room-free activity per course.
 To schedule a fixed section list (including explicit `shared_classes`), call
 `solve(data, plan_sections=False)`.
 
 ## Files
 
 - `main.py`: application entry point.
+- `course_requirements/`: five major course lists, combined curriculum, full degree-plan context, and nine source photographs.
 - `settings/`: editable major intake counts, classroom/lab capacities, and course on/off switches; see [settings instructions](settings/README.md). These CSV values are loaded on each normal intake-based run. The older root `settings.yaml` has been replaced.
 - `masar/`: validation, scheduling constraints, solver, result checker, and reporting.
 - `data/masar_data_v2.json`: editable scheduling input.
 - `docs/`: Arabic and English reference PDFs and the original sample HTML timetable.
 - `tests/`: fixed-section scheduling tests and enrollment-based section planning tests.
 - `extra information/`: organized folders for student numbers, inferred student groups, and university schedule references.
-- `masar_v2_output/`: generated timetable CSV and detailed solver results.
+- `masar_v2_output/`: active timetable, per-major views, detailed results, and archived historical runs.
 
 Run the tests from the project root:
 
@@ -336,7 +343,7 @@ The original 197-section timetable is archived under `masar_v2_output/archive/be
 
 The current timetable is OPTIMAL for section count: **188 teaching sections for 1,600 students**, plus ten room-free activities. All 111 courses and every course's enrollment total are preserved. The previous 191-section timetable is archived under `masar_v2_output/archive/before_188_section_search/`. The active CSV has 198 rows; every timed section has an assigned room and time, and independent checking found zero hard violations. `optimality_certificate` in `result.json` records equality between the 188-section capacity lower bound and the validated 188-section timetable.
 
-The default search budget in `main.py` is now **1,800 seconds (30 minutes)**. The compact model has valid large-room capacity covers that strengthen propagation while still permitting more small-room sections when a larger room is unavailable. The successful alternative search assigned the same students to minimum-capacity sections in a coherent order, split estimated batches as permitted, and then scheduled all sections jointly. It preserved complete course bundles; it did not reduce demand or change room capacities or teaching windows. The successful attempt is saved in `masar_v2_output/section_optimization/fixed_membership_188/`, including its search source.
+At the time of that run, the default search budget was **1,800 seconds (30 minutes)**; the current limit is described at the top of this file. The compact model has valid large-room capacity covers that strengthen propagation while still permitting more small-room sections when a larger room is unavailable. The successful alternative search assigned the same students to minimum-capacity sections in a coherent order, split estimated batches as permitted, and then scheduled all sections jointly. It preserved complete course bundles; it did not reduce demand or change room capacities or teaching windows. The successful attempt is saved in `masar_v2_output/archive/section_optimization/fixed_membership_188/`, including its search source.
 
 The saved input uses up to four timetable routes per estimated batch so `main.py` can reuse the optimal incumbent. Restart tests verify that a matching saved 188-section timetable survives a short search. Instructors remain unmodeled and external rooms remain scenario estimates. The section minimum is proved for these modeled assumptions. Other searches were stopped once the bound was attained. All 116 regression tests pass.
 

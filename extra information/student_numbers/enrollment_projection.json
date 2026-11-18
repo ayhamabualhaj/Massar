@@ -1,6 +1,6 @@
 {
-  "estimated_students": 1600,
-  "represented_students": 1600,
+  "estimated_students": 891,
+  "represented_students": 891,
   "plan_fingerprint": "cafa7914536715369a7ae7f28cf8698e9c77d7a2af15a0bd1c2ab506d859fae1",
   "study_path_fingerprint": "e58b9d171ece424189221af57f5f78adeee7839900808f3abda5bcfd5252e629",
   "study_paths": {
@@ -2282,7 +2282,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2354,7 +2354,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2424,7 +2424,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2497,7 +2497,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2578,7 +2578,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2650,7 +2650,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2722,7 +2722,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2792,7 +2792,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_AI_2023_S1",
       "assumed_completed_course_codes": [
@@ -2866,7 +2866,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -2924,7 +2924,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -2984,7 +2984,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3044,7 +3044,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3108,7 +3108,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3166,7 +3166,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3224,7 +3224,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3282,7 +3282,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_AI_2024_S1",
       "assumed_completed_course_codes": [
@@ -3340,7 +3340,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3387,7 +3387,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3434,7 +3434,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3479,7 +3479,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3529,7 +3529,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3576,7 +3576,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3623,7 +3623,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3670,7 +3670,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_AI_2025_S1",
       "assumed_completed_course_codes": [
@@ -3717,7 +3717,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3746,7 +3746,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 7,
+      "students": 6,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3777,7 +3777,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 7,
+      "students": 5,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3806,7 +3806,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [
@@ -3843,7 +3843,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3872,7 +3872,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3901,7 +3901,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3930,7 +3930,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 6,
+      "students": 5,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_AI_2026_S1",
       "assumed_completed_course_codes": [],
@@ -3959,7 +3959,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CIS_2023_S1",
       "assumed_completed_course_codes": [
@@ -4029,7 +4029,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CIS_2023_S1",
       "assumed_completed_course_codes": [
@@ -4098,7 +4098,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CIS_2023_S1",
       "assumed_completed_course_codes": [
@@ -4172,7 +4172,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CIS_2023_S1",
       "assumed_completed_course_codes": [
@@ -4251,7 +4251,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CIS_2023_S1",
       "assumed_completed_course_codes": [
@@ -4329,7 +4329,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CIS_2024_S1",
       "assumed_completed_course_codes": [
@@ -4385,7 +4385,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CIS_2024_S1",
       "assumed_completed_course_codes": [
@@ -4445,7 +4445,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CIS_2024_S1",
       "assumed_completed_course_codes": [
@@ -4501,7 +4501,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CIS_2024_S1",
       "assumed_completed_course_codes": [
@@ -4567,7 +4567,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CIS_2024_S1",
       "assumed_completed_course_codes": [
@@ -4629,7 +4629,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CIS_2025_S1",
       "assumed_completed_course_codes": [
@@ -4672,7 +4672,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CIS_2025_S1",
       "assumed_completed_course_codes": [
@@ -4715,7 +4715,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CIS_2025_S1",
       "assumed_completed_course_codes": [
@@ -4760,7 +4760,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CIS_2025_S1",
       "assumed_completed_course_codes": [
@@ -4811,7 +4811,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CIS_2025_S1",
       "assumed_completed_course_codes": [
@@ -4862,7 +4862,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CIS_2026_S1",
       "assumed_completed_course_codes": [],
@@ -4889,7 +4889,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CIS_2026_S1",
       "assumed_completed_course_codes": [],
@@ -4918,7 +4918,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 16,
+      "students": 10,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CIS_2026_S1",
       "assumed_completed_course_codes": [],
@@ -4945,7 +4945,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CIS_2026_S1",
       "assumed_completed_course_codes": [
@@ -4984,7 +4984,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 15,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CIS_2026_S1",
       "assumed_completed_course_codes": [
@@ -5022,7 +5022,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 11,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CS_2023_S1",
       "assumed_completed_course_codes": [
@@ -5175,7 +5175,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CS_2023_S1",
       "assumed_completed_course_codes": [
@@ -5251,7 +5251,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CS_2023_S1",
       "assumed_completed_course_codes": [
@@ -5333,7 +5333,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CS_2023_S1",
       "assumed_completed_course_codes": [
@@ -5417,7 +5417,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 11,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CS_2024_S1",
       "assumed_completed_course_codes": [
@@ -5531,7 +5531,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CS_2024_S1",
       "assumed_completed_course_codes": [
@@ -5587,7 +5587,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CS_2024_S1",
       "assumed_completed_course_codes": [
@@ -5652,7 +5652,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CS_2024_S1",
       "assumed_completed_course_codes": [
@@ -5717,7 +5717,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 11,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CS_2025_S1",
       "assumed_completed_course_codes": [
@@ -5809,7 +5809,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CS_2025_S1",
       "assumed_completed_course_codes": [
@@ -5850,7 +5850,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CS_2025_S1",
       "assumed_completed_course_codes": [
@@ -5899,7 +5899,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CS_2025_S1",
       "assumed_completed_course_codes": [
@@ -5948,7 +5948,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 11,
+      "students": 10,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CS_2026_S1",
       "assumed_completed_course_codes": [],
@@ -6008,7 +6008,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CS_2026_S1",
       "assumed_completed_course_codes": [],
@@ -6037,7 +6037,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CS_2026_S1",
       "assumed_completed_course_codes": [
@@ -6074,7 +6074,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 10,
+      "students": 9,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CS_2026_S1",
       "assumed_completed_course_codes": [
@@ -6111,7 +6111,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6185,7 +6185,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6260,7 +6260,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6341,7 +6341,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6419,7 +6419,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6498,7 +6498,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6572,7 +6572,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6649,7 +6649,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6726,7 +6726,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P9",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6803,7 +6803,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P10",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6880,7 +6880,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P11",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -6957,7 +6957,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P12",
       "parent_cohort_id": "INTAKE_CYBER_2023_S1",
       "assumed_completed_course_codes": [
@@ -7034,7 +7034,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7094,7 +7094,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7154,7 +7154,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7212,7 +7212,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7281,7 +7281,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7347,7 +7347,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7405,7 +7405,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7474,7 +7474,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7543,7 +7543,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P9",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7612,7 +7612,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P10",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7681,7 +7681,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P11",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7750,7 +7750,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P12",
       "parent_cohort_id": "INTAKE_CYBER_2024_S1",
       "assumed_completed_course_codes": [
@@ -7819,7 +7819,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -7866,7 +7866,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -7913,7 +7913,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -7960,7 +7960,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8018,7 +8018,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8076,7 +8076,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8123,7 +8123,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8181,7 +8181,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8239,7 +8239,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P9",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8297,7 +8297,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P10",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8355,7 +8355,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P11",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8413,7 +8413,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P12",
       "parent_cohort_id": "INTAKE_CYBER_2025_S1",
       "assumed_completed_course_codes": [
@@ -8471,7 +8471,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 5,
+      "students": 4,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [],
@@ -8500,7 +8500,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [],
@@ -8529,7 +8529,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [],
@@ -8556,7 +8556,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8596,7 +8596,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8636,7 +8636,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [],
@@ -8665,7 +8665,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P7",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8705,7 +8705,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P8",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8745,7 +8745,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P9",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8785,7 +8785,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P10",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8825,7 +8825,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 5,
+      "students": 3,
       "study_path_id": "P11",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8867,7 +8867,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 4,
+      "students": 3,
       "study_path_id": "P12",
       "parent_cohort_id": "INTAKE_CYBER_2026_S1",
       "assumed_completed_course_codes": [
@@ -8907,7 +8907,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 29,
+      "students": 8,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -8980,7 +8980,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -9050,7 +9050,7 @@
       "study_semester": 7,
       "calendar_study_semester": 7,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -9123,7 +9123,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -9202,7 +9202,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -9280,7 +9280,7 @@
       "study_semester": 8,
       "calendar_study_semester": 7,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_SE_2023_S1",
       "assumed_completed_course_codes": [
@@ -9359,7 +9359,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 29,
+      "students": 8,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9419,7 +9419,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9479,7 +9479,7 @@
       "study_semester": 5,
       "calendar_study_semester": 5,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9537,7 +9537,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9594,7 +9594,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9656,7 +9656,7 @@
       "study_semester": 6,
       "calendar_study_semester": 5,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_SE_2024_S1",
       "assumed_completed_course_codes": [
@@ -9716,7 +9716,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 29,
+      "students": 8,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9759,7 +9759,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9804,7 +9804,7 @@
       "study_semester": 3,
       "calendar_study_semester": 3,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9845,7 +9845,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9892,7 +9892,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9941,7 +9941,7 @@
       "study_semester": 4,
       "calendar_study_semester": 3,
       "progression_offset": 1,
-      "students": 28,
+      "students": 7,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_SE_2025_S1",
       "assumed_completed_course_codes": [
@@ -9988,7 +9988,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 29,
+      "students": 8,
       "study_path_id": "P1",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [],
@@ -10017,7 +10017,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P2",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [],
@@ -10046,7 +10046,7 @@
       "study_semester": 1,
       "calendar_study_semester": 1,
       "progression_offset": 0,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P3",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [],
@@ -10075,7 +10075,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P4",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [
@@ -10116,7 +10116,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 28,
+      "students": 8,
       "study_path_id": "P5",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [
@@ -10155,7 +10155,7 @@
       "study_semester": 2,
       "calendar_study_semester": 1,
       "progression_offset": 1,
-      "students": 28,
+      "students": 7,
       "study_path_id": "P6",
       "parent_cohort_id": "INTAKE_SE_2026_S1",
       "assumed_completed_course_codes": [
@@ -10579,463 +10579,325 @@
     {
       "course_code": "0202100",
       "course_name": "مهارات اللغة الإنجليزية في تكنولوجيا",
-      "students": 233,
-      "modeled_students": 233,
+      "students": 124,
+      "modeled_students": 124,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 20,
-        "CIS": 32,
-        "CS": 31,
-        "CYBER": 38,
-        "SE": 112
+        "AI": 17,
+        "CIS": 20,
+        "CS": 29,
+        "CYBER": 27,
+        "SE": 31
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0302106",
       "course_name": "تفاضل وتكامل لطلبة الحاسوب",
-      "students": 200,
-      "modeled_students": 200,
+      "students": 110,
+      "modeled_students": 110,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 38,
-        "CIS": 32,
-        "CS": 11,
-        "CYBER": 34,
-        "SE": 85
+        "AI": 32,
+        "CIS": 20,
+        "CS": 10,
+        "CYBER": 24,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0302131",
       "course_name": "مبادئ في الإحصاء والاحتمالات",
-      "students": 175,
-      "modeled_students": 175,
+      "students": 89,
+      "modeled_students": 89,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 7,
-        "CIS": 46,
-        "CS": 21,
-        "CYBER": 17,
-        "SE": 84
+        "AI": 6,
+        "CIS": 28,
+        "CS": 19,
+        "CYBER": 13,
+        "SE": 23
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0302241",
       "course_name": "جبر خطي (1)",
-      "students": 178,
-      "modeled_students": 178,
+      "students": 93,
+      "modeled_students": 93,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 13,
-        "CIS": 46,
-        "CS": 21,
-        "CYBER": 13,
-        "SE": 85
+        "AI": 11,
+        "CIS": 28,
+        "CS": 20,
+        "CYBER": 10,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0303106",
       "course_name": "الفيزياء العامة لطلبة الحاسوب",
-      "students": 204,
-      "modeled_students": 204,
+      "students": 118,
+      "modeled_students": 118,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 31,
-        "CIS": 30,
-        "CS": 40,
-        "CYBER": 18,
-        "SE": 85
+        "AI": 26,
+        "CIS": 18,
+        "CS": 37,
+        "CYBER": 13,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0511231",
       "course_name": "تصميم الدارات المنطقية",
-      "students": 94,
-      "modeled_students": 94,
+      "students": 47,
+      "modeled_students": 47,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CS": 20,
-        "CYBER": 17,
-        "SE": 57
+        "CS": 18,
+        "CYBER": 13,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0511234",
       "course_name": "مختبر تصميم الدارات المنطقية",
-      "students": 34,
-      "modeled_students": 34,
+      "students": 24,
+      "modeled_students": 24,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 34
+        "CYBER": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0511336",
       "course_name": "مختبر شبكات الحاسوب",
-      "students": 38,
-      "modeled_students": 38,
+      "students": 28,
+      "modeled_students": 28,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 38
+        "CYBER": 28
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0512443",
       "course_name": "مختبر أمن الشبكات",
-      "students": 38,
-      "modeled_students": 38,
+      "students": 28,
+      "modeled_students": 28,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 38
+        "CYBER": 28
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612102",
       "course_name": "الرياضيات المتقطعة",
-      "students": 252,
-      "modeled_students": 252,
+      "students": 139,
+      "modeled_students": 139,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 45,
-        "CIS": 47,
-        "CS": 31,
-        "CYBER": 17,
-        "SE": 112
+        "AI": 37,
+        "CIS": 29,
+        "CS": 29,
+        "CYBER": 13,
+        "SE": 31
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612112",
       "course_name": "لغة برمجة (1)",
-      "students": 226,
-      "modeled_students": 226,
+      "students": 133,
+      "modeled_students": 133,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 45,
-        "CIS": 48,
-        "CS": 31,
-        "CYBER": 17,
-        "SE": 85
+        "AI": 37,
+        "CIS": 30,
+        "CS": 29,
+        "CYBER": 13,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612117",
       "course_name": "لغة برمجة (2)",
-      "students": 174,
-      "modeled_students": 174,
+      "students": 88,
+      "modeled_students": 88,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 6,
-        "CIS": 30,
-        "CS": 20,
-        "CYBER": 34,
-        "SE": 84
+        "AI": 5,
+        "CIS": 18,
+        "CS": 18,
+        "CYBER": 24,
+        "SE": 23
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612118",
       "course_name": "مختبر لغة برمجة (2)",
-      "students": 231,
-      "modeled_students": 231,
+      "students": 119,
+      "modeled_students": 119,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 6,
-        "CIS": 48,
-        "CS": 31,
-        "CYBER": 34,
-        "SE": 112
+        "AI": 5,
+        "CIS": 30,
+        "CS": 29,
+        "CYBER": 24,
+        "SE": 31
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612201",
       "course_name": "النظرية الاحتسابية",
-      "students": 30,
-      "modeled_students": 30,
+      "students": 28,
+      "modeled_students": 28,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CS": 30
+        "CS": 28
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612214",
       "course_name": "البرمجة الشيئية (1)",
-      "students": 197,
-      "modeled_students": 197,
+      "students": 111,
+      "modeled_students": 111,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 45,
-        "CIS": 30,
-        "CS": 20,
-        "CYBER": 17,
-        "SE": 85
+        "AI": 38,
+        "CIS": 18,
+        "CS": 18,
+        "CYBER": 13,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612215",
       "course_name": "مختبر البرمجة الشيئية (1)",
-      "students": 168,
-      "modeled_students": 168,
+      "students": 103,
+      "modeled_students": 103,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 45,
-        "CIS": 30,
-        "CS": 20,
-        "CYBER": 17,
-        "SE": 56
+        "AI": 38,
+        "CIS": 18,
+        "CS": 18,
+        "CYBER": 13,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612222",
       "course_name": "تراكيب البيانات",
-      "students": 206,
-      "modeled_students": 206,
+      "students": 113,
+      "modeled_students": 113,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 20,
-        "CIS": 46,
-        "CS": 21,
-        "CYBER": 34,
-        "SE": 85
+        "AI": 17,
+        "CIS": 28,
+        "CS": 20,
+        "CYBER": 24,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612223",
       "course_name": "مختبر تراكيب البيانات",
-      "students": 225,
-      "modeled_students": 225,
+      "students": 126,
+      "modeled_students": 126,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 13,
-        "CIS": 62,
-        "CS": 31,
-        "CYBER": 34,
-        "SE": 85
+        "AI": 11,
+        "CIS": 38,
+        "CS": 29,
+        "CYBER": 24,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612312",
       "course_name": "تحليل النظم",
-      "students": 191,
-      "modeled_students": 191,
+      "students": 120,
+      "modeled_students": 120,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 38,
-        "CIS": 32,
-        "CS": 30,
-        "CYBER": 34,
-        "SE": 57
+        "AI": 32,
+        "CIS": 20,
+        "CS": 28,
+        "CYBER": 24,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612316",
       "course_name": "البرمجة بلغة مرئية (1)",
-      "students": 148,
-      "modeled_students": 148,
+      "students": 60,
+      "modeled_students": 60,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 16,
-        "CS": 20,
-        "SE": 112
+        "CIS": 10,
+        "CS": 18,
+        "SE": 32
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612317",
       "course_name": "مختبر البرمجة بلغة مرئية (1)",
-      "students": 151,
-      "modeled_students": 151,
+      "students": 71,
+      "modeled_students": 71,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 46,
-        "CS": 21,
-        "SE": 84
+        "CIS": 28,
+        "CS": 19,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612318",
       "course_name": "البرمجة الشيئية (2)",
-      "students": 21,
-      "modeled_students": 21,
+      "students": 20,
+      "modeled_students": 20,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CS": 21
+        "CS": 20
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612321",
       "course_name": "خوارزميات الحاسوب",
-      "students": 216,
-      "modeled_students": 216,
+      "students": 124,
+      "modeled_students": 124,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 7,
-        "CIS": 47,
-        "CS": 40,
-        "CYBER": 38,
-        "SE": 84
+        "AI": 6,
+        "CIS": 29,
+        "CS": 37,
+        "CYBER": 28,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0612329",
       "course_name": "مختبر البرمجة الشيئية (2)",
-      "students": 11,
-      "modeled_students": 11,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CS": 11
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612331",
-      "course_name": "نظم تشغيل الحاسوب",
-      "students": 170,
-      "modeled_students": 170,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 31,
-        "CIS": 30,
-        "CS": 20,
-        "CYBER": 4,
-        "SE": 85
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612332",
-      "course_name": "مقدمة في شبكات الحاسوب",
-      "students": 181,
-      "modeled_students": 181,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 20,
-        "CIS": 48,
-        "CS": 11,
-        "CYBER": 17,
-        "SE": 85
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612333",
-      "course_name": "مختبر خوارزميات الحاسوب",
-      "students": 245,
-      "modeled_students": 245,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 45,
-        "CIS": 48,
-        "CS": 30,
-        "CYBER": 38,
-        "SE": 84
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612342",
-      "course_name": "الذكاء الاصطناعي",
-      "students": 117,
-      "modeled_students": 117,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 45,
-        "CIS": 31,
-        "CS": 41
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612347",
-      "course_name": "مختبر برمجة الإنترنت",
-      "students": 143,
-      "modeled_students": 143,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CIS": 31,
-        "CS": 21,
-        "CYBER": 34,
-        "SE": 57
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612390",
-      "course_name": "التدريب الميداني",
-      "students": 30,
-      "modeled_students": 0,
-      "unmodeled_students": 30,
-      "program_allocation": {
-        "CS": 30
-      },
-      "reason": "non_meeting_course"
-    },
-    {
-      "course_code": "0612412",
-      "course_name": "تصميم المترجمات",
-      "students": 31,
-      "modeled_students": 31,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CS": 31
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612413",
-      "course_name": "البرمجة بلغة مرئية (2)",
-      "students": 20,
-      "modeled_students": 20,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CS": 20
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612414",
-      "course_name": "مختبر البرمجة بلغة مرئية (2)",
-      "students": 20,
-      "modeled_students": 20,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CS": 20
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0612490",
-      "course_name": "مشروع تخرج - علم الحاسوب",
-      "students": 31,
-      "modeled_students": 0,
-      "unmodeled_students": 31,
-      "program_allocation": {
-        "CS": 31
-      },
-      "reason": "non_meeting_course"
-    },
-    {
-      "course_code": "0612491",
-      "course_name": "موضوعات خاصة في علم الحاسوب",
       "students": 10,
       "modeled_students": 10,
       "unmodeled_students": 0,
@@ -11045,283 +10907,399 @@
       "reason": "fully_modeled"
     },
     {
-      "course_code": "0613101",
-      "course_name": "أساسيات في تكنولوجيا المعلومات",
-      "students": 156,
-      "modeled_students": 156,
+      "course_code": "0612331",
+      "course_name": "نظم تشغيل الحاسوب",
+      "students": 89,
+      "modeled_students": 89,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 45,
-        "CIS": 16,
-        "CS": 21,
-        "CYBER": 17,
-        "SE": 57
+        "AI": 26,
+        "CIS": 18,
+        "CS": 18,
+        "CYBER": 3,
+        "SE": 24
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612332",
+      "course_name": "مقدمة في شبكات الحاسوب",
+      "students": 94,
+      "modeled_students": 94,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 17,
+        "CIS": 30,
+        "CS": 10,
+        "CYBER": 13,
+        "SE": 24
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612333",
+      "course_name": "مختبر خوارزميات الحاسوب",
+      "students": 147,
+      "modeled_students": 147,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 38,
+        "CIS": 30,
+        "CS": 27,
+        "CYBER": 28,
+        "SE": 24
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612342",
+      "course_name": "الذكاء الاصطناعي",
+      "students": 95,
+      "modeled_students": 95,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 38,
+        "CIS": 19,
+        "CS": 38
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612347",
+      "course_name": "مختبر برمجة الإنترنت",
+      "students": 79,
+      "modeled_students": 79,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CIS": 19,
+        "CS": 20,
+        "CYBER": 24,
+        "SE": 16
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612390",
+      "course_name": "التدريب الميداني",
+      "students": 27,
+      "modeled_students": 0,
+      "unmodeled_students": 27,
+      "program_allocation": {
+        "CS": 27
+      },
+      "reason": "non_meeting_course"
+    },
+    {
+      "course_code": "0612412",
+      "course_name": "تصميم المترجمات",
+      "students": 29,
+      "modeled_students": 29,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CS": 29
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612413",
+      "course_name": "البرمجة بلغة مرئية (2)",
+      "students": 18,
+      "modeled_students": 18,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CS": 18
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612414",
+      "course_name": "مختبر البرمجة بلغة مرئية (2)",
+      "students": 18,
+      "modeled_students": 18,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CS": 18
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0612490",
+      "course_name": "مشروع تخرج - علم الحاسوب",
+      "students": 29,
+      "modeled_students": 0,
+      "unmodeled_students": 29,
+      "program_allocation": {
+        "CS": 29
+      },
+      "reason": "non_meeting_course"
+    },
+    {
+      "course_code": "0612491",
+      "course_name": "موضوعات خاصة في علم الحاسوب",
+      "students": 9,
+      "modeled_students": 9,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CS": 9
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0613101",
+      "course_name": "أساسيات في تكنولوجيا المعلومات",
+      "students": 95,
+      "modeled_students": 95,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 37,
+        "CIS": 10,
+        "CS": 19,
+        "CYBER": 13,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613102",
       "course_name": "مقدمة في نظم المعلومات",
-      "students": 160,
-      "modeled_students": 160,
+      "students": 61,
+      "modeled_students": 61,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 48,
-        "SE": 112
+        "CIS": 30,
+        "SE": 31
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613313",
       "course_name": "نظم قواعد البيانات",
-      "students": 198,
-      "modeled_students": 198,
+      "students": 93,
+      "modeled_students": 93,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 20,
-        "CIS": 46,
-        "CS": 11,
-        "CYBER": 9,
-        "SE": 112
+        "AI": 17,
+        "CIS": 28,
+        "CS": 10,
+        "CYBER": 7,
+        "SE": 31
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613316",
       "course_name": "مقدمة في برمجة الذكاء الاصطناعي",
-      "students": 144,
-      "modeled_students": 144,
+      "students": 83,
+      "modeled_students": 83,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 48,
-        "CS": 40,
-        "SE": 56
+        "CIS": 30,
+        "CS": 37,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613390",
       "course_name": "التدريب الميداني",
-      "students": 31,
+      "students": 19,
       "modeled_students": 0,
-      "unmodeled_students": 31,
+      "unmodeled_students": 19,
       "program_allocation": {
-        "CIS": 31
+        "CIS": 19
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0613434",
       "course_name": "نظم الوسائط المتعددة",
-      "students": 15,
-      "modeled_students": 15,
+      "students": 9,
+      "modeled_students": 9,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 15
+        "CIS": 9
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613435",
       "course_name": "أمن نظم المعلومات",
-      "students": 76,
-      "modeled_students": 76,
+      "students": 56,
+      "modeled_students": 56,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 46,
-        "CS": 30
+        "CIS": 28,
+        "CS": 28
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613453",
       "course_name": "استرجاع المعلومات",
-      "students": 80,
-      "modeled_students": 80,
+      "students": 41,
+      "modeled_students": 41,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 6,
-        "CIS": 46,
-        "SE": 28
+        "AI": 5,
+        "CIS": 28,
+        "SE": 8
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613458",
       "course_name": "نظم دعم القرار وذكاء الأعمال",
-      "students": 20,
-      "modeled_students": 20,
+      "students": 18,
+      "modeled_students": 18,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CS": 20
+        "CS": 18
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0613490",
       "course_name": "مشروع تخرج - نظم المعلومات الحاسوبية",
-      "students": 16,
+      "students": 10,
       "modeled_students": 0,
-      "unmodeled_students": 16,
+      "unmodeled_students": 10,
       "program_allocation": {
-        "CIS": 16
+        "CIS": 10
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0613491",
       "course_name": "موضوعات خاصة في نظم المعلومات الحاسوبية",
-      "students": 15,
-      "modeled_students": 15,
+      "students": 9,
+      "modeled_students": 9,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 15
+        "CIS": 9
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614204",
       "course_name": "مقدمة في هندسة البرمجيات",
-      "students": 177,
-      "modeled_students": 177,
+      "students": 93,
+      "modeled_students": 93,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 25,
-        "CIS": 46,
-        "CS": 21,
-        "SE": 85
+        "AI": 21,
+        "CIS": 28,
+        "CS": 20,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614211",
       "course_name": "قضايا مهنية وأخلاقية في الحوسبة",
-      "students": 153,
-      "modeled_students": 153,
+      "students": 88,
+      "modeled_students": 88,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 32,
-        "CS": 30,
-        "CYBER": 34,
-        "SE": 57
+        "CIS": 20,
+        "CS": 28,
+        "CYBER": 24,
+        "SE": 16
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614323",
       "course_name": "مواصفات وتصميم البرمجيات والتطبيقات الذكية",
-      "students": 84,
-      "modeled_students": 84,
+      "students": 23,
+      "modeled_students": 23,
       "unmodeled_students": 0,
       "program_allocation": {
-        "SE": 84
+        "SE": 23
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614351",
       "course_name": "إدارة المشاريع البرمجية وجودتها",
-      "students": 105,
-      "modeled_students": 105,
+      "students": 37,
+      "modeled_students": 37,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CIS": 15,
-        "CYBER": 5,
-        "SE": 85
+        "CIS": 9,
+        "CYBER": 4,
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614390",
       "course_name": "التدريب الميداني",
-      "students": 57,
+      "students": 16,
       "modeled_students": 0,
-      "unmodeled_students": 57,
+      "unmodeled_students": 16,
       "program_allocation": {
-        "SE": 57
+        "SE": 16
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0614422",
       "course_name": "تفاعل الانسان مع الحاسوب والواجهات الذكية",
-      "students": 84,
-      "modeled_students": 84,
+      "students": 24,
+      "modeled_students": 24,
       "unmodeled_students": 0,
       "program_allocation": {
-        "SE": 84
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614445",
       "course_name": "تطوير البرمجيات وتوثيقها",
-      "students": 112,
-      "modeled_students": 112,
+      "students": 32,
+      "modeled_students": 32,
       "unmodeled_students": 0,
       "program_allocation": {
-        "SE": 112
+        "SE": 32
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614448",
       "course_name": "فحص البرمجيات والأنظمة الذكية",
-      "students": 85,
-      "modeled_students": 85,
+      "students": 24,
+      "modeled_students": 24,
       "unmodeled_students": 0,
       "program_allocation": {
-        "SE": 85
+        "SE": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0614490",
       "course_name": "مشروع تخرج - هندسة البرمجيات",
-      "students": 57,
+      "students": 16,
       "modeled_students": 0,
-      "unmodeled_students": 57,
+      "unmodeled_students": 16,
       "program_allocation": {
-        "SE": 57
+        "SE": 16
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0614491",
       "course_name": "موضوعات خاصة في هندسة البرمجيات",
-      "students": 28,
-      "modeled_students": 28,
+      "students": 8,
+      "modeled_students": 8,
       "unmodeled_students": 0,
       "program_allocation": {
-        "SE": 28
+        "SE": 8
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0615201",
       "course_name": "برمجة علوم البيانات والذكاء الاصطناعي",
-      "students": 45,
-      "modeled_students": 45,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 45
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615204",
-      "course_name": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
-      "students": 13,
-      "modeled_students": 13,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 13
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615205",
-      "course_name": "أساسيات علم البيانات",
       "students": 38,
       "modeled_students": 38,
       "unmodeled_students": 0,
@@ -11331,146 +11309,19 @@
       "reason": "fully_modeled"
     },
     {
-      "course_code": "0615206",
-      "course_name": "مختبر أساسيات علم البيانات",
-      "students": 31,
-      "modeled_students": 31,
+      "course_code": "0615204",
+      "course_name": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
+      "students": 11,
+      "modeled_students": 11,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 31
+        "AI": 11
       },
       "reason": "fully_modeled"
     },
     {
-      "course_code": "0615207",
-      "course_name": "هندسة البيانات",
-      "students": 6,
-      "modeled_students": 6,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 6
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615208",
-      "course_name": "مختبر هندسة البيانات",
-      "students": 20,
-      "modeled_students": 20,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 20
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615334",
-      "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
-      "students": 25,
-      "modeled_students": 25,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CIS": 15,
-        "CS": 10
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615343",
-      "course_name": "التعلم الآلي",
-      "students": 22,
-      "modeled_students": 22,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 6,
-        "CIS": 16
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615344",
-      "course_name": "معالجة اللغات الطبيعية",
-      "students": 13,
-      "modeled_students": 13,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 13
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615345",
-      "course_name": "الشبكات العصبية والتعلم العميق",
-      "students": 6,
-      "modeled_students": 6,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 6
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615390",
-      "course_name": "التدريب الميداني",
-      "students": 19,
-      "modeled_students": 0,
-      "unmodeled_students": 19,
-      "program_allocation": {
-        "AI": 19
-      },
-      "reason": "non_meeting_course"
-    },
-    {
-      "course_code": "0615431",
-      "course_name": "الحوسبة السحابية",
-      "students": 67,
-      "modeled_students": 67,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 13,
-        "CS": 20,
-        "CYBER": 34
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615432",
-      "course_name": "تنقيب البيانات",
-      "students": 88,
-      "modeled_students": 88,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 38,
-        "CIS": 46,
-        "CYBER": 4
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615434",
-      "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
-      "students": 31,
-      "modeled_students": 31,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 31
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615435",
-      "course_name": "مختبر إنترنت الأشياء",
-      "students": 6,
-      "modeled_students": 6,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "AI": 6
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0615454",
-      "course_name": "الإبصار الحاسوبي",
+      "course_code": "0615205",
+      "course_name": "أساسيات علم البيانات",
       "students": 32,
       "modeled_students": 32,
       "unmodeled_students": 0,
@@ -11480,107 +11331,234 @@
       "reason": "fully_modeled"
     },
     {
+      "course_code": "0615206",
+      "course_name": "مختبر أساسيات علم البيانات",
+      "students": 26,
+      "modeled_students": 26,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 26
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615207",
+      "course_name": "هندسة البيانات",
+      "students": 5,
+      "modeled_students": 5,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 5
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615208",
+      "course_name": "مختبر هندسة البيانات",
+      "students": 17,
+      "modeled_students": 17,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 17
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615334",
+      "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
+      "students": 19,
+      "modeled_students": 19,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CIS": 9,
+        "CS": 10
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615343",
+      "course_name": "التعلم الآلي",
+      "students": 15,
+      "modeled_students": 15,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 5,
+        "CIS": 10
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615344",
+      "course_name": "معالجة اللغات الطبيعية",
+      "students": 11,
+      "modeled_students": 11,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 11
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615345",
+      "course_name": "الشبكات العصبية والتعلم العميق",
+      "students": 5,
+      "modeled_students": 5,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 5
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615390",
+      "course_name": "التدريب الميداني",
+      "students": 16,
+      "modeled_students": 0,
+      "unmodeled_students": 16,
+      "program_allocation": {
+        "AI": 16
+      },
+      "reason": "non_meeting_course"
+    },
+    {
+      "course_code": "0615431",
+      "course_name": "الحوسبة السحابية",
+      "students": 54,
+      "modeled_students": 54,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 11,
+        "CS": 18,
+        "CYBER": 25
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615432",
+      "course_name": "تنقيب البيانات",
+      "students": 63,
+      "modeled_students": 63,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 32,
+        "CIS": 28,
+        "CYBER": 3
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615434",
+      "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
+      "students": 26,
+      "modeled_students": 26,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 26
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615435",
+      "course_name": "مختبر إنترنت الأشياء",
+      "students": 5,
+      "modeled_students": 5,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 5
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0615454",
+      "course_name": "الإبصار الحاسوبي",
+      "students": 27,
+      "modeled_students": 27,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "AI": 27
+      },
+      "reason": "fully_modeled"
+    },
+    {
       "course_code": "0615490",
       "course_name": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
-      "students": 44,
+      "students": 37,
       "modeled_students": 0,
-      "unmodeled_students": 44,
+      "unmodeled_students": 37,
       "program_allocation": {
-        "AI": 44
+        "AI": 37
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0615491",
       "course_name": "موضوعات خاصة في علم البيانات والذكاء الاصطناعي",
-      "students": 6,
-      "modeled_students": 6,
+      "students": 5,
+      "modeled_students": 5,
       "unmodeled_students": 0,
       "program_allocation": {
-        "AI": 6
+        "AI": 5
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616151",
       "course_name": "أساسيات الأمن السيبراني",
-      "students": 34,
-      "modeled_students": 34,
+      "students": 24,
+      "modeled_students": 24,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 34
+        "CYBER": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616212",
       "course_name": "برمجة الأمن السيبراني والذكاء الاصطناعي",
-      "students": 34,
-      "modeled_students": 34,
+      "students": 24,
+      "modeled_students": 24,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 34
+        "CYBER": 24
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616352",
       "course_name": "التشفير",
-      "students": 17,
-      "modeled_students": 17,
+      "students": 13,
+      "modeled_students": 13,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 17
+        "CYBER": 13
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616353",
       "course_name": "بروتوكولات الاتصالات الآمنة",
-      "students": 13,
-      "modeled_students": 13,
+      "students": 10,
+      "modeled_students": 10,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 13
+        "CYBER": 10
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616390",
       "course_name": "التدريب الميداني",
-      "students": 38,
+      "students": 28,
       "modeled_students": 0,
-      "unmodeled_students": 38,
+      "unmodeled_students": 28,
       "program_allocation": {
-        "CYBER": 38
+        "CYBER": 28
       },
       "reason": "non_meeting_course"
     },
     {
       "course_code": "0616451",
       "course_name": "أمن البنية التحتية باستخدام لينكس",
-      "students": 17,
-      "modeled_students": 17,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CYBER": 17
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0616454",
-      "course_name": "أمن البيانات والبرمجيات باستخدام آر",
-      "students": 34,
-      "modeled_students": 34,
-      "unmodeled_students": 0,
-      "program_allocation": {
-        "CYBER": 34
-      },
-      "reason": "fully_modeled"
-    },
-    {
-      "course_code": "0616462",
-      "course_name": "تطبيقات الحوسبة السحابية باستخدام آر",
       "students": 13,
       "modeled_students": 13,
       "unmodeled_students": 0,
@@ -11590,35 +11568,57 @@
       "reason": "fully_modeled"
     },
     {
-      "course_code": "0616463",
-      "course_name": "الحوسبة السحابية المتقدمة",
-      "students": 17,
-      "modeled_students": 17,
+      "course_code": "0616454",
+      "course_name": "أمن البيانات والبرمجيات باستخدام آر",
+      "students": 25,
+      "modeled_students": 25,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 17
+        "CYBER": 25
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0616462",
+      "course_name": "تطبيقات الحوسبة السحابية باستخدام آر",
+      "students": 10,
+      "modeled_students": 10,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CYBER": 10
+      },
+      "reason": "fully_modeled"
+    },
+    {
+      "course_code": "0616463",
+      "course_name": "الحوسبة السحابية المتقدمة",
+      "students": 13,
+      "modeled_students": 13,
+      "unmodeled_students": 0,
+      "program_allocation": {
+        "CYBER": 13
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616464",
       "course_name": "أمن الحوسبة السحابية",
-      "students": 34,
-      "modeled_students": 34,
+      "students": 25,
+      "modeled_students": 25,
       "unmodeled_students": 0,
       "program_allocation": {
-        "CYBER": 34
+        "CYBER": 25
       },
       "reason": "fully_modeled"
     },
     {
       "course_code": "0616490",
       "course_name": "مشروع تخرج - الأمن السيبراني والحوسبة السحابية",
-      "students": 34,
+      "students": 25,
       "modeled_students": 0,
-      "unmodeled_students": 34,
+      "unmodeled_students": 25,
       "program_allocation": {
-        "CYBER": 34
+        "CYBER": 25
       },
       "reason": "non_meeting_course"
     }
@@ -11642,6 +11642,6 @@
   ],
   "solver_status": "FEASIBLE",
   "has_timetable": true,
-  "required_sections_lower_bound": 168,
+  "required_sections_lower_bound": 121,
   "resource_diagnostics": []
 }

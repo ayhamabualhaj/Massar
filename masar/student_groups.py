@@ -15,7 +15,7 @@ from .validation import need, prepare
 
 DEFAULT_POLICY = {
     'enabled': True,
-    'source': 'course_requirements/course_requirements.json',
+    'source': 'course_requirements/five_majors_degree_plans.json',
     'method': 'prerequisite_layers_v1',
     'max_group_credits': 18,
     'max_group_courses': 6,
@@ -245,7 +245,7 @@ def with_plan_groups(data, curriculum, policy=None):
         course_coverage=coverage)
     output['group_inference'] = report
     provenance = output.setdefault('provenance', {})
-    provenance['plans'] = 'Nine 2026 degree-plan photos transcribed in course_requirements/course_requirements.json; used for inferred co-enrollment scenarios, not actual registrations.'
+    provenance['plans'] = 'Nine 2026 degree-plan photos transcribed in course_requirements/five_majors_degree_plans.json; used for inferred co-enrollment scenarios, not actual registrations.'
     provenance['group_basis'] = 'Generated from program-specific prerequisite levels and concurrency; enrollment-bounded, exact code matching, and documented assumptions in group_inference.'
     prepare(output)
     return output

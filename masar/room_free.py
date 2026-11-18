@@ -4,6 +4,30 @@ import copy
 from .validation import need, prepare
 
 
+def is_graduation_project(section):
+    return section.get('room_free_activity') and 'مشروع تخرج' in section['name_ar']
+
+
+def allocate_room_free_activity(section, students):
+    """Open project groups of five, allowing six to absorb a short remainder."""
+    need(type(students) is int and students > 0, 'Room-free activity needs positive enrollment.')
+    if not is_graduation_project(section):
+        return [dict(copy.deepcopy(section), students=students)]
+    count = (students + 5) // 6
+    need(students >= 5 * count,
+         f"{section['course_code']}: {students} project students cannot form groups of five or six.")
+    sizes = [6] * (students - 5 * count) + [5] * (6 * count - students)
+    result = []
+    for number, size in enumerate(sizes, 1):
+        group = copy.deepcopy(section)
+        group.update(id=f"{section['course_code']}_room_free_{number}",
+                     section_number=number, students=size)
+        group.setdefault('assumptions', []).append(
+            'Graduation project group: five students; six allowed when absorbing a remainder below five.')
+        result.append(group)
+    return result
+
+
 def with_room_free_activities(reference,curriculum,codes):
     output=copy.deepcopy(reference)
     catalog={r['course_code']:r for r in curriculum['records']}

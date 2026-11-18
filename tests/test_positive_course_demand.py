@@ -12,7 +12,7 @@ from masar.room_free import with_room_free_activities
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'data/masar_data_v2.json').read_text())
-CURRICULUM=json.loads((ROOT/'course_requirements/course_requirements.json').read_text())
+CURRICULUM=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
 POLICY=DATA['enrollment_generation']
 
 

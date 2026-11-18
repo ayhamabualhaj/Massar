@@ -12,13 +12,14 @@ from collections import Counter, defaultdict
 from ortools.sat.python import cp_model
 
 from .planning import _pool
+from .room_free import allocate_room_free_activity
 from .validation import need, prepare
 
 
 DEFAULT_POLICY = dict(
     enabled=True, reference_source='data/masar_section_templates.json',
     intake_source='extra information/student_numbers/student_expected_number_for_each_semester.csv',
-    curriculum_source='course_requirements/course_requirements.json',
+    curriculum_source='course_requirements/five_majors_degree_plans.json',
     current_year=2026, current_semester=1, years=4, semesters_per_year=2,
     scheduling_categories=None, study_paths_per_program=1,
     plan_semesters=8, max_semester_credits=18, retain_all_cohorts=True,
@@ -378,12 +379,18 @@ def with_intake_enrollments(reference,curriculum,intakes,policy=None, cached_pro
     need(not any(budgets.values()),'Cohort assignments did not conserve pool enrollment.')
     # Preserve every allowed pattern for each pool without adding its enrollment
     # again. The planner reads these as alternatives, not extra demanded sections.
-    output['sections']=list(refs.values())+[copy.deepcopy(s) for s in reference['sections']
-                                          if s['status']=='no_meeting_days' and s['course_code'] in allowed_codes]
-    for section in output['sections']:
-        if section.get('room_free_activity'):
-            section['students']=all_demand[section['course_code']]
-            section['enrollment_status']='estimated_from_intakes'
+    activities=[]
+    for section in reference['sections']:
+        if section['status']=='no_meeting_days' and section['course_code'] in allowed_codes:
+            if section.get('room_free_activity'):
+                if not all_demand[section['course_code']]:
+                    continue
+                for group in allocate_room_free_activity(section, all_demand[section['course_code']]):
+                    group['enrollment_status']='estimated_from_intakes'
+                    activities.append(group)
+            else:
+                activities.append(copy.deepcopy(section))
+    output['sections']=list(refs.values())+activities
     output['section_pattern_options']={refs[pool]['id']:sorted({s['pattern_id'] for s in templates})
                                        for pool,templates in pool_sections.items() if pool in refs}
     output['groups']=groups

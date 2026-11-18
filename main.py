@@ -73,13 +73,16 @@ def main(argv=None):
     parser.add_argument('--input', type=Path, help='Scheduling JSON (default: data/masar_data_v2.json).')
     parser.add_argument('--requests', type=Path, help='JSON list of explicit student course-request bundles.')
     parser.add_argument('--output', type=Path, help='Separate directory for a scenario run and its reports.')
-    parser.add_argument('--seconds', type=float, default=1800, help='Scheduling time budget in seconds (default: 1800 = 30 minutes).')
+    parser.add_argument('--seconds', type=float, default=240,
+                        help='Scheduling time budget in seconds (default: 240 = 4 minutes; maximum: 285).')
     parser.add_argument('--workers', type=int, choices=[1,2,4,8], help='Parallel section-search workers (default: input setting, otherwise 4).')
     parser.add_argument('--routes', type=int, choices=range(1,9), help='Maximum timetable routes per estimated group in compact search (default: input setting, otherwise 3).')
     parser.add_argument('--memory-mb', type=int, default=16384, help='Observed solver process memory budget (default: 16384 MB = 16 GB); sampled stop guard.')
     parser.add_argument('--fixed-sections', action='store_true', help='Keep the supplied section list; do not minimize its count.')
     parser.add_argument('--no-optimize', action='store_true', help='Skip second-stage timetable preferences.')
     args = parser.parse_args(argv)
+    if not 0 < args.seconds <= 285:
+        parser.error('--seconds must be greater than zero and at most 285 seconds (under five minutes).')
     if args.requests and args.fixed_sections:
         parser.error('--requests creates course demand; use section planning rather than --fixed-sections.')
     data = json.loads((args.input or root / 'data/masar_data_v2.json').read_text(encoding='utf-8'))

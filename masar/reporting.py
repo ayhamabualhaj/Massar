@@ -38,7 +38,8 @@ def _course_majors(data):
 def _room_free_rows(data, majors=None):
     majors = _course_majors(data) if majors is None else majors
     return [{"رقم المادة":s['course_code'],"اسم المادة":s['name_ar'],"الشعبة":s.get('section_number',1),
-             "عدد الطلبة":s['students'],"الحد الأقصى للطلبة":"لا يتطلب قاعة",
+             "عدد الطلبة":s['students'],"الحد الأقصى للطلبة":6 if 'مشروع تخرج' in s['name_ar'] and s['students']==6 else
+                 5 if 'مشروع تخرج' in s['name_ar'] else "لا يتطلب قاعة",
              "من":"—","إلى":"—","الأيام":"—","القاعة":"لا يتطلب قاعة",
              "مكان التدريس":"نشاط دون حجز قاعة","المدرس":"غير مسند",
              "ملاحظات":"؛ ".join(s.get('assumptions',[])),"الفئة":majors.get(s['course_code'],'غير محدد في الخطط الدراسية')}

@@ -7,6 +7,7 @@ import copy
 from collections import defaultdict
 
 from .planning import _pool
+from .room_free import allocate_room_free_activity
 from .validation import index_records, need, prepare, whole
 
 
@@ -63,8 +64,11 @@ def with_course_requests(reference, requests):
         options[seed['id']] = sorted({pid for s in templates
             for pid in [s['pattern_id']] + reference.get('section_pattern_options', {}).get(s['id'], [])})
     need(bool(seeds), 'Course requests must include at least one course with meeting times; room-free-only scheduling is not supported.')
-    room_free = [dict(copy.deepcopy(activities[code]), students=count, enrollment_status='supplied_course_requests')
-                 for code, count in sorted(activity_demand.items())]
+    room_free = []
+    for code, count in sorted(activity_demand.items()):
+        for section in allocate_room_free_activity(activities[code], count):
+            section['enrollment_status'] = 'supplied_course_requests'
+            room_free.append(section)
     output.update(sections=list(seeds.values()) + room_free, section_pattern_options=options,
         groups=[dict(id=rid, students=indexed[rid]['students'], course_codes=indexed[rid]['course_codes'],
                      section_ids=[seeds[key]['id'] for key in keys], splittable=True,

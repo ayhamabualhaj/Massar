@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class SettingsTests(unittest.TestCase):
     def test_course_switches_cover_current_timetable_and_allow_disabling(self):
-        catalog = json.loads((ROOT/'course_requirements/course_requirements.json').read_text())
+        catalog = json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
         codes = {record['course_code'] for record in catalog['records']}
         switches = read_course_switches(ROOT/'settings/courses', codes)
         with (ROOT/'masar_v2_output/timetable.csv').open(encoding='utf-8-sig', newline='') as stream:

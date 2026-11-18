@@ -18,7 +18,7 @@ REFERENCE=json.loads((ROOT/'masar_v2_output/archive/before_capacity_increase/dat
 # Preserve the overloaded 3,032-student regression scenario independently of active intake edits.
 BASELINE=ROOT/'masar_v2_output/archive/before_2300_students'
 SNAPSHOT=json.loads((BASELINE/'data/masar_data_v2.json').read_text())
-CURRICULUM=json.loads((ROOT/'course_requirements/course_requirements.json').read_text())
+CURRICULUM=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
 INTAKES=read_intakes(BASELINE/'extra information/student_numbers/student_expected_number_for_each_semester.csv')
 SNAPSHOT=with_intake_enrollments(REFERENCE,CURRICULUM,INTAKES,
     policy=SNAPSHOT['enrollment_generation'],cached_projection=SNAPSHOT['enrollment_projection'])

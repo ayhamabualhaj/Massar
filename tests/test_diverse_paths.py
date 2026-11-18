@@ -14,7 +14,7 @@ from masar.solver import solve
 
 ROOT=Path(__file__).resolve().parents[1]
 SNAPSHOT=json.loads((ROOT/'masar_v2_output/archive/before_positive_course_demand/data/masar_data_v2.json').read_text())
-CURRICULUM=json.loads((ROOT/'course_requirements/course_requirements.json').read_text())
+CURRICULUM=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
 POLICY=SNAPSHOT['enrollment_generation']
 _reference=with_estimated_meetings(json.loads((ROOT/POLICY['reference_source']).read_text()),CURRICULUM,POLICY['estimated_meeting_courses'])
 SNAPSHOT=with_intake_enrollments(_reference,CURRICULUM,read_intakes((ROOT/'masar_v2_output/archive/before_student_capacity_fit')/POLICY['intake_source']),policy=POLICY,cached_projection=SNAPSHOT['enrollment_projection'])

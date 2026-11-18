@@ -48,7 +48,7 @@ def with_estimated_meetings(reference, curriculum, course_codes):
                 unmodeled_student_count=1,meeting_pattern_status='estimated_user_approved',
                 assumptions=['User-approved estimated contact pattern: 3-credit lecture 3x60 or 2x90; 2-credit lecture 2x60; 1-credit lab one 60-minute meeting. Not an official meeting assignment.',
                              'Template enrollment is a placeholder; intake-derived demand replaces it, never adds to it.'],
-                sources=[dict(file='course_requirements/course_requirements.json',course_code=code,
+                sources=[dict(file='course_requirements/five_majors_degree_plans.json',course_code=code,
                               source_image=row.get('source_image',''))]))
         estimates.append(dict(course_code=code,course_name=row['course_name'],credits=credits,
                               room_requirement=requirement,pattern_ids=patterns,

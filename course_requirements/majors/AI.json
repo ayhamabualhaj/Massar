@@ -1,0 +1,1396 @@
+{
+  "program_id": "AI",
+  "program_name": "علم البيانات والذكاء الاصطناعي",
+  "included_categories": [
+    "تخصص إجباري",
+    "تخصص اختياري",
+    "كلية إجباري"
+  ],
+  "records": [
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613101",
+      "course_name": "أساسيات في تكنولوجيا المعلومات",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 1",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612102",
+      "course_name": "الرياضيات المتقطعة",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 2",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0303106",
+      "course_name": "الفيزياء العامة لطلبة الحاسوب",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 3",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0302106",
+      "course_name": "تفاضل وتكامل لطلبة الحاسوب",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 4",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612112",
+      "course_name": "لغة برمجة (1)",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 5",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0302131",
+      "course_name": "مبادئ في الإحصاء والاحتمالات",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612102",
+          "concurrent_allowed": false,
+          "course_name": "الرياضيات المتقطعة"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612102",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 6",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0302241",
+      "course_name": "جبر خطي (1)",
+      "credit_hours": 3,
+      "category": "كلية إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0302106",
+          "concurrent_allowed": false,
+          "course_name": "تفاضل وتكامل لطلبة الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0302106",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / كلية إجباري / الصف 7",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0202100",
+      "course_name": "مهارات اللغة الإنجليزية في تكنولوجيا",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0202099",
+          "concurrent_allowed": false,
+          "course_name": "الإنجليزية الاستدراكية"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0202099",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 1",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612117",
+      "course_name": "لغة برمجة (2)",
+      "credit_hours": 2,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612112",
+          "concurrent_allowed": false,
+          "course_name": "لغة برمجة (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612112",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 2",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612118",
+      "course_name": "مختبر لغة برمجة (2)",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612117",
+          "concurrent_allowed": true,
+          "course_name": "لغة برمجة (2)"
+        },
+        {
+          "column": 2,
+          "course_code": "0612112",
+          "concurrent_allowed": false,
+          "course_name": "لغة برمجة (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612117*",
+      "requirement_2_raw": "0612112",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 3",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615201",
+      "course_name": "برمجة علوم البيانات والذكاء الاصطناعي",
+      "credit_hours": 2,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612118",
+          "concurrent_allowed": false,
+          "course_name": "مختبر لغة برمجة (2)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612118",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 4",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615204",
+      "course_name": "مختبر برمجة علوم البيانات والذكاء الاصطناعي",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615201",
+          "concurrent_allowed": true,
+          "course_name": "برمجة علوم البيانات والذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615201*",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 5",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615205",
+      "course_name": "أساسيات علم البيانات",
+      "credit_hours": 2,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615201",
+          "concurrent_allowed": false,
+          "course_name": "برمجة علوم البيانات والذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615201",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 6",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615206",
+      "course_name": "مختبر أساسيات علم البيانات",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615205",
+          "concurrent_allowed": true,
+          "course_name": "أساسيات علم البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615205*",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 7",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615207",
+      "course_name": "هندسة البيانات",
+      "credit_hours": 2,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615201",
+          "concurrent_allowed": false,
+          "course_name": "برمجة علوم البيانات والذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615201",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 8",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615208",
+      "course_name": "مختبر هندسة البيانات",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615207",
+          "concurrent_allowed": false,
+          "course_name": "هندسة البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615207",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 9",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": "لا تظهر علامة تزامن في الصورة"
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612312",
+      "course_name": "تحليل النظم",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0613101",
+          "concurrent_allowed": false,
+          "course_name": "أساسيات في تكنولوجيا المعلومات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0613101",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأوسط / الجدول الأسفل / الصف 10",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612214",
+      "course_name": "البرمجة الشيئية (1)",
+      "credit_hours": 2,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612117",
+          "concurrent_allowed": false,
+          "course_name": "لغة برمجة (2)"
+        },
+        {
+          "column": 2,
+          "course_code": "0612118",
+          "concurrent_allowed": false,
+          "course_name": "مختبر لغة برمجة (2)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612117",
+      "requirement_2_raw": "0612118",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 1",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612215",
+      "course_name": "مختبر البرمجة الشيئية (1)",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612214",
+          "concurrent_allowed": true,
+          "course_name": "البرمجة الشيئية (1)"
+        },
+        {
+          "column": 2,
+          "course_code": "0612118",
+          "concurrent_allowed": false,
+          "course_name": "مختبر لغة برمجة (2)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612214*",
+      "requirement_2_raw": "0612118",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 2",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612222",
+      "course_name": "تراكيب البيانات",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612215",
+          "concurrent_allowed": false,
+          "course_name": "مختبر البرمجة الشيئية (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612215",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 3",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612223",
+      "course_name": "مختبر تراكيب البيانات",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612215",
+          "concurrent_allowed": false,
+          "course_name": "مختبر البرمجة الشيئية (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612215",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 4",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613313",
+      "course_name": "نظم قواعد البيانات",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612112",
+          "concurrent_allowed": false,
+          "course_name": "لغة برمجة (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612112",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 5",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612321",
+      "course_name": "خوارزميات الحاسوب",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612222",
+          "concurrent_allowed": false,
+          "course_name": "تراكيب البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612222",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 6",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612331",
+      "course_name": "نظم تشغيل الحاسوب",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612118",
+          "concurrent_allowed": false,
+          "course_name": "مختبر لغة برمجة (2)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612118",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 7",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612332",
+      "course_name": "مقدمة في شبكات الحاسوب",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612331",
+          "concurrent_allowed": false,
+          "course_name": "نظم تشغيل الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612331",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 8",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612333",
+      "course_name": "مختبر خوارزميات الحاسوب",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612223",
+          "concurrent_allowed": false,
+          "course_name": "مختبر تراكيب البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612223",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 9",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612342",
+      "course_name": "الذكاء الاصطناعي",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615207",
+          "concurrent_allowed": false,
+          "course_name": "هندسة البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615207",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 10",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615343",
+      "course_name": "التعلم الآلي",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612342",
+          "concurrent_allowed": false,
+          "course_name": "الذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612342",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 11",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615344",
+      "course_name": "معالجة اللغات الطبيعية",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612342",
+          "concurrent_allowed": false,
+          "course_name": "الذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612342",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 12",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615345",
+      "course_name": "الشبكات العصبية والتعلم العميق",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612342",
+          "concurrent_allowed": false,
+          "course_name": "الذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612342",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 13",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615390",
+      "course_name": "التدريب الميداني",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ن",
+      "requirements": [],
+      "minimum_completed_hours": 90,
+      "requirement_1_raw": "90 ساعة مجتازة",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 14",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": "رمز إ.س في المصدر: ن"
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615431",
+      "course_name": "الحوسبة السحابية",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612332",
+          "concurrent_allowed": false,
+          "course_name": "مقدمة في شبكات الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612332",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 15",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615432",
+      "course_name": "تنقيب البيانات",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0613313",
+          "concurrent_allowed": false,
+          "course_name": "نظم قواعد البيانات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0613313",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 16",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615433",
+      "course_name": "إنترنت الأشياء",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615343",
+          "concurrent_allowed": false,
+          "course_name": "التعلم الآلي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615343",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 17",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615434",
+      "course_name": "الحوسبة عالية الأداء والبيانات الضخمة",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0613313",
+          "concurrent_allowed": false,
+          "course_name": "نظم قواعد البيانات"
+        },
+        {
+          "column": 2,
+          "course_code": "0612332",
+          "concurrent_allowed": false,
+          "course_name": "مقدمة في شبكات الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0613313",
+      "requirement_2_raw": "0612332",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 18",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615435",
+      "course_name": "مختبر إنترنت الأشياء",
+      "credit_hours": 1,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615433",
+          "concurrent_allowed": false,
+          "course_name": "إنترنت الأشياء"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615433",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 19",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613453",
+      "course_name": "استرجاع المعلومات",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612331",
+          "concurrent_allowed": false,
+          "course_name": "نظم تشغيل الحاسوب"
+        },
+        {
+          "column": 2,
+          "course_code": "0615201",
+          "concurrent_allowed": false,
+          "course_name": "برمجة علوم البيانات والذكاء الاصطناعي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612331",
+      "requirement_2_raw": "0615201",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 20",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615454",
+      "course_name": "الإبصار الحاسوبي",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615343",
+          "concurrent_allowed": false,
+          "course_name": "التعلم الآلي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615343",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 21",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615490",
+      "course_name": "مشروع تخرج - علم البيانات والذكاء الاصطناعي",
+      "credit_hours": 3,
+      "category": "تخصص إجباري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [],
+      "minimum_completed_hours": 90,
+      "requirement_1_raw": "90 ساعة مجتازة",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأعلى / الصف 22",
+      "verification_status": "تحتاج تتمة الاسم إلى مراجعة الصورة",
+      "notes": "اسم المادة ممتد عند حافة العمود"
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0614101",
+      "course_name": "التسويق الإلكتروني",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0613101",
+          "concurrent_allowed": false,
+          "course_name": "أساسيات في تكنولوجيا المعلومات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0613101",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 1",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0614204",
+      "course_name": "مقدمة في هندسة البرمجيات",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0613101",
+          "concurrent_allowed": false,
+          "course_name": "أساسيات في تكنولوجيا المعلومات"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0613101",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 2",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613324",
+      "course_name": "نمذجة ومحاكاة النظم",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612321",
+          "concurrent_allowed": false,
+          "course_name": "خوارزميات الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612321",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 3",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612341",
+      "course_name": "برمجة الإنترنت",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612215",
+          "concurrent_allowed": false,
+          "course_name": "مختبر البرمجة الشيئية (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612215",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 4",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615354",
+      "course_name": "الروبوتات المتنقلة الذكية",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615343",
+          "concurrent_allowed": false,
+          "course_name": "التعلم الآلي"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615343",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 5",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0614422",
+      "course_name": "تفاعل الإنسان مع الحاسوب والواجهات",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612312",
+          "concurrent_allowed": false,
+          "course_name": "تحليل النظم"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612312",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 6",
+      "verification_status": "تحتاج تتمة الاسم إلى مراجعة الصورة",
+      "notes": "اسم المادة ممتد عند حافة العمود"
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613434",
+      "course_name": "نظم الوسائط المتعددة",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612215",
+          "concurrent_allowed": false,
+          "course_name": "مختبر البرمجة الشيئية (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612215",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 7",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613435",
+      "course_name": "أمن نظم المعلومات",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612332",
+          "concurrent_allowed": false,
+          "course_name": "مقدمة في شبكات الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612332",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 8",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0612435",
+      "course_name": "أمن الحاسوب والشبكات",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612332",
+          "concurrent_allowed": false,
+          "course_name": "مقدمة في شبكات الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612332",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 9",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615441",
+      "course_name": "ذكاء الأعمال",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615431",
+          "concurrent_allowed": false,
+          "course_name": "الحوسبة السحابية"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615431",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 10",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615442",
+      "course_name": "نمذجة البيانات ومحاكاتها",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0615431",
+          "concurrent_allowed": false,
+          "course_name": "الحوسبة السحابية"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0615431",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 11",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0613443",
+      "course_name": "تطوير تطبيقات الهواتف الذكية",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612215",
+          "concurrent_allowed": false,
+          "course_name": "مختبر البرمجة الشيئية (1)"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612215",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 12",
+      "verification_status": "منقول بصريًا من الصورة",
+      "notes": ""
+    },
+    {
+      "program_id": "AI",
+      "program_name": "علم البيانات والذكاء الاصطناعي",
+      "plan_year": 2026,
+      "course_code": "0615491",
+      "course_name": "موضوعات خاصة في علم البيانات والذكاء الاصطناعي",
+      "credit_hours": 3,
+      "category": "تخصص اختياري",
+      "elective_basket": "",
+      "source_symbol": "ع",
+      "requirements": [
+        {
+          "column": 1,
+          "course_code": "0612331",
+          "concurrent_allowed": false,
+          "course_name": "نظم تشغيل الحاسوب"
+        }
+      ],
+      "minimum_completed_hours": null,
+      "requirement_1_raw": "0612331",
+      "requirement_2_raw": "",
+      "source_image": "course_requirements/sources/plan-01.jpeg",
+      "source_original_filename": "WhatsApp Image 2026-11-14 at 9.33.53 PM.jpeg",
+      "source_position": "العمود الأيسر / الجدول الأسفل / الصف 13",
+      "verification_status": "تحتاج تتمة الاسم إلى مراجعة الصورة",
+      "notes": "اسم المادة ممتد عند حافة العمود"
+    }
+  ]
+}

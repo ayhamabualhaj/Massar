@@ -49,9 +49,10 @@ class RegistrationRepairTests(unittest.TestCase):
         self.assertEqual(len(requests['groups']),1)
         result=solve(requests,seconds=3,optimize=False)
         self.assertTrue(result['has_solution'],result['diagnostics'])
-        activity=next(row for row in table_rows(requests,result) if row['رقم المادة']=='PROJECT')
-        self.assertEqual(activity['عدد الطلبة'],23)
-        self.assertNotIn('الحالة',activity)
+        activities=[row for row in table_rows(requests,result) if row['رقم المادة']=='PROJECT']
+        self.assertEqual([row['عدد الطلبة'] for row in activities],[6,6,6,5])
+        self.assertEqual([row['الحد الأقصى للطلبة'] for row in activities],[6,6,6,5])
+        self.assertTrue(all('الحالة' not in row for row in activities))
 
     def test_failed_request_run_exports_counts_without_assigned_times(self):
         requests=with_course_requests(fixture((20,),capacity=30),

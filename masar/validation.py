@@ -110,6 +110,9 @@ def _active_sections(sections, patterns, compatibility):
             f"{section_id}: unknown status.",
         )
         if section["status"] == "no_meeting_days":
+            if section.get('room_free_activity') and 'مشروع تخرج' in section['name_ar'] and section.get('students') is not None:
+                need(whole(section['students'], 5, 6),
+                     f'{section_id}: graduation project section must have five or six students.')
             continue
 
         pattern_id = section.get("pattern_id")

@@ -41,5 +41,5 @@
   "note": "A valid solver result certifies modeled hard constraints only; this audit does not certify a university timetable.",
   "solver_status": "FEASIBLE",
   "has_valid_modeled_timetable": true,
-  "required_sections_lower_bound": 168
+  "required_sections_lower_bound": 121
 }

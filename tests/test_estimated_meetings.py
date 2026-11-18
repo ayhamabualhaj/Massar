@@ -16,7 +16,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class ApprovedMeetingTests(unittest.TestCase):
     def setUp(self):
         self.reference=json.loads((ROOT/'data/masar_section_templates.json').read_text())
-        self.curriculum=json.loads((ROOT/'course_requirements/course_requirements.json').read_text())
+        self.curriculum=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
         self.snapshot=json.loads((ROOT/'masar_v2_output/archive/before_diverse_student_paths/data/masar_data_v2.json').read_text())
         self.policy=self.snapshot['enrollment_generation']
         self.codes=self.policy['estimated_meeting_courses']
