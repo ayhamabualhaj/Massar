@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'data/masar_data_v2.json').read_text())
-RESULT=json.loads((ROOT/'masar_v2_output/result.json').read_text())
+RESULT=json.loads((ROOT/'extra information/masar_v2_output/result.json').read_text())
 PROJECTION=DATA['enrollment_projection']
 POLICY=DATA['enrollment_generation']
 COVERAGE=PROJECTION['course_coverage']
@@ -129,8 +129,8 @@ python main.py</pre>
 [ltr('cohort_student_estimates.csv'),'الدفعات العشرون وموادها المتاحة وغير المتاحة.'],
 [ltr('inferred_study_plans.csv'),'التوزيع المفترض للفصول الثمانية لكل تخصص.'],
 [ltr('student_group_summary.csv'),'داخل student_groups؛ ملخص المجموعات وسنوات قبولها وحالة جدولة كل مجموعة.'],
-[ltr('masar_v2_output/result.json'),'حالة الحل الحالية، الطلب، افتراضات المجموعات، وتشخيص الموارد.']])}
-<div class="callout"><b>انتبه إلى ملف الجدول</b><p>عند فشل سيناريو القبول، يحتوي {ltr('timetable.csv')} على شعب مقترحة وأعداد الطلبة، مع ترك الأوقات والأيام والقاعات غير مسندة. هذه تقسيمات حسب السعة فقط ولا تشمل توزيع المجموعات على الشعب. تُحفظ النسخة الناجحة السابقة في مجلد {ltr('masar_v2_output/archive/')}، ولا تُعرض كجدول جديد. عند نجاح الحل يحتوي الملف على أوقات وقاعات فعلية ومجموعات مسندة، ويمكن مراجعة حالته في result.json.</p></div>
+[ltr('extra information/masar_v2_output/result.json'),'حالة الحل الحالية، الطلب، افتراضات المجموعات، وتشخيص الموارد.']])}
+<div class="callout"><b>انتبه إلى ملف الجدول</b><p>عند فشل سيناريو القبول، يحتوي {ltr('timetable.csv')} على شعب مقترحة وأعداد الطلبة، مع ترك الأوقات والأيام والقاعات غير مسندة. هذه تقسيمات حسب السعة فقط ولا تشمل توزيع المجموعات على الشعب. تُحفظ النسخة الناجحة السابقة في مجلد {ltr('extra information/masar_v2_output/archive/')}، ولا تُعرض كجدول جديد. عند نجاح الحل يحتوي الملف على أوقات وقاعات فعلية ومجموعات مسندة، ويمكن مراجعة حالته في result.json.</p></div>
 <p>عمود «الفئة» يعرض all إذا كانت المادة متاحة للتخصصات الخمسة؛ وإلا يسرد التخصصات التي تسمح خططها بالمادة، بما فيها اختياري التخصص. حُذف عمود «الحالة» من CSV؛ تبقى حالة المحلل والفحوص في result.json.</p>
 <p>الحالة {ltr('INFEASIBLE')} تعني استحالة تحقيق القيود الحالية. أما {ltr('UNKNOWN')} فتعني توقف البحث دون حسم. وعند نجاح تشغيل لاحق، اقرأ إثبات أقل عدد من الشعب منفصلًا عن مثالية تفضيلات الأوقات.</p>
 <p class="small">اجتاز المشروع {TESTS} اختبارًا، تشمل حفظ أعداد الدفعات، وعدم تكرار الإجماليات، والتقدم حسب المتطلبات، وإعادة التشغيل دون تضخيم الأعداد، وصحة قيود الجدولة وإظهار العجز.</p>''')

@@ -7,11 +7,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from masar.audit import data_quality
-from masar.historical_audit import audit_historical_schedule
-from masar.requests import with_course_requests
-from masar.solver import solve
-from masar.reporting import table_rows
+from masar.reports.audit import data_quality
+from masar.reports.historical_audit import audit_historical_schedule
+from masar.demand.requests import with_course_requests
+from masar.scheduling.solver import solve
+from masar.reports.timetable import table_rows
 from masar.validation import InputError
 from test_planning import fixture
 
@@ -67,16 +67,16 @@ class RegistrationRepairTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             directory=Path(tmp)
             request=directory/'requests.json'
-            request.write_text(json.dumps([dict(id='R',students=2,course_codes=['0202100','0612390'])]))
+            request.write_text(json.dumps([dict(id='R',students=2,course_codes=['0302106','0612390'])]))
             proc=subprocess.run([sys.executable,'-B',str(ROOT/'main.py'),'--requests',str(request),
                 '--output',str(directory/'out'),'--seconds','3','--no-optimize'],capture_output=True,text=True)
             self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
-            output=json.loads((directory/'out/result.json').read_text())
+            output=json.loads((directory/'extra information/out/result.json').read_text())
             self.assertTrue(output['has_solution'],output['diagnostics'])
             self.assertEqual(output['run_metadata']['demand_source'],'supplied_course_requests')
-            snapshot=json.loads((directory/'out/input_snapshot.json').read_text())
-            self.assertEqual(next(s for s in snapshot['sections'] if s['course_code']=='0202100')['room_requirement'],
-                             'external_languages_classroom')
+            snapshot=json.loads((directory/'extra information/out/input_snapshot.json').read_text())
+            self.assertEqual(next(s for s in snapshot['sections'] if s['course_code']=='0302106')['room_requirement'],
+                             'external_science_classroom')
             self.assertEqual(output['timetable_export']['room_free_activity_rows'],1)
             self.assertEqual(snapshot['room_free_course_codes'],['0612390'])
             self.assertEqual(len(snapshot['estimated_meeting_patterns']),1)
@@ -89,10 +89,14 @@ class RegistrationRepairTests(unittest.TestCase):
             proc=subprocess.run([sys.executable,'-B',str(ROOT/'main.py'),'--input',str(directory/'input.json'),
                 '--requests',str(directory/'requests.json'),'--output',str(directory/'out'),
                 '--seconds','2'],capture_output=True,text=True)
-            self.assertEqual(proc.returncode,0,proc.stdout+proc.stderr)
-            result=json.loads((directory/'out/result.json').read_text())
+            self.assertEqual(proc.returncode,2,proc.stdout+proc.stderr)
+            self.assertFalse((directory/'extra information/out/result.json').exists())
+            self.assertFalse((directory/'out/timetable.csv').exists())
+            [run]=list((directory/'extra information/out/runs').iterdir())
+            result=json.loads((run/'result.json').read_text())
+            self.assertFalse(result['publishable'])
             self.assertEqual(result['timetable_export']['kind'],'unscheduled_capacity_proposals')
-            with (directory/'out/timetable.csv').open(encoding='utf-8-sig') as stream:rows=list(csv.DictReader(stream))
+            with (run/'timetable.csv').open(encoding='utf-8-sig') as stream:rows=list(csv.DictReader(stream))
             self.assertEqual(sum(int(r['عدد الطلبة']) for r in rows),1000)
 
 

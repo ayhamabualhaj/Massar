@@ -5,10 +5,10 @@ import json
 import unittest
 from pathlib import Path
 
-from masar.checker import inspect_solution
-from masar.planning import planned_data
-from masar.reporting import table_rows
-from masar.solver import solve
+from masar.scheduling.checker import inspect_solution
+from masar.sections import planned_data
+from masar.reports.timetable import table_rows
+from masar.scheduling.solver import solve
 from masar.validation import prepare
 
 

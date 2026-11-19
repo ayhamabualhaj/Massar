@@ -62,4 +62,4 @@
 Current section optimization: 197 → 191 teaching sections, with 1,600 students and all 111 courses unchanged. See `section_optimization.csv` for each course and `section_optimization.json` for the trials. The lower bound is 188; exact minimum is unproven. Ten projects/training activities remain outside the teaching-section count.
 
 
-Current target result: **191 → 188 teaching sections**, keeping 1,600 students and all 111 courses. The 188-section lower bound is attained and the minimum is proved for the current model. Ten room-free activities remain separate. `section_optimization.json`, `section_optimization.csv`, and the certificate in `masar_v2_output/result.json` contain the evidence. The normal solver budget is now 1,800 seconds.
+Current target result: **191 → 188 teaching sections**, keeping 1,600 students and all 111 courses. The 188-section lower bound is attained and the minimum is proved for the current model. Ten room-free activities remain separate. `section_optimization.json`, `section_optimization.csv`, and the certificate in `extra information/masar_v2_output/result.json` contain the evidence. The normal solver budget is now 1,800 seconds.

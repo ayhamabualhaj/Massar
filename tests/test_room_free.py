@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 from collections import Counter
 
-from masar.room_free import with_room_free_activities, allocate_room_free_activity
+from masar.demand.room_free import with_room_free_activities, allocate_room_free_activity
 from masar.validation import prepare,InputError
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,7 +14,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class RoomFreeActivityTests(unittest.TestCase):
     def setUp(self):
         self.data=json.loads((ROOT/'data/masar_data_v2.json').read_text())
-        self.result=json.loads((ROOT/'masar_v2_output/result.json').read_text())
+        self.result=json.loads((ROOT/'extra information/masar_v2_output/result.json').read_text())
         self.codes=set(self.data['enrollment_generation']['room_free_course_codes'])
 
     def test_projects_and_training_have_no_events_or_room_workload(self):
@@ -33,14 +33,14 @@ class RoomFreeActivityTests(unittest.TestCase):
         self.assertFalse(any(sid in {s['id'] for s in activities} for g in self.data['groups'] for sid in g['section_ids']))
 
     def test_all_student_course_enrollments_are_preserved(self):
-        before=json.loads((ROOT/'masar_v2_output/archive/before_room_free_activities/data/masar_data_v2.json').read_text())
+        before=json.loads((ROOT/'extra information/masar_v2_output/archive/before_room_free_activities/data/masar_data_v2.json').read_text())
         def totals(data):
             result=Counter()
             for section in data['sections']:
                 if section.get('students'):result[section['course_code']]+=section['students']
             return result
         # Keep the original 2,300-student transform regression independent of the current capacity-fit population.
-        after=json.loads((ROOT/'masar_v2_output/archive/before_student_capacity_fit/data/masar_data_v2.json').read_text())
+        after=json.loads((ROOT/'extra information/masar_v2_output/archive/before_student_capacity_fit/data/masar_data_v2.json').read_text())
         self.assertEqual(totals(before),totals(after))
         self.assertEqual(len(totals(after)),111)
         self.assertEqual(after['enrollment_projection']['estimated_students'],2300)
@@ -48,8 +48,12 @@ class RoomFreeActivityTests(unittest.TestCase):
 
     def test_csv_retains_activities_without_room_or_fixed_time(self):
         with (ROOT/'masar_v2_output/timetable.csv').open(encoding='utf-8-sig') as f:rows=list(csv.DictReader(f))
-        selected=[r for r in rows if r['رقم المادة'] in self.codes]
-        self.assertEqual(len(selected),len([s for s in self.data['sections'] if s['course_code'] in self.codes]))
+        snapshot = json.loads((ROOT/'extra information/masar_v2_output/input_snapshot.json').read_text())
+        activities = [s for s in snapshot['sections'] if s.get('room_free_activity')]
+        codes = {s['course_code'] for s in activities}
+        selected = [r for r in rows if r['رقم المادة'] in codes]
+        self.assertEqual(Counter(r['رقم المادة'] for r in selected),
+                         Counter(s['course_code'] for s in activities))
         for row in selected:
             self.assertNotIn('الحالة',row)
             self.assertEqual(row['القاعة'],'لا يتطلب قاعة')

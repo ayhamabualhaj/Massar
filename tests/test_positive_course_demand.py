@@ -1,14 +1,13 @@
 import csv
 import json
+import tempfile
 import unittest
 from collections import Counter
 from pathlib import Path
 from unittest.mock import patch
 
-from masar.enrollment import with_intake_enrollments,read_intakes,_check_study_plan
-from masar.estimated_meetings import with_estimated_meetings
-from masar.external_courses import with_external_courses
-from masar.room_free import with_room_free_activities
+from masar.demand.enrollment import _check_study_plan
+from masar.demand.scenario import prepare_scenario
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'data/masar_data_v2.json').read_text())
@@ -25,19 +24,22 @@ class PositiveCourseDemandTests(unittest.TestCase):
         for profile in DATA['enrollment_projection']['cohorts']:
             self.assertFalse(profile['unavailable_courses'])
             for code in profile['planned_courses']:expected[code]+=profile['students']
-        self.assertEqual(len(catalog),111)
-        self.assertEqual(set(actual),catalog)
+        degree_courses = {r['course_code'] for r in CURRICULUM['records']
+                          if r['category'] in ('كلية إجباري', 'تخصص إجباري', 'تخصص اختياري')}
+        enabled_courses = degree_courses.intersection(POLICY['enabled_course_codes'])
+        self.assertEqual(catalog, enabled_courses)
+        self.assertEqual(set(actual), enabled_courses)
         self.assertTrue(all(n>0 for n in actual.values()))
         self.assertEqual(actual,expected)
-        for code in ['0511233','0511234','0612117','0612413','0615345']:
-            self.assertGreater(actual[code],0)
 
     def test_population_degree_and_elective_totals_are_preserved(self):
         projection=DATA['enrollment_projection']
-        intakes=read_intakes(ROOT/POLICY['intake_source'])
-        expected=sum(int(r['عدد الطلبة الجدد']) for r in intakes if r['نوع الصف']=='تخصص مستقل' and r['عدد الطلبة الجدد'].isdigit())
-        self.assertEqual(sum(c['students'] for c in projection['cohorts']),expected)
-        self.assertEqual(sum(g['students'] for g in DATA['groups']),expected)
+        expected_by_major = POLICY['major_student_totals']
+        projected_by_major = Counter()
+        for cohort in projection['cohorts']:
+            projected_by_major[cohort['program_id']] += cohort['students']
+        self.assertEqual(projected_by_major, expected_by_major)
+        self.assertEqual(sum(g['students'] for g in DATA['groups']), sum(expected_by_major.values()))
         for program,paths in projection['study_paths'].items():
             rows=[r for r in CURRICULUM['records'] if r['program_id']==program]
             index={r['course_code']:r for r in rows}
@@ -64,16 +66,17 @@ class PositiveCourseDemandTests(unittest.TestCase):
                         (req['concurrent_allowed'] and req['course_code'] in current))
 
     def test_cached_positive_enrollments_are_stable(self):
-        reference=with_estimated_meetings(json.loads((ROOT/POLICY['reference_source']).read_text()),
-            CURRICULUM,POLICY['estimated_meeting_courses'])
-        if POLICY.get('room_free_course_codes'):
-            reference=with_room_free_activities(reference,CURRICULUM,POLICY['room_free_course_codes'])
-        if POLICY.get('external_courses',{}).get('enabled'):
-            reference=with_external_courses(reference,POLICY['external_courses'])
-        with patch('masar.enrollment._study_plan',side_effect=AssertionError('Unexpected path regeneration')):
-            result=with_intake_enrollments(reference,CURRICULUM,read_intakes(ROOT/POLICY['intake_source']),
-                policy=POLICY,cached_projection=DATA['enrollment_projection'])
-        self.assertEqual(result,DATA)
+        current = prepare_scenario(ROOT).data
+        with tempfile.TemporaryDirectory() as directory:
+            snapshot = Path(directory) / 'input.json'
+            snapshot.write_text(json.dumps(current), encoding='utf-8')
+            with patch('masar.demand.enrollment._study_plan',
+                       side_effect=AssertionError('Unexpected path regeneration')):
+                rebuilt = prepare_scenario(ROOT, input_path=snapshot).data
+        self.assertEqual(rebuilt['enrollment_projection'], current['enrollment_projection'])
+        self.assertEqual(rebuilt['groups'], current['groups'])
+        self.assertEqual(rebuilt['sections'], current['sections'])
+        self.assertNotIn('0202100', {s['course_code'] for s in rebuilt['sections']})
 
     def test_export_major_labels_match_degree_plan_eligibility_including_electives(self):
         from collections import defaultdict
@@ -81,8 +84,8 @@ class PositiveCourseDemandTests(unittest.TestCase):
         for record in CURRICULUM['records']:
             if record['category'] in ('كلية إجباري','تخصص إجباري','تخصص اختياري'):
                 expected[record['course_code']].add(record['program_name'])
-        from masar.reporting import table_rows
-        result=json.loads((ROOT/'masar_v2_output/result.json').read_text())
+        from masar.reports.timetable import table_rows
+        result=json.loads((ROOT/'extra information/masar_v2_output/result.json').read_text())
         rows=table_rows(DATA,result)
         all_majors={record['program_name'] for record in CURRICULUM['records']}
         for row in rows:

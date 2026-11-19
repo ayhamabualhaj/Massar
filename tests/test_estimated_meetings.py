@@ -4,10 +4,10 @@ import unittest
 from pathlib import Path
 from collections import Counter
 
-from masar.estimated_meetings import with_estimated_meetings
-from masar.enrollment import with_intake_enrollments, read_intakes
-from masar.solver import solve
-from masar.reporting import table_rows
+from masar.demand.estimated_meetings import with_estimated_meetings
+from masar.demand.enrollment import with_intake_enrollments, read_intakes
+from masar.scheduling.solver import solve
+from masar.reports.timetable import table_rows
 from masar.validation import InputError
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -17,13 +17,13 @@ class ApprovedMeetingTests(unittest.TestCase):
     def setUp(self):
         self.reference=json.loads((ROOT/'data/masar_section_templates.json').read_text())
         self.curriculum=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
-        self.snapshot=json.loads((ROOT/'masar_v2_output/archive/before_diverse_student_paths/data/masar_data_v2.json').read_text())
+        self.snapshot=json.loads((ROOT/'extra information/masar_v2_output/archive/before_diverse_student_paths/data/masar_data_v2.json').read_text())
         self.policy=self.snapshot['enrollment_generation']
         self.codes=self.policy['estimated_meeting_courses']
 
     def rebuild(self):
         reference=with_estimated_meetings(self.reference,self.curriculum,self.codes)
-        return with_intake_enrollments(reference,self.curriculum,read_intakes((ROOT/'masar_v2_output/archive/before_student_capacity_fit')/self.policy['intake_source']),
+        return with_intake_enrollments(reference,self.curriculum,read_intakes((ROOT/'extra information/masar_v2_output/archive/before_student_capacity_fit')/self.policy['intake_source']),
             policy=self.policy,cached_projection=self.snapshot['enrollment_projection'])
 
     def test_approved_patterns_preserve_credits_and_do_not_change_reference_or_hours(self):
@@ -62,7 +62,8 @@ class ApprovedMeetingTests(unittest.TestCase):
         self.assertEqual(sum(g['students'] for g in result['groups']),2300)
 
     def test_full_demand_shortage_is_reported_without_fabricating_times(self):
-        data=self.rebuild()
+        # The shortage is a property of the archived demand and room inventory.
+        data=self.snapshot
         result=solve(data,seconds=2)
         self.assertEqual(result['status'],'INFEASIBLE')
         proof=next(p for p in result['resource_diagnostics'] if p['reason']=='weekly_student_seat_capacity_exceeded')

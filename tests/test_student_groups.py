@@ -5,9 +5,9 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
-from masar.student_groups import with_plan_groups, prerequisite_levels
-from masar.group_reporting import write_group_reports
-from masar.solver import solve
+from masar.demand.student_groups import with_plan_groups, prerequisite_levels
+from masar.reports.groups import write_group_reports
+from masar.scheduling.solver import solve
 from masar.validation import InputError, prepare
 from test_planning import fixture
 

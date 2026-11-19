@@ -2,10 +2,10 @@ import copy,json,unittest
 from functools import partial
 from pathlib import Path
 
-from masar.solver import solve
+from masar.scheduling.solver import solve
 from masar.validation import InputError, prepare
-from masar.checker import inspect_solution
-from masar.reporting import table_rows
+from masar.scheduling.checker import inspect_solution
+from masar.reports.timetable import table_rows
 
 # These tests exercise scheduling an explicitly fixed section list.
 solve = partial(solve, plan_sections=False)

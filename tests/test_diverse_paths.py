@@ -7,24 +7,24 @@ from collections import Counter,defaultdict
 from pathlib import Path
 from unittest.mock import patch
 
-from masar.enrollment import with_intake_enrollments,read_intakes,_check_study_plan
-from masar.estimated_meetings import with_estimated_meetings
-from masar.enrollment_reporting import write_enrollment_reports
-from masar.solver import solve
+from masar.demand.enrollment import with_intake_enrollments,read_intakes,_check_study_plan
+from masar.demand.estimated_meetings import with_estimated_meetings
+from masar.reports.enrollment import write_enrollment_reports
+from masar.scheduling.solver import solve
 
 ROOT=Path(__file__).resolve().parents[1]
-SNAPSHOT=json.loads((ROOT/'masar_v2_output/archive/before_positive_course_demand/data/masar_data_v2.json').read_text())
+SNAPSHOT=json.loads((ROOT/'extra information/masar_v2_output/archive/before_positive_course_demand/data/masar_data_v2.json').read_text())
 CURRICULUM=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
 POLICY=SNAPSHOT['enrollment_generation']
 _reference=with_estimated_meetings(json.loads((ROOT/POLICY['reference_source']).read_text()),CURRICULUM,POLICY['estimated_meeting_courses'])
-SNAPSHOT=with_intake_enrollments(_reference,CURRICULUM,read_intakes((ROOT/'masar_v2_output/archive/before_student_capacity_fit')/POLICY['intake_source']),policy=POLICY,cached_projection=SNAPSHOT['enrollment_projection'])
+SNAPSHOT=with_intake_enrollments(_reference,CURRICULUM,read_intakes((ROOT/'extra information/masar_v2_output/archive/before_student_capacity_fit')/POLICY['intake_source']),policy=POLICY,cached_projection=SNAPSHOT['enrollment_projection'])
 
 
 class DiverseStudyPathTests(unittest.TestCase):
     def rebuild(self):
         reference=json.loads((ROOT/POLICY['reference_source']).read_text())
         reference=with_estimated_meetings(reference,CURRICULUM,POLICY['estimated_meeting_courses'])
-        return with_intake_enrollments(reference,CURRICULUM,read_intakes((ROOT/'masar_v2_output/archive/before_student_capacity_fit')/POLICY['intake_source']),
+        return with_intake_enrollments(reference,CURRICULUM,read_intakes((ROOT/'extra information/masar_v2_output/archive/before_student_capacity_fit')/POLICY['intake_source']),
             policy=POLICY,cached_projection=SNAPSHOT['enrollment_projection'])
 
     def test_each_major_year_has_different_current_course_bundles_and_exact_population(self):
@@ -80,7 +80,7 @@ class DiverseStudyPathTests(unittest.TestCase):
         self.assertNotIn('0614100',actual)
 
     def test_cached_rebuild_does_not_randomly_reassign_students_or_change_plan(self):
-        with patch('masar.enrollment._study_plan',side_effect=AssertionError('Unexpected plan regeneration')):
+        with patch('masar.demand.enrollment._study_plan',side_effect=AssertionError('Unexpected plan regeneration')):
             first=self.rebuild();second=self.rebuild()
         self.assertEqual(first,second)
         self.assertEqual(first,SNAPSHOT)

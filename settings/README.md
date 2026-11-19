@@ -15,6 +15,6 @@ To find every timetable course listed as `تخصص اختياري` for at least 
 
 The program validates these files, applies the room capacities to its scheduling input, and uses the major totals and cohort weights when projecting course demand. It recalculates the displayed semester totals. Explicit `--requests` runs use their supplied registrations instead of these major totals. The historical source CSV under `extra information/student_numbers/` is kept as reference. To add or remove rooms or courses, update their full model definitions; these CSV files only edit counts for existing records.
 
-Turning off a course removes its projected sections from the next normal intake-based run. It does not erase the course from the degree plan: prerequisites and student progression still use the full curriculum. The course switches do not filter a `--fixed-sections` run, which schedules the section list explicitly supplied as input.
+Turning off a course removes its projected sections from the next normal intake-based run. It does not erase the course from the degree plan: prerequisites and student progression still use the full curriculum. A section-list JSON supplied with `--input` uses its own room inventory and capacities. Intake forecasts use the project room settings. The course switches do not filter a `--fixed-sections` run, which schedules the section list explicitly supplied as input.
 
-Saving a CSV does not update the existing timetable. The next run you start will use the new values and write its effective input to `masar_v2_output/input_snapshot.json`.
+Saving a CSV does not update the existing timetable. The next run you start will use the new values and write its effective input to `extra information/masar_v2_output/input_snapshot.json`.

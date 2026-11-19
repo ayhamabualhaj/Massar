@@ -14,3 +14,7 @@ htmlcov/
 .codex/
 .aws/
 .DS_Store
+
+# Per-run folders; only the promoted timetable is tracked.
+extra information/masar_v2_output/runs/
+extra information/masar_v2_output/**/*.publishing

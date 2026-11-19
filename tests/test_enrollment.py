@@ -6,17 +6,17 @@ import unittest
 from collections import Counter
 from pathlib import Path
 
-from masar.enrollment import with_intake_enrollments, read_intakes, _check_study_plan
-from masar.group_reporting import write_group_reports
-from masar.enrollment_reporting import write_enrollment_reports
-from masar.solver import solve
+from masar.demand.enrollment import with_intake_enrollments, read_intakes, _check_study_plan
+from masar.reports.groups import write_group_reports
+from masar.reports.enrollment import write_enrollment_reports
+from masar.scheduling.solver import solve
 from masar.validation import InputError
 from test_planning import fixture
 
 ROOT=Path(__file__).resolve().parents[1]
-REFERENCE=json.loads((ROOT/'masar_v2_output/archive/before_capacity_increase/data/masar_section_templates.json').read_text())
+REFERENCE=json.loads((ROOT/'extra information/masar_v2_output/archive/before_capacity_increase/data/masar_section_templates.json').read_text())
 # Preserve the overloaded 3,032-student regression scenario independently of active intake edits.
-BASELINE=ROOT/'masar_v2_output/archive/before_2300_students'
+BASELINE=ROOT/'extra information/masar_v2_output/archive/before_2300_students'
 SNAPSHOT=json.loads((BASELINE/'data/masar_data_v2.json').read_text())
 CURRICULUM=json.loads((ROOT/'course_requirements/five_majors_degree_plans.json').read_text())
 INTAKES=read_intakes(BASELINE/'extra information/student_numbers/student_expected_number_for_each_semester.csv')
@@ -186,7 +186,7 @@ class ITCourseScopeTests(unittest.TestCase):
 
 class InfeasibleTimetableExportTests(unittest.TestCase):
     def test_capacity_proposals_preserve_all_course_demand_without_faking_assignments(self):
-        from masar.reporting import table_rows
+        from masar.reports.timetable import table_rows
         result=solve(SNAPSHOT,seconds=1,optimize=False)
         rows=table_rows(SNAPSHOT,result)
         self.assertFalse(result['has_solution'])

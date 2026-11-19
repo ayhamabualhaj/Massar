@@ -1,10 +1,10 @@
 ﻿رقم المادة,اسم المادة,القسم الخارجي التقديري,عدد الطلبة,الحد الأدنى للشعب,القاعات الخارجية المتاحة في النموذج,حالة الحل
-0202100,مهارات اللغة الإنجليزية في تكنولوجيا,languages,124,2,EXT_LANG_1,FEASIBLE
-0302106,تفاضل وتكامل لطلبة الحاسوب,science,110,2,EXT_SCIENCE_1,FEASIBLE
+0202100,مهارات اللغة الإنجليزية في تكنولوجيا,languages,137,2,EXT_LANG_1,FEASIBLE
+0302106,تفاضل وتكامل لطلبة الحاسوب,science,63,1,EXT_SCIENCE_1,FEASIBLE
 0302131,مبادئ في الإحصاء والاحتمالات,science,89,1,EXT_SCIENCE_1,FEASIBLE
-0302241,جبر خطي (1),science,93,1,EXT_SCIENCE_1,FEASIBLE
-0303106,الفيزياء العامة لطلبة الحاسوب,science,118,2,EXT_SCIENCE_1,FEASIBLE
-0511231,تصميم الدارات المنطقية,engineering,47,1,EXT_ENG_1,FEASIBLE
-0511234,مختبر تصميم الدارات المنطقية,engineering,24,1,EXT_ENG_LAB_1,FEASIBLE
-0511336,مختبر شبكات الحاسوب,engineering,28,1,EXT_ENG_LAB_1,FEASIBLE
-0512443,مختبر أمن الشبكات,engineering,28,1,EXT_ENG_LAB_1,FEASIBLE
+0302241,جبر خطي (1),science,109,2,EXT_SCIENCE_1,FEASIBLE
+0303106,الفيزياء العامة لطلبة الحاسوب,science,42,1,EXT_SCIENCE_1,FEASIBLE
+0511231,تصميم الدارات المنطقية,engineering,71,1,EXT_ENG_1,FEASIBLE
+0511234,مختبر تصميم الدارات المنطقية,engineering,9,1,EXT_ENG_LAB_1,FEASIBLE
+0511336,مختبر شبكات الحاسوب,engineering,19,1,EXT_ENG_LAB_1,FEASIBLE
+0512443,مختبر أمن الشبكات,engineering,19,1,EXT_ENG_LAB_1,FEASIBLE

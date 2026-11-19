@@ -1,3 +1,4 @@
+"""Check the scheduling input and organize it for the solver."""
 from collections import defaultdict
 
 
@@ -7,22 +8,28 @@ OBJECTIVE_KEYS = {
     "source_shift_minutes",
     "parallel_same_start",
 }
+# Optional: idle minutes multiplied by the number of students who wait (total student waiting).
+OPTIONAL_OBJECTIVE_KEYS = {"student_idle_minutes"}
 
 
 class InputError(ValueError):
+    """Report an input problem that prevents the timetable from being built."""
     pass
 
 
 def need(condition, message):
+    """Raise an input error with the supplied explanation if a required condition fails."""
     if not condition:
         raise InputError(message)
 
 
 def whole(value, minimum=0, maximum=1440):
+    """Check for an integer within the permitted range, including its endpoints."""
     return type(value) is int and minimum <= value <= maximum
 
 
 def index_records(records, label):
+    """Look up records by ID and reject missing or duplicate identifiers."""
     need(isinstance(records, list), f"{label} must be a list.")
     indexed = {}
     for record in records:
@@ -37,6 +44,7 @@ def index_records(records, label):
 
 
 def _validate_rooms(rooms):
+    """Check room types, capacities, and closure times."""
     for room_id, room in rooms.items():
         need(isinstance(room.get("type"), str), f"{room_id}: missing room type.")
         need(whole(room.get("capacity"), 1, 100000), f"{room_id}: invalid capacity.")
@@ -78,6 +86,7 @@ def _merge_blackouts(rooms):
 
 
 def _validate_patterns(patterns):
+    """Check the days, durations, and possible start times for weekly meetings."""
     for pattern_id, pattern in patterns.items():
         need(isinstance(pattern, dict), f"{pattern_id}: pattern must be an object.")
         days = pattern.get("days")
@@ -98,6 +107,7 @@ def _validate_patterns(patterns):
 
 
 def _active_sections(sections, patterns, compatibility):
+    """Check section details and collect the sections that require a scheduled meeting."""
     active = {}
     for section_id, section in sections.items():
         need(
@@ -144,6 +154,7 @@ def _active_sections(sections, patterns, compatibility):
 
 
 def _resolve_events(sections, active, shared_classes):
+    """Map sections taught together to the same scheduling event."""
     section_events = {section_id: section_id for section_id in active}
     used_sections = set()
 
@@ -200,6 +211,7 @@ def _resolve_events(sections, active, shared_classes):
 
 
 def _resolve_groups(groups, active, events, section_events):
+    """Match student groups to their teaching events and check their enrollments."""
     enrollment_totals = defaultdict(int)
     resolved = {}
     for group_id, group in groups.items():
@@ -236,9 +248,10 @@ def _resolve_groups(groups, active, events, section_events):
 
 
 def _validate_objective(data):
+    """Check that the timetable preference weights are valid."""
     weights = data.get("objective_weights")
     need(
-        isinstance(weights, dict) and set(weights) == OBJECTIVE_KEYS,
+        isinstance(weights, dict) and OBJECTIVE_KEYS <= set(weights) <= OBJECTIVE_KEYS | OPTIONAL_OBJECTIVE_KEYS,
         "Unsupported objective keys.",
     )
     need(
@@ -252,6 +265,7 @@ def _validate_objective(data):
 
 
 def _eligible_rooms(events, rooms, compatibility):
+    """List the rooms that meet each event's type and capacity requirements."""
     return {
         event_id: [
             room_id

@@ -4,10 +4,10 @@ import unittest
 from pathlib import Path
 from collections import Counter
 
-from masar.external_courses import with_external_courses, EXTERNAL_COURSES
+from masar.demand.external_courses import with_external_courses, EXTERNAL_COURSES
 from masar.validation import prepare
-from masar.solver import solve
-from masar.planning import planned_data
+from masar.scheduling.solver import solve
+from masar.sections import planned_data
 from test_planning import fixture
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -27,8 +27,8 @@ class ExternalCourseTests(unittest.TestCase):
             else:self.assertFalse(allowed&external)
 
     def test_splitting_resources_preserves_all_course_enrollments_and_population(self):
-        current=json.loads((ROOT/'masar_v2_output/archive/before_student_capacity_fit/data/masar_data_v2.json').read_text())
-        previous=json.loads((ROOT/'masar_v2_output/archive/before_external_courses/data/masar_data_v2.json').read_text())
+        current=json.loads((ROOT/'extra information/masar_v2_output/archive/before_student_capacity_fit/data/masar_data_v2.json').read_text())
+        previous=json.loads((ROOT/'extra information/masar_v2_output/archive/before_external_courses/data/masar_data_v2.json').read_text())
         def counts(data):
             result=Counter()
             for s in data['sections']:

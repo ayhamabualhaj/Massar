@@ -7,11 +7,12 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 
-from masar.slot_planning import solve_slot_sections
-from masar.planning import planned_data, _check_enrollments
+from masar.scheduling.slot_planning import solve_slot_sections
+from masar.scheduling.planning import _check_enrollments
+from masar.sections import planned_data
 from masar.validation import prepare, InputError
-from masar.checker import inspect_solution
-from masar.reporting import table_rows
+from masar.scheduling.checker import inspect_solution
+from masar.reports.timetable import table_rows
 from test_planning import fixture
 
 
@@ -91,7 +92,7 @@ class CompactSlotTests(unittest.TestCase):
 
     def test_memory_guard_also_works_before_compact_search_starts(self):
         data=dict(self.data(),solver_memory_limit_mb=256)
-        with patch('masar.planning._memory_mb',return_value=300):
+        with patch('masar.scheduling.memory.memory_mb',return_value=300):
             result=solve_slot_sections(data,seconds=2)
         self.assertEqual(result['status'],'UNKNOWN')
         self.assertTrue(result['search_statistics']['stopped_for_memory'])
@@ -109,7 +110,7 @@ class CompactSlotTests(unittest.TestCase):
     def test_valid_incumbent_survives_a_search_memory_stop(self):
         data=self.data()
         first=solve_slot_sections(data,seconds=3,route_limit=1)
-        with patch('masar.planning._memory_mb',return_value=300):
+        with patch('masar.scheduling.memory.memory_mb',return_value=300):
             retained=solve_slot_sections(dict(data,solver_memory_limit_mb=256),seconds=2,route_limit=1,hints=first)
         self.assertTrue(retained['has_solution'])
         self.assertTrue(retained['search_statistics']['incumbent_retained'])
@@ -121,7 +122,7 @@ class CompactSlotTests(unittest.TestCase):
         first=solve_slot_sections(data,seconds=3,route_limit=1)
         data['groups'][0]['students']+=1
         data['sections'][0]['students']+=1
-        with patch('masar.planning._memory_mb',return_value=300):
+        with patch('masar.scheduling.memory.memory_mb',return_value=300):
             result=solve_slot_sections(dict(data,solver_memory_limit_mb=256),seconds=2,route_limit=1,hints=first)
         self.assertFalse(result['has_solution'])
         self.assertFalse(result['search_statistics']['incumbent_hint_applied'])
@@ -130,7 +131,7 @@ class CompactSlotTests(unittest.TestCase):
         data=self.data()
         first=solve_slot_sections(data,seconds=3,route_limit=1)
         first['assignments'][0]['room_id']='MISSING'
-        with patch('masar.planning._memory_mb',return_value=300):
+        with patch('masar.scheduling.memory.memory_mb',return_value=300):
             result=solve_slot_sections(dict(data,solver_memory_limit_mb=256),seconds=2,route_limit=1,hints=first)
         self.assertFalse(result['has_solution'])
         self.assertFalse(result['search_statistics']['incumbent_hint_applied'])
@@ -146,15 +147,17 @@ class CompactSlotTests(unittest.TestCase):
                      '--input',str(source),'--output',str(directory/'out'),'--routes','1','--workers','1']
             first=subprocess.run(command+['--seconds','3'],capture_output=True,text=True)
             self.assertEqual(first.returncode,0,first.stdout+first.stderr)
-            original=json.loads((directory/'out/result.json').read_text())
+            original=json.loads((directory/'extra information/out/result.json').read_text())
             self.assertTrue(original['has_solution'])
             second=subprocess.run(command+['--seconds','0.001'],capture_output=True,text=True)
             self.assertEqual(second.returncode,0,second.stdout+second.stderr)
-            resumed=json.loads((directory/'out/result.json').read_text())
+            resumed=json.loads((directory/'extra information/out/result.json').read_text())
             self.assertTrue(resumed['has_solution'])
             self.assertTrue(resumed['search_statistics']['incumbent_hint_applied'])
             self.assertTrue(resumed['search_statistics']['incumbent_retained'])
             self.assertEqual(resumed['assignments'],original['assignments'])
+            self.assertEqual([p.name for p in (directory/'out').iterdir()], ['timetable.csv'])
+            self.assertTrue((directory/'extra information/out/by_major').is_dir())
 
     def test_large_room_cover_allows_extra_sections_when_large_room_is_closed(self):
         data=fixture((94,),capacity=80)

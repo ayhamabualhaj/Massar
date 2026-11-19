@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from masar.enrollment import read_intakes
+from masar.demand.enrollment import read_intakes
 from masar.settings import (read_settings, read_course_switches, read_major_totals,
                             apply_room_capacities, apply_student_counts, apply_major_totals)
 from masar.validation import InputError
@@ -22,7 +22,9 @@ class SettingsTests(unittest.TestCase):
             timetable_codes = {row['رقم المادة'] for row in csv.DictReader(stream)}
         self.assertEqual(set(switches), {record['course_code'] for record in catalog['records']
                                          if record['category'] in ('كلية إجباري', 'تخصص إجباري', 'تخصص اختياري')})
-        self.assertTrue(timetable_codes <= {code for code, enabled in switches.items() if enabled})
+        snapshot = json.loads((ROOT/'extra information/masar_v2_output/input_snapshot.json').read_text())
+        self.assertTrue(timetable_codes <= set(snapshot['enrollment_generation']['enabled_course_codes']))
+        self.assertFalse(switches['0202100'])
         with (ROOT/'extra information/university_schedule/real_university_schedule.tsv').open(
                 encoding='utf-8-sig', newline='') as stream:
             real_codes = {row['رقم المادة'] for row in csv.DictReader(stream, delimiter='\t')}

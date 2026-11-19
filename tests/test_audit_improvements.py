@@ -7,12 +7,13 @@ from unittest.mock import patch
 from collections import Counter
 from pathlib import Path
 
-from masar.audit import data_quality, write_audit_reports
-from masar.checker import inspect_solution
-from masar.enrollment import with_intake_enrollments
-from masar.planning import planned_data, _check_enrollments
-from masar.requests import with_course_requests
-from masar.solver import solve
+from masar.reports.audit import data_quality, write_audit_reports
+from masar.scheduling.checker import inspect_solution
+from masar.demand.enrollment import with_intake_enrollments
+from masar.scheduling.planning import _check_enrollments
+from masar.sections import planned_data
+from masar.demand.requests import with_course_requests
+from masar.scheduling.solver import solve
 from masar.validation import InputError, prepare
 from test_planning import fixture
 from test_enrollment import REFERENCE, CURRICULUM, INTAKES, SNAPSHOT
@@ -20,7 +21,7 @@ from test_enrollment import REFERENCE, CURRICULUM, INTAKES, SNAPSHOT
 
 class SectioningRegressionTests(unittest.TestCase):
     def test_memory_guard_before_search_reports_unknown_without_crashing(self):
-        with patch('masar.planning._memory_mb', return_value=300):
+        with patch('masar.scheduling.memory.memory_mb', return_value=300):
             result=solve(dict(fixture(), solver_memory_limit_mb=256),seconds=2)
         self.assertEqual(result['status'],'UNKNOWN')
         self.assertFalse(result['has_solution'])

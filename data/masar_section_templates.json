@@ -12264,7 +12264,8 @@
   ],
   "shared_classes": [],
   "objective_weights": {
-    "group_idle_minutes": 100,
+    "group_idle_minutes": 0,
+    "student_idle_minutes": 25,
     "late_meeting_minutes": 2,
     "source_shift_minutes": 1,
     "parallel_same_start": 30

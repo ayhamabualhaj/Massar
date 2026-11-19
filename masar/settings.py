@@ -8,6 +8,7 @@ from .validation import need
 
 
 def _rows(path, columns):
+    """Read a settings CSV and check its column names before using its values."""
     path = Path(path)
     with path.open(encoding='utf-8-sig', newline='') as stream:
         reader = csv.DictReader(stream)
